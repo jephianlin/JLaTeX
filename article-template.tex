@@ -1,0 +1,152 @@
+\documentclass{article}
+
+%\input{ELAsetting.tex}
+
+%%PACKAGE
+\usepackage{amsmath,amssymb}
+%%\usepackage{amsthm}
+\usepackage{mathrsfs,MnSymbol}
+\usepackage{textcomp}
+\usepackage{graphicx}
+%\usepackage[pdftex,bookmarks=true]{hyperref}
+\usepackage{cite}
+\usepackage{enumerate}
+
+%%COLOR
+\usepackage{color}
+%\definecolor{red}{rgb}{1,0,0}
+\def\red{\color{red}}
+\usepackage{harpoon}
+
+%TIKZ
+%\usepackage{tikz}
+
+%%THEOREM
+\newtheorem{theorem}{Theorem}
+%\newtheorem{lemma}[theorem]{Lemma}
+%\newtheorem{proposition}[theorem]{Proposition}
+%\newtheorem{corollary}[theorem]{Corollary}
+
+%\theoremstyle{definition}
+%\newtheorem{definition}[theorem]{Definition}
+\newtheorem{observation}[theorem]{Observation}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{example}[theorem]{Example}
+%\newtheorem*{note}{Note}
+\newtheorem{question}[theorem]{Question}
+
+%% For SIAM
+\newenvironment{defn}{\begin{definition}\bgroup\rm }{\egroup\end{definition}}
+\newenvironment{obs}{\begin{observation}\bgroup\rm }{\egroup\end{observation}}
+\newenvironment{rem}{\begin{remark}\bgroup\rm }{\egroup\end{remark}}
+\newenvironment{ex}{\begin{example}\bgroup\rm }{\egroup\end{example}}
+\newenvironment{qstn}{\begin{question}\bgroup\rm }{\egroup\end{question}}
+
+%%MACRO
+\def \mr {\operatorname{mr}}
+%\def \M {\operatorname{M}}
+\def \rank {\operatorname{rank}}
+\def \nul {\operatorname{null}}
+\def \tri {\mathrm{tri}}
+\def \R {\mathbb{R}}
+\def \G {\mathcal{G}}
+\def \I {\mathcal{I}}
+\def \S {\mathcal{S}}
+\def \P {\mathcal{P}}
+\def \mt {^{\top}}
+\def \Zhat {\widehat{Z}}
+\def \Zoc {Z_{oc}}
+\def \Zochat {\widehat{Z}_{oc}}
+\def \Fchar {\operatorname{char}}
+
+%%MACRO WITH ARGUMENTS
+\def \wh#1{\widehat{#1}}
+%\newcommand \wh[1] {\widehat{#1}}
+
+\def \mtx#1{\begin{bmatrix}#1\end{bmatrix}}
+
+%%LAZY
+\def \ll{^{\ell\ell}}
+\def \mfkG{\mathfrak{G}}
+\def \mfkH{\mathfrak{H}}
+\def \mfkL{\mathfrak{L}}
+\def \opv{\oplus_v}
+\def \loC{\mathfrak{C}_{2k+1}^0}
+\def \ZocFS{ZFS-$\Zoc$}
+\def \ZocFP{ZFP-$\Zoc$}
+
+\begin{document}
+
+%%TITLE
+\title{Optimal matrices for Colin de Verdi\'ere parameters}
+
+\author{
+        Jephian Chin-Hung Lin\footnotemark[2]
+        }
+
+%\date{Dec 5, 2014} % Lin
+\date{\today}
+
+%%ELA setting.
+% Authors and running title to go on top of each page
+%\pagestyle{myheadings}
+%\markboth{J.~C.-H.~Lin}{Odd cycle zero forcing parameters and the minimum rank of graph blowups}
+
+\maketitle
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\footnotetext[2]{        
+    Department of Mathematics, Iowa State University, 
+    Ames, IA 50011, USA (chlin@iastate.edu).
+		}
+        
+\renewcommand{\thefootnote}{\arabic{footnote}}
+
+\begin{abstract}
+The minimum rank problem for a simple graph $G$ and a given field $F$ is to determine the smallest possible rank among symmetric matrices over $F$ whose $i,j$-entry, $i\neq j$, is nonzero whenever $i$ is adjacent to $j$, and zero otherwise; the diagonal entries can be any element in $F$.  In contrast, loop graphs $\mfkG$ go one step further to restrict the diagonal $i,i$-entries as nonzero whenever $i$ has a loop, and zero otherwise.  When $\Fchar F\neq 2$, we introduce the odd cycle zero forcing number and enhanced odd cycle zero forcing number as bounds for loop graphs and simple graphs respectively.  We also build a relation between loop graphs and simple graphs through graph blowups, so that the minimum rank problem of some families of simple graphs can be reduced to that of much smaller loop graphs.
+
+%\begin{keywords}
+minimum rank, maximum nullity, loop graph, zero forcing number, odd cycle zero forcing number, enhanced odd cycle zero forcing number, blowup, graph complement conjecture.
+%\end{keywords}
+
+%\begin{AMS}
+05C50, %%Graphs and linear algebra (matrices, eigenvalues, etc.)
+05C57, %%Games on graphs
+15A03, %%Vector spaces, linear dependence, rank
+%15B35, %%Sign pattern matrices
+15B57. %%Hermitian, skew-Hermitian, and related matrices
+%65F18. %%Inverse eigenvalue problems
+%\end{AMS}
+%\noindent
+%{\bf Keywords:}
+%minimum rank, maximum nullity, loop graph, zero forcing number, odd cycle zero forcing number, enhanced odd cycle zero forcing number, graph complement conjecture.
+\end{abstract}
+
+
+
+\bibliography{./JLaTeX/AuthorA,./JLaTeX/JournalA,./JLaTeX/JepBib}{}
+\bibliographystyle{plain}
+
+%bibitem code
+%\begin{thebibliography}{99}
+%\addcontentsline{toc}{section}{References}
+%
+%\end{thebibliography}
+
+\end{document}
+%%%Example code for ELA:
+%smc={"latex_command":"latex -synctex=1 -interact=nonstopmode active-Zoc-Lin.tex; dvipdf active-Zoc-Lin.dvi"}
+%Jephian first made in 10/11.103 in St. Paul
+%JepBib.bib first try:   *.bib is necessary;
+%                        \usepackage{cite}
+%                        cite as usual,
+%                        use bibliography{AuthorA,JournalA,JepBib}{}
+%                        and bibliographystyle{plain} (or unsrt)
+%latexdiff --type=CFONTCHBAR old.tex new.tex > diff.tex 
+%\providecommand{\DIFdel}[1]{} % Don't show deleted text
+%but some mathmode need to be deleted manually
+%or one can try change package.
+
+%sagemathcloud={"latex_command":"pdflatex -synctex=1 -interact=nonstopmode '2015-04-25-OptCDVMatrix-Lin.tex'"}
+
+%%%
