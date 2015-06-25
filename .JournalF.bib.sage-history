@@ -1,8 +1,0 @@
-"@string{LAA=\"Linear Algebra and its Applications\"}\n@string{ELA=\"Electronic Journal of Linear Algebra\"}\n@string{JGT=\"Journal of Graph Theory\"}\n@string{CN=\"Congressus Numerantium\"}\n@string{JCTA=\"Journal of Combinatorial Theory Series A\"}\n@string{JCTB=\"Journal of Combinatorial Theory Series B\"}\n@string{Ca=\"Combinatorica\"}\n@string{PAMS=\"Proceedings of the American Mathematical Society\"}"
-{"patch":[[[[0,"a\"}\n"],[-1,"@string{PAMS=\"Proceedings of the American Mathematical Society\"}"]],317,317,68,4]],"time":1416768933795}
-{"patch":[[[[0,"torica\"}"],[-1,"\n"]],312,312,9,8]],"time":1416768933008}
-{"patch":[[[[0,"B\"}\n"],[-1,"@string{Ca=\"Combinatorica\"}"]],289,289,31,4]],"time":1416728388519}
-{"patch":[[[[0,"ries B\"}"],[-1,"\n"]],284,284,9,8]],"time":1416728387732}
-{"patch":[[[[0,"ntium\"}\n"],[1,"\n"],[0,"@string{"]],171,171,16,17]],"time":1416701048133}
-{"patch":[[[[0,"m\"}\n"],[-1,"\n@string{JCTA=\"Journal of Combinatorial Theory Series A\"}\n@string{JCTB=\"Journal of Combinatorial Theory Series B\"}"]],175,175,118,4]],"time":1416701046815}
-{"patch":[[[[0,"antium\"}"],[-1,"\n"]],170,170,9,8]],"time":1416701046043}
