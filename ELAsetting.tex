@@ -1,0 +1,40 @@
+%%General Notes for SIAM
+%%SIAM doesn't like amsthm.
+%%SIAM doesn't like hyperref.
+%%SIAM doesn't like amsthm, so no theoremstyle.
+%%SIAM doesn't like \*, so no \newtheorem*.
+%%SIAM covers theorem, lemma, proposition, corollary, definition.
+%%Sol: Define new environments.
+%%SIAM use keywords, AM(S) environments.
+%%SIAM doesn't take pdf file, so use eps instead.
+%%Sol: Ask IPE to save as eps file, or learn Tikz.
+%%SIAM has remunerate and romannum, but I don't want to change.
+%%Sol: enumerate<->remunerate, and use romannum if you wish.
+%%SIAM doesn't allow pdflatex. 
+%%Sol: Write a bash or bat in Linux or Windows:
+%%#!/bin/bash (for Linux)
+%%latex file.tex
+%%bibtex file.aux
+%%latex file.tex
+%%dvips file.dvi
+%%ps2pdf file.pdf
+%%
+%%The following are settings in ELA sample.tex
+%%10pt and twoside should be added to \documentclass
+% SIAM LaTeX style is used
+%\documentclass[10pt,twoside]{siamltex}
+\usepackage{amsfonts,epsfig}
+
+% Text dimensions
+%\setlength{\textheight}{190mm}
+%\setlength{\textwidth}{130mm}
+%\topmargin = 20mm
+
+% New spacing effective with Volume 17 (2008)
+%\renewcommand{\baselinestretch}{1.1}
+%\setlength{\parskip}{.1in}
+
+% Box for end of proof outside environment
+\def\cvd{~\vbox{\hrule\hbox{%
+     \vrule height1.3ex\hskip0.8ex\vrule}\hrule } }
+%%%ELA settings end here.
