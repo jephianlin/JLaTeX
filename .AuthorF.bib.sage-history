@@ -1,4 +1,109 @@
-"\n@string{Barioli=\"Francesco Barioli\"}\n@string{Barrett=\"Wayne Barrett\"}\n@string{Bozeman=\"Chassidy Bozeman\"}\n@string{Butler=\"Steve Butler\"}\n@string{Cioaba=\"Sebastian M. Cioab\\u{a}\"}\n@string{Cvetkovic=\"Drago\\u{s} Cvetkovi\\'{c}\"}\n@string{DeAlba=\"Luz Maria DeAlba\"}\n@string{DeLoss=\"Laura DeLoss\"}\n@string{Ekstrand=\"Jason Ekstrand\"}\n@string{Ellsworth=\"AnnaVictoria Ellsworth\"}\n@string{Erickson=\"Craig Erickson\"}\n@string{Fallat=\"Shaun M.~Fallat\"}\n@string{Godsil=\"Chris Godsil\"}\n@string{Grood=\"Cheryl Grood\"}\n@string{Grout=\"Jason Grout\"}\n@string{Haemers=\"Willem Haemers\"}\n@string{Hall=\"H.~Tracy Hall\"}\n@string{Hardy=\"Timothy L. Hardy\"}\n@string{Harmse=\"Johannes Harmse\"}\n@string{Hay=\"Diana Hay\"}\n@string{Hentzel=\"Irvin Roy Hentzel\"}\n@string{Hershkowitz=\"Daniel Hershkowitz\"}\n@string{Hogben=\"Leslie Hogben\"}\n@string{Hunter=\"Thomas J.~Hunter\"}\n@string{Jacob=\"Bonnie Jacob\"}\n@string{Jephian=\"Jephian Chin-Hung Lin\"}\n@string{Johnson=\"Ryan Johnson\"}\n@string{Kingsley=\"Nicole Kingsley\"}\n@string{Klimas=\"Andrew Klimas\"}\n@string{Maurer=\"Gabi Maurer\"}\n@string{McCathern=\"Sharon McCathern\"}\n@string{McKay=\"Tracy McKay\"}\n@string{Mikkelson=\"Rana Mikkelson\"}\n@string{Narayan=\"Sivaram Narayan\"}\n@string{Nowak=\"Kathleen Nowak\"}\n@string{Osborne=\"Steven Osborne\"}\n@string{Peters=\"Travis Peters\"}\n@string{Pryporova=\"Olga Pryporova\"}\n@string{Roat=\"Jolie Roat\"}\n@string{Rodriguez=\"Aaron Rodriguez\"}\n@string{Ross=\"Arianne Ross\"}\n@string{Row=\"Darren D.~Row\"}\n@string{Sciriha=\"Irene Sciriha\"}\n@string{Shader=\"Bryan Shader\"}\n@string{Sinkovic=\"John Sinkovic\"}\n@string{Smith=\"Jason Smith\"}\n@string{So=\"Wasin So\"}\n@string{Stevanovic=\"Dragan Stevanovi\\'c\"}\n@string{Strickland=\"James Strickland\"}\n@string{Tims=\"Geoff Tims\"}\n@string{vdDriessche=\"P.~{\\noopsort{Driessche}}{van den Driessche}\"}\n@string{vdHolst=\"Hein {\\noopsort{Holst}}{van der Holst}\"}\n@string{VMeulen=\"Kevin Vander Meulen\"}\n@string{Wangsness=\"Amy Wangsness\"}\n@string{Warnberg=\"Nathan Warnberg\"}\n@string{Young=\"Michael Young\"}\n@string{Monfared=\"Keivan Hassani Monfared\"}\n\n@string{Lovasz=\"L{\\'a}szl{\\'o} Lov{\\'a}sz\"}\n@string{Saks=\"Michael Saks\"}\n@string{Schrijver=\"Alexander Schrijver\"}\n@string{Vempala=\"Santosh Vempala\"}\n@string{Kotlov=\"Andre\\u{\\i} Kotlov\"}\n@string{Robertson=\"Neil Robertson\"}\n@string{Seymour=\"Paul Seymour\"}\n@string{Thomas=\"Robin Thomas\"}\n\n@string{Goldberg=\"Felix Goldberg\"}\n@string{Berman=\"Abraham Berman\"}\n@string{Friedland=\"Shmuel Friedland\"}\n@string{Rothblum=\"Uriel G.~Rothblum\"}\n@string{Colin=\"Yves {\\noopsort{Colin}}{Colin de Verdi\\`ere}\"}\n@string{Brualdi=\"Richard A.~Brualdi\"}\n@string{Godsil=\"Chris Godsil\"}\n@string{Kirkland=\"Stephen Kirkland\"}\n\n@string{Fiedler=\"Miroslav Fiedler\"}\n@string{Bento=\"Am\\'erico Bento\"}\n@string{LDuarte=\"Ant\\'onio {\\noopsort{Leal}}{Leal Duarte}\"}\n\n@string{Kempton=\"Mark Kempton\"}\n@string{Martin=\"Ryan Martin\"}\n\n@string{Ahmadi=\"Bahman Ahmadi\"}\n@string{Alinaghipour=\"Fatemeh Alinaghipour\"}\n@string{Cavers=\" Michael S.~Cavers\"}\n@string{Meagher=\"Karen Meagher\"}\n@string{Nasserasr=\"Shahla Nasserasr\"}\n"
+"\n@string{Barioli=\"Francesco Barioli\"}\n@string{Barrett=\"Wayne Barrett\"}\n@string{Bozeman=\"Chassidy Bozeman\"}\n@string{Butler=\"Steve Butler\"}\n@string{Cioaba=\"Sebastian M. Cioab\\u{a}\"}\n@string{Cvetkovic=\"Drago\\u{s} Cvetkovi\\'{c}\"}\n@string{DeAlba=\"Luz Maria DeAlba\"}\n@string{DeLoss=\"Laura DeLoss\"}\n@string{Ekstrand=\"Jason Ekstrand\"}\n@string{Ellsworth=\"AnnaVictoria Ellsworth\"}\n@string{Erickson=\"Craig Erickson\"}\n@string{Fallat=\"Shaun M.~Fallat\"}\n@string{Godsil=\"Chris Godsil\"}\n@string{Grood=\"Cheryl Grood\"}\n@string{Grout=\"Jason Grout\"}\n@string{Haemers=\"Willem Haemers\"}\n@string{Hall=\"H.~Tracy Hall\"}\n@string{Hardy=\"Timothy L. Hardy\"}\n@string{Harmse=\"Johannes Harmse\"}\n@string{Hay=\"Diana Hay\"}\n@string{Hentzel=\"Irvin Roy Hentzel\"}\n@string{Hershkowitz=\"Daniel Hershkowitz\"}\n@string{Hogben=\"Leslie Hogben\"}\n@string{Hunter=\"Thomas J.~Hunter\"}\n@string{Jacob=\"Bonnie Jacob\"}\n@string{Jephian=\"Jephian Chin-Hung Lin\"}\n@string{Johnson=\"Ryan Johnson\"}\n@string{Kingsley=\"Nicole Kingsley\"}\n@string{Klimas=\"Andrew Klimas\"}\n@string{Maurer=\"Gabi Maurer\"}\n@string{McCathern=\"Sharon McCathern\"}\n@string{McKay=\"Tracy McKay\"}\n@string{Mikkelson=\"Rana Mikkelson\"}\n@string{Narayan=\"Sivaram Narayan\"}\n@string{Nowak=\"Kathleen Nowak\"}\n@string{Osborne=\"Steven Osborne\"}\n@string{Peters=\"Travis Peters\"}\n@string{Pryporova=\"Olga Pryporova\"}\n@string{Roat=\"Jolie Roat\"}\n@string{Rodriguez=\"Aaron Rodriguez\"}\n@string{Ross=\"Arianne Ross\"}\n@string{Row=\"Darren D.~Row\"}\n@string{Sciriha=\"Irene Sciriha\"}\n@string{Shader=\"Bryan Shader\"}\n@string{Sinkovic=\"John Sinkovic\"}\n@string{Smith=\"Jason Smith\"}\n@string{So=\"Wasin So\"}\n@string{Stevanovic=\"Dragan Stevanovi\\'c\"}\n@string{Strickland=\"James Strickland\"}\n@string{Tims=\"Geoff Tims\"}\n@string{vdDriessche=\"P.~{\\noopsort{Driessche}}{van den Driessche}\"}\n@string{vdHolst=\"Hein {\\noopsort{Holst}}{van der Holst}\"}\n@string{VMeulen=\"Kevin Vander Meulen\"}\n@string{Wangsness=\"Amy Wangsness\"}\n@string{Warnberg=\"Nathan Warnberg\"}\n@string{Young=\"Michael Young\"}\n@string{Monfared=\"Keivan Hassani Monfared\"}\n\n@string{Lovasz=\"L{\\'a}szl{\\'o} Lov{\\'a}sz\"}\n@string{Saks=\"Michael Saks\"}\n@string{Schrijver=\"Alexander Schrijver\"}\n@string{Vempala=\"Santosh Vempala\"}\n@string{Kotlov=\"Andre\\u{\\i} Kotlov\"}\n@string{Robertson=\"Neil Robertson\"}\n@string{Seymour=\"Paul Seymour\"}\n@string{Thomas=\"Robin Thomas\"}\n\n@string{Goldberg=\"Felix Goldberg\"}\n@string{Berman=\"Abraham Berman\"}\n@string{Friedland=\"Shmuel Friedland\"}\n@string{Rothblum=\"Uriel G.~Rothblum\"}\n@string{Colin=\"Yves {\\noopsort{Colin}}{Colin de Verdi\\`ere}\"}\n@string{Brualdi=\"Richard A.~Brualdi\"}\n@string{Godsil=\"Chris Godsil\"}\n@string{Kirkland=\"Stephen Kirkland\"}\n\n@string{Fiedler=\"Miroslav Fiedler\"}\n@string{Bento=\"Am\\'erico Bento\"}\n@string{LDuarte=\"Ant\\'onio {\\noopsort{Leal}}{Leal Duarte}\"}\n\n@string{Kempton=\"Mark Kempton\"}\n@string{Martin=\"Ryan R.~Martin\"}\n\n@string{Ahmadi=\"Bahman Ahmadi\"}\n@string{Alinaghipour=\"Fatemeh Alinaghipour\"}\n@string{Cavers=\" Michael S.~Cavers\"}\n@string{Meagher=\"Karen Meagher\"}\n@string{Nasserasr=\"Shahla Nasserasr\"}\n\n@string{Gerard=\"Gerard Jennhwa Chang\"}\n@string{Hogenson=\"Kirsten Hogenson\"}\n@string{LKramer=\"Lucas Kramer\"}\n@string{RKramer=\"Richard L.~Kramer\"}\n\n@string{Berliner=\"Adam Berliner\"}\n@string{Catral=\"Minerva Catral\"}\n@string{Kroschel=\"Brenda Kroschel\"}\n@string{Aalipour=\"Ghodratollah Aalipour\"}\n@string{Abiad=\"Aida Abiad\"}\n@string{Berikkyzy=\"Zhanar Berikkyzy\"}\n@string{Kenter=\"Franklin H.~J.~Kenter\"}\n@string{Tait=\"Michael Tait\"}\n@string{Cummings=\"Jay Cummings\"}\n@string{DeSilva=\"Jessica {\\noopsort{De}}{De Silva}\"}\n@string{Gao=\"Wei Gao\"}\n@string{Heysse=\"Kristin Heysse\"}\n"
+{"patch":[[[[0,"Jessica "],[1,"{"],[0,"{\\noopso"]],3455,3455,16,17]],"time":1442254877963}
+{"patch":[[[[0,"tin Heysse\"}"],[-1,"\n"]],3535,3535,13,12]],"time":1442254830827}
+{"patch":[[[[0," Kroschel\"}\n"],[1,"\n"],[0,"@string{Aali"]],3216,3216,24,25]],"time":1442254717028}
+{"patch":[[[[0,"@string{"],[-1,"Krosche"],[1,"Catra"],[0,"l=\"Brend"]],3192,3192,23,21]],"time":1442254715023}
+{"patch":[[[[0,"al=\""],[-1,"Brenda Krosche"],[1,"Minerva Catra"],[0,"l\"}\n"]],3204,3204,22,21]],"time":1442254705717}
+{"patch":[[[[0,"atral\"}\n"],[1,"Brenda Kroschel"],[0,"\n@string"]],3217,3217,16,31]],"time":1442254700520}
+{"patch":[[[[0,"l\"}\n"],[-1,"@string{Catral=\"Minerva Catral\"}"],[0,"\nBre"]],3188,3188,40,8]],"time":1442254695900}
+{"patch":[[[[0,"\"}\n\n"],[-1,"Brenda Kroschel\n"],[0,"@str"]],3189,3189,24,8]],"time":1442254693825}
+{"patch":[[[[0,"atral\"}\n"],[-1,"\n"],[0,"@string{"]],3184,3184,17,16]],"time":1442254691784}
+{"patch":[[[[0,"tin Heysse\"}"],[1,"\n"]],3499,3499,12,13]],"time":1442254333389}
+{"patch":[[[[0,"in Heysse\"}\n"],[1,"\nGhodratollah Aalipour, Aida Abiad, Zhanar Berikkyzy, , Franklin H. J. Kenter, , Michael Tait\nJay Cummings, Jessica De Silva, Wei Gao, Kristin Heysse,"]],3500,3500,12,162]],"time":1442254331384}
+{"patch":[[[[0,"@string{"],[-1,"Heysse"],[1,"Kroschel"],[0,"=\"Kristi"]],3479,3479,22,24]],"time":1442254328918}
+{"patch":[[[[0,"@string{"],[-1,"Gao"],[1,"Kroschel"],[0,"=\"Wei Ga"]],3456,3456,19,24]],"time":1442254323588}
+{"patch":[[[[0,"De Silva"],[-1,"}"],[0,"\"}\n@stri"]],3444,3444,17,16]],"time":1442254315767}
+{"patch":[[[[0,"ort{De}}"],[-1,"{"],[0,"De Silva"]],3435,3435,17,16]],"time":1442254313606}
+{"patch":[[[[0,"Jessica "],[-1,"{"],[0,"{\\noopso"]],3419,3419,17,16]],"time":1442254310456}
+{"patch":[[[[0,"sort{De}"],[-1,"}"],[0,"De Silva"]],3433,3433,17,16]],"time":1442254306687}
+{"patch":[[[[0,"opsort{D"],[-1,"e}"],[0,"De Silva"]],3431,3431,18,16]],"time":1442254297954}
+{"patch":[[[[0,"noopsort"],[-1,"{D"],[0,"De Silva"]],3429,3429,18,16]],"time":1442254295949}
+{"patch":[[[[0,"ca {\\noo"],[-1,"psort"],[0,"De Silva"]],3424,3424,21,16]],"time":1442254293943}
+{"patch":[[[[0,"essica {"],[-1,"\\noo"],[0,"De Silva"]],3420,3420,20,16]],"time":1442254291944}
+{"patch":[[[[0,"Jessica "],[-1,"{"],[0,"De Silva"]],3419,3419,17,16]],"time":1442254289937}
+{"patch":[[[[0,"ng{DeSil"],[-1,"va"],[0,"=\"Jessic"]],3407,3407,18,16]],"time":1442254268272}
+{"patch":[[[[0,"ng{D"],[-1,"eSil"],[0,"=\"Je"]],3407,3407,12,8]],"time":1442254266362}
+{"patch":[[[[0,"@string{"],[-1,"D"],[1,"Kroschel"],[0,"=\"Jessic"]],3402,3402,17,24]],"time":1442254264271}
+{"patch":[[[[0,"@string{"],[-1,"Cummings"],[1,"Kroschel"],[0,"=\"Jay Cu"]],3369,3369,24,24]],"time":1442254193369}
+{"patch":[[[[0,"@string{"],[-1,"Tait"],[1,"Kroschel"],[0,"=\"Michae"]],3340,3340,20,24]],"time":1442254187358}
+{"patch":[[[[0,"string{K"],[-1,"enter"],[1,"roschel"],[0,"=\"Frankl"]],3301,3301,21,23]],"time":1442254181213}
+{"patch":[[[[0,"in H.~J."],[-1,"~"],[1," "],[0,"Kenter\"}"]],3324,3324,17,17]],"time":1442254174973}
+{"patch":[[[[0,"nklin H."],[-1,"~"],[1," "],[0,"J. Kente"]],3321,3321,17,17]],"time":1442254172971}
+{"patch":[[[[0,"@string{"],[-1,"Berikkyzy"],[1,"Kroschel"],[0,"=\"Zhanar"]],3262,3262,25,24]],"time":1442254169063}
+{"patch":[[[[0,"@string{"],[-1,"Abiad"],[1,"Kroschel"],[0,"=\"Aida A"]],3234,3234,21,24]],"time":1442254157245}
+{"patch":[[[[0,"@string{"],[-1,"Aalipour"],[1,"Kroschel"],[0,"=\"Ghodra"]],3192,3192,24,24]],"time":1442254140375}
+{"patch":[[[[0,"oschel=\""],[-1,"Kristin Heysse"],[1,"Brenda Kroschel"],[0,"\"}\n\nGhod"]],3485,3485,30,31]],"time":1442254125440}
+{"patch":[[[[0,"oschel=\""],[-1,"Wei Gao"],[1,"Brenda Kroschel"],[0,"\"}\n@stri"]],3457,3457,23,31]],"time":1442254118010}
+{"patch":[[[[0,"oschel=\""],[-1,"Jessica De Silva"],[1,"Brenda Kroschel"],[0,"\"}\n@stri"]],3420,3420,32,31]],"time":1442254114325}
+{"patch":[[[[0,"oschel=\""],[-1,"Jay Cummings"],[1,"Brenda Kroschel"],[0,"\"}\n@stri"]],3387,3387,28,31]],"time":1442254109367}
+{"patch":[[[[0,"l\"}\n"],[-1,"@string{Kroschel=\"Brenda Kroschel\"}"],[0,"\n@st"]],3409,3409,43,8],[[[0,"chel\"}\n\n"],[1,"\n"],[0,"Ghodrato"]],3479,3479,16,17]],"time":1442254102315}
+{"patch":[[[[0,"\"}\n\n"],[-1,"@string{Kroschel=\"Brenda Kroschel\"}\n@string{Kroschel=\"Brenda Kroschel\"}\n"],[0,"\n\nGh"]],3410,3410,80,8]],"time":1442254100312}
+{"patch":[[[[0,"hel\"}\n\n\n"],[-1,"\n"],[0,"Ghodrato"]],3407,3407,17,16]],"time":1442254098311}
+{"patch":[[[[0,"oschel=\""],[-1,"Mi"],[1,"Brenda Kros"],[0,"ch"],[-1,"a"],[0,"el"],[-1," Tait"],[0,"\"}\n@stri"]],3354,3354,28,31]],"time":1442254090420}
+{"patch":[[[[0,"oschel=\""],[-1,"Franklin H. J. Kenter"],[1,"Brenda Kroschel"],[0,"\"}\n@stri"]],3312,3312,37,31]],"time":1442254084775}
+{"patch":[[[[0,"oschel=\""],[-1,"Zhanar Berikkyzy"],[1,"Brenda Kroschel"],[0,"\"}\n@stri"]],3275,3275,32,31]],"time":1442254079638}
+{"patch":[[[[0,"oschel=\""],[-1,"Aida Abiad"],[1,"Brenda Kroschel"],[0,"\"}\n@stri"]],3244,3244,26,31]],"time":1442254074003}
+{"patch":[[[[0,"oschel=\""],[-1,"Ghodratollah Aalipour"],[1,"Brenda Kroschel"],[0,"\"}\n@stri"]],3202,3202,37,31]],"time":1442254068335}
+{"patch":[[[[0," Heysse,"],[1," Leslie Hogben, Franklin H.J. Kenter, Jephian Lin, Michael Tait"]],3551,3551,8,71]],"time":1442254060662}
+{"patch":[[[[0,"Kenter, "],[1,"Jephian Lin"],[0,", Michae"]],3480,3480,16,27]],"time":1442254053174}
+{"patch":[[[[0,"ikkyzy, "],[1,"Leslie Hogben"],[0,", Frankl"]],3455,3455,16,29]],"time":1442254050247}
+{"patch":[[[[0,"ait\n"],[-1,"Jay Cummings, Jessica De Silva, Wei Gao, Kristin Heysse, Leslie Hogben, Franklin H.J. Kenter, Jephian Lin, Michael Tait"]],3523,3523,123,4]],"time":1442254024500}
+{"patch":[[[[0,"ael Tait"],[-1,"\n"]],3518,3518,9,8]],"time":1442254022502}
+{"patch":[[[[0,"l\"}\n"],[-1,"@string{Kroschel=\"Brenda Kroschel\"}\n@string{Kroschel=\"Brenda Kroschel\"}\n@string{Kroschel=\"Brenda Kroschel\"}"],[0,"\n\n\nG"]],3296,3296,115,8]],"time":1442253977707}
+{"patch":[[[[0,"l\"}\n"],[-1,"@string{Kroschel=\"Brenda Kroschel\"}\n\n"],[0,"\n\nGh"]],3260,3260,45,8]],"time":1442253975705}
+{"patch":[[[[0,"l\"}\n"],[-1,"@string{Kroschel=\"Brenda Kroschel\"}"],[0,"\n\n\nG"]],3224,3224,43,8]],"time":1442253973701}
+{"patch":[[[[0,"l\"}\n"],[-1,"\n\n\nGhodratollah Aalipour, Aida Abiad, Zhanar Berikkyzy, Leslie Hogben, Franklin H. J. Kenter, Jephian Lin, Michael Tait"]],3224,3224,123,4]],"time":1442253969699}
+{"patch":[[[[0," Kroschel\"}\n"],[1,"@string{RKramer=\"Richard L.~Kramer\"}\nMinerva Catral, Leslie Hogben, Brenda Kroschel, Jephian Lin, Nathan Warnberg, Michael Young.\n"]],3216,3216,12,142]],"time":1442249858507}
+{"patch":[[[[0,"@string{"],[1,"R"],[0,"Kr"],[-1,"oschel"],[1,"amer"],[0,"=\"Brenda"]],3192,3192,24,23]],"time":1442249842754}
+{"patch":[[[[0,"Kramer=\""],[-1,"Brenda Kroschel"],[1,"Richard L.~Kramer"],[0,"\"}\n@stri"]],3201,3201,31,33]],"time":1442249838267}
+{"patch":[[[[0,"@string{"],[-1,"Catral"],[1,"RKramer"],[0,"=\"Minerv"]],3159,3159,22,23]],"time":1442249822207}
+{"patch":[[[[0,"a Catral"],[1,"r"],[0,"\"}\n@stri"]],3182,3182,16,17]],"time":1442249815536}
+{"patch":[[[[0,"Kramer=\""],[-1,"Minerva Catral"],[1,"Richard L.~Krame"],[0,"r\"}\n@str"]],3168,3168,30,32]],"time":1442249813531}
+{"patch":[[[[0,"ramer\"}\n"],[1,"Adam Berliner, Chassidy Bozeman, Steve Butler, "],[0,"Minerva "]],3262,3262,16,63]],"time":1442249799463}
+{"patch":[[[[0,"@string{"],[-1,"Berlin"],[1,"RKram"],[0,"er=\"Adam"]],3125,3125,22,21]],"time":1442249795224}
+{"patch":[[[[0,"Kramer=\""],[-1,"Adam Berlin"],[1,"Richard L.~Kram"],[0,"er\"}\n@st"]],3134,3134,27,31]],"time":1442249790587}
+{"patch":[[[[0,"\"}\n\n"],[-1,"@string{RKramer=\"Richard L.~Kramer\"}\n@string{RKramer=\"Richard L.~Kramer\"}\n@string{RKramer=\"Richard L.~Kramer\"}\n"],[0,"@str"]],3121,3121,119,8]],"time":1442249784370}
+{"patch":[[[[0,"\"}\n\n"],[-1,"@string{RKramer=\"Richard L.~Kramer\"}"],[0,"\nAda"]],3121,3121,44,8]],"time":1442249782365}
+{"patch":[[[[0,"amer\"}\n\n"],[-1,"\n"],[0,"Adam Ber"]],3117,3117,17,16]],"time":1442249776758}
+{"patch":[[[[0,"amer\"}\n\n"],[1,"\nChassidy Bozeman, "],[0,"Adam Ber"]],3117,3117,16,35]],"time":1442249768527}
+{"patch":[[[[0,"\"}\n\n"],[-1,"\nChassidy Bozeman, Adam Berliner, Chassidy Bozeman, Steve Butler, Minerva Catral, Leslie Hogben, Brenda Kroschel, Jephian Lin, Nathan Warnberg, Michael Young.\n"]],3121,3121,163,4]],"time":1442249754548}
+{"patch":[[[[0,"L.~Kramer\"}\n"],[-1,"\n"]],3112,3112,13,12]],"time":1442249752547}
+{"patch":[[[[0,"ard L.~Kramer\"}\n"],[1,"\n"]],3108,3108,16,17]],"time":1442248943830}
+{"patch":[[[[0,"L.~Kramer\"}\n"],[1,"@string{Gerard=\"Gerard Jennhwa Chang\"}"],[0,"\n"]],3112,3112,13,51]],"time":1442248941828}
+{"patch":[[[[0,"chard L."],[-1,"~"],[1," "],[0,"Kramer\"}"]],3106,3106,17,17]],"time":1442248936708}
+{"patch":[[[[0,"ard=\"Gerard Jennhwa Chang\"}\n"],[1,"\n"]],3135,3135,28,29]],"time":1442248934705}
+{"patch":[[[[0,"Chang\"}\n"],[1,"Kirsten Hogenson, Lucas Kramer, Richard L. Kramer, Ryan R. Martin"],[0,"\n"]],3155,3155,9,74]],"time":1442248932704}
+{"patch":[[[[0,"\"Ryan R."],[-1,"~"],[0,"Martin\"}"]],2774,2774,17,16]],"time":1442248914046}
+{"patch":[[[[0,"n=\"Ryan "],[-1,"R."],[1,"$"],[0,"Martin\"}"]],2772,2772,18,17]],"time":1442248911885}
+{"patch":[[[[0,"yan "],[-1,"$"],[0,"Mart"]],2776,2776,9,8]],"time":1442248909884}
+{"patch":[[[[0,"string{R"],[-1,"Kramer"],[0,"=\"Richar"]],3085,3085,22,16]],"time":1442248871414}
+{"patch":[[[[0,"@string{"],[-1,"R"],[1,"Gerard"],[0,"=\"Richar"]],3084,3084,17,22]],"time":1442248869411}
+{"patch":[[[[0,"string{L"],[-1,"Kramer"],[0,"=\"Lucas "]],3053,3053,22,16]],"time":1442248867033}
+{"patch":[[[[0,"@string{"],[-1,"L"],[1,"Gerard"],[0,"=\"Lucas "]],3052,3052,17,22]],"time":1442248864584}
+{"patch":[[[[0," Kramer,"],[1," ,"],[0," Ryan R."]],3200,3200,16,18]],"time":1442248847035}
+{"patch":[[[[0,"Kramer, "],[1,"Jephian Lin"],[0,", Ryan R"]],3201,3201,16,27]],"time":1442248845027}
+{"patch":[[[[0,"Gerard=\""],[-1,"Richard L. Kramer"],[1,"Gerard Jennhwa Chang"],[0,"\"}\n@stri"]],3091,3091,33,36]],"time":1442248840450}
+{"patch":[[[[0,"Gerard=\""],[-1,"Lucas Kramer"],[1,"Gerard Jennhwa Chang"],[0,"\"}\n@stri"]],3060,3060,28,36]],"time":1442248832968}
+{"patch":[[[[0,"@string{"],[-1,"Hogenson"],[1,"Gerard"],[0,"=\"Kirste"]],3015,3015,24,22]],"time":1442248824294}
+{"patch":[[[[0,"Gerard=\""],[-1,"Kirsten Hogenson"],[1,"Gerard Jennhwa Chang"],[0,"\"}\n@stri"]],3023,3023,32,36]],"time":1442248819315}
+{"patch":[[[[0,"Chang\"}\n"],[1,"\nSteve Butler, Craig Erickson, Leslie Hogben, "],[0,"Kirsten "]],3163,3163,16,62]],"time":1442248806289}
+{"patch":[[[[0,"hang\"}\n\n"],[1,"\n\n\n\n"],[0,"Steve Bu"]],3164,3164,16,20]],"time":1442248776777}
+{"patch":[[[[0,"g\"}\n"],[-1,"@string{Gerard=\"Gerard Jennhwa Chang\"}\n@string{Gerard=\"Gerard Jennhwa Chang\"}\n\n"],[0,"\n\n\n\n"]],3089,3089,87,8]],"time":1442248774776}
+{"patch":[[[[0,"g\"}\n"],[-1,"@string{Gerard=\"Gerard Jennhwa Chang\"}"],[0,"\n\n\n\n"]],3050,3050,46,8]],"time":1442248772772}
+{"patch":[[[[0,"ng\"}\n\n\n\n"],[-1,"\n\n"],[0,"Steve Bu"]],3049,3049,18,16]],"time":1442248769851}
+{"patch":[[[[0,"g\"}\n"],[-1,"@string{Gerard=\"Gerard Jennhwa Chang\"}\n"],[0,"\n\n\nS"]],3011,3011,47,8]],"time":1442248767885}
+{"patch":[[[[0,"\"}\n\n"],[-1,"\n\nSteve Butler, Craig Erickson, Leslie Hogben, Kirsten Hogenson, Lucas Kramer, Richard L. Kramer, Jephian Lin, Ryan R. Martin\n"]],3012,3012,130,4]],"time":1442248764631}
+{"patch":[[[[0,"Chang\"}\n"],[-1,"\n"]],3007,3007,9,8]],"time":1442248762630}
+{"patch":[[[[0,"Jenn"],[-1,"hwa "],[0,"Chan"]],2999,2999,12,8]],"time":1442248154692}
+{"patch":[[[[0,"rard Jen"],[-1,"n"],[0,"Chang\"}\n"]],2994,2994,17,16]],"time":1442248152731}
+{"patch":[[[[0,"rard Jen"],[1,"hhwa"],[0,"Chang\"}\n"]],2994,2994,16,20]],"time":1442248129879}
+{"patch":[[[[0," Jen"],[-1,"hhwa"],[0,"Chan"]],2998,2998,12,8]],"time":1442248127878}
+{"patch":[[[[0,"Gerard J"],[-1,"en"],[0,"Chang\"}\n"]],2992,2992,18,16]],"time":1442248125876}
+{"patch":[[[[0,"Gerard J"],[1,".~"],[0,"Chang\"}\n"]],2992,2992,16,18]],"time":1442248123870}
+{"patch":[[[[0,"=\"Gerard"],[-1," "],[1,".~"],[0,"J.~Chang"]],2990,2990,17,18]],"time":1442248121869}
+{"patch":[[[[0,"erard=\"G"],[-1,"erard"],[0,".~J.~Cha"]],2985,2985,21,16]],"time":1442248119863}
+{"patch":[[[[0,"\"}\n\n"],[-1,"@string{Gerard=\"G.~J.~Chang\"}\n"]],2972,2972,34,4]],"time":1442248117864}
+{"patch":[[[[0,"erasr\"}\n"],[-1,"\n"]],2967,2967,9,8]],"time":1442248115866}
 {"patch":[[[[0,"serasr\"}"],[-1,"\n"]],2966,2966,9,8]],"time":1442018288158}
 {"patch":[[[[0,"\"}\n\n"],[-1,"@string{Ahmadi=\"Bahman Ahmadi\"}\n@string{Alinaghipour=\"Fatemeh Alinaghipour\"}\n@string{Cavers=\" Michael S.~Cavers\"}\n@string{Meagher=\"Karen Meagher\"}\n@string{Nasserasr=\"Shahla Nasserasr\"}"]],2786,2786,188,4]],"time":1442018286169}
 {"patch":[[[[0,"n=\"R"],[-1,"yan Martin"],[0,"\"}\n\n"]],2772,2772,18,8]],"time":1442017711807}

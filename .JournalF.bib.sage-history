@@ -1,0 +1,7 @@
+"@string{LAA=\"Linear Algebra and its Applications\"}\n@string{ELA=\"Electronic Journal of Linear Algebra\"}\n@string{JGT=\"Journal of Graph Theory\"}\n@string{CN=\"Congressus Numerantium\"}\n@string{JCTA=\"Journal of Combinatorial Theory Series A\"}\n@string{JCTB=\"Journal of Combinatorial Theory Series B\"}\n@string{Ca=\"Combinatorica\"}\n@string{PAMS=\"Proceedings of the American Mathematical Society\"}\n@string{ISRNDM=\"ISRN Discrete Mathematics\"}\n\nISRN Discrete Mathematics"
+{"patch":[[[[0,"ng{I"],[-1,"SRNDM"],[0,"=\"IS"]],391,391,13,8]],"time":1442247710875}
+{"patch":[[[[0,"@string{"],[-1,"I"],[1,"PAMS"],[0,"=\"ISRN D"]],386,386,17,20]],"time":1442247708865}
+{"patch":[[[[0,"g{PAMS=\""],[-1,"ISRN Discrete"],[1,"Proceedings of the American"],[0," Mathema"]],392,392,29,43],[[[0,"thematic"],[-1,"s"],[1,"al Society"],[0,"\"}\n\nISRN"]],430,430,17,26]],"time":1442247705683}
+{"patch":[[[[0,"y\"}\n"],[-1,"@string{PAMS=\"Proceedings of the American Mathematical Society\"}"],[0,"\n\nIS"]],382,382,72,8]],"time":1442247700850}
+{"patch":[[[[0,"y\"}\n"],[-1,"\n\nISRN Discrete Mathematics"]],382,382,31,4]],"time":1442247698075}
+{"patch":[[[[0,"ociety\"}"],[-1,"\n"]],377,377,9,8]],"time":1442247696071}
