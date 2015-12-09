@@ -1,0 +1,18 @@
+\noindent{\bf Keywords:} 
+Strong Arnold Property, SAP zero forcing, minimum rank, maximum nullity, Colin de Verdi\'ere type parameter.
+\medskip 
+
+\noindent{\bf AMS subject classifications:}
+05C50, %%Graphs and linear algebra (matrices, eigenvalues, etc.)
+05C57, %%Games on graphs
+05C75, %%Structural characterization of families of graphs
+05C83, %%Graph minors
+05C85, %%Graph algorithms
+15A03, %%Vector spaces, linear dependence, rank
+15A18, %%Eigenvalues, singular values, and eigenvectors
+15A29, %%Inverse problems
+15B35, %%Sign pattern matrices
+15B57, %%Hermitian, skew-Hermitian, and related matrices
+58C15, %%Implicit function theorems; global Newton methods
+65F18. %%Inverse eigenvalue problems
+68R10. %%Graph theory (including graph drawing)
