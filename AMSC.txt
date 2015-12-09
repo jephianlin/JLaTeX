@@ -3,6 +3,8 @@ Strong Arnold Property, SAP zero forcing, minimum rank, maximum nullity, Colin d
 \medskip 
 
 \noindent{\bf AMS subject classifications:}
+05C05, %%Trees
+05C38, %%Paths and cycles
 05C50, %%Graphs and linear algebra (matrices, eigenvalues, etc.)
 05C57, %%Games on graphs
 05C75, %%Structural characterization of families of graphs
