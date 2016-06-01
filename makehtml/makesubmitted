@@ -1,0 +1,6 @@
+#!/bin/bash
+
+aux2bib active-CV.2.aux > pre-submitted.bib
+bib2bib Coauthors.bib pre-submitted.bib > submitted.bib
+bibtex2html -nodoc -nofooter -nf pdf "pdf" -revkeys -nobibsource submitted.bib
+rm pre-submitted.bib

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./makeaccepted
+./makesubmitted
+./makeinvitedsym
+./makecontributed

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+aux2bib active-CV.3.aux > pre-invitedsym.bib
+bib2bib Coauthors.bib pre-invitedsym.bib > invitedsym.bib
+bibtex2html -nodoc -nofooter -nf pdf "pdf" -revkeys -nobibsource invitedsym.bib
+rm pre-invitedsym.bib

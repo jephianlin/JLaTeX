@@ -1,0 +1,18 @@
+Instruction for building htmls from bibtex
+
+Workflow: 
+My CV will produce active-CV.i.aux (i=1~5).  The makeall shell will do the following for each of active-CV.i.aux (only i=1~4):
+1. aux2bib: change aux to bib
+2. bib2bib: combine the produced bib with Coauthor.bib (this is to add hyperlink to authors and avoid the \noopsort issue.)
+3. bib2html: change the produced bib to html, producing 1)accepted 2)submitted 3)invitedsym 4)contributed.
+
+Requirement:
+Assuming working on BASE folder. JLaTeX should be a folder in BASE. The aux files and the make*** shells need to be in BASE folder.
+
+Step-by-step Instruction:
+1. Clone JLaTeX in BASE.
+2. Move all files in JLaTeX/makehtml/ to BASE.
+3. Download active-CV.i.aux (i=1~4) from SageMathCloud>CV to BASE.
+4. Run ./makeall in BASE.
+5. Upload all 4 html files to SageMathCloud>CV>webpage.
+6. Push from SageMathCloud to GitHub to update the webpage.
