@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "This script copies active-CV.*.aux from SageMathCloud to the local machine, by the scp command."
+echo "It should be run with jephian@Tortuga and the project CV in SageMathCloud should be open."
+scp 72c1de6f9c9b4d029b008ebbdb927f73@compute4-us.sagemath.com:active-CV.*.aux .

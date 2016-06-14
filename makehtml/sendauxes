@@ -1,0 +1,3 @@
+#!/bin/bash
+
+scp active-CV.*.aux 72c1de6f9c9b4d029b008ebbdb927f73@compute4-us.sagemath.com
