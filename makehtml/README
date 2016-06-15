@@ -10,9 +10,20 @@ Requirement:
 Assuming working on BASE folder. JLaTeX should be a folder in BASE. The aux files and the make*** shells need to be in BASE folder.
 
 Step-by-step Instruction:
-1. Clone JLaTeX in BASE.
+1. Clone JLaTeX in BASE. 
+   (git init
+    git remote add origin https://github.com/jephianlin/JLaTeX.git
+    git pull origin master)
 2. Move all files in JLaTeX/makehtml/ to BASE.
+   (When at JLaTeX/ do
+    cp makehtml * ..)
 3. Download active-CV.i.aux (i=1~4) from SageMathCloud>CV to BASE.
+   (When at BASE/ do
+    ./getauxes)
 4. Run ./makeall in BASE.
 5. Upload all 4 html files to SageMathCloud>CV>webpage.
+   (When at BASE/ do
+    ./sendauxes)
 6. Push from SageMathCloud to GitHub to update the webpage.
+   (When at SMG>webpage/ do
+    git push origin master)
