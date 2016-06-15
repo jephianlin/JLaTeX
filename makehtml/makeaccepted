@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bibtool -o pre-accepted.bib -x active-CV.1.aux 
+aux2bib active-CV.1.aux > pre-accepted.bib
 bib2bib Coauthors.bib pre-accepted.bib > accepted.bib
 bibtex2html -nodoc -nofooter -nf pdf "pdf" -revkeys -nobibsource accepted.bib
 rm pre-accepted.bib
