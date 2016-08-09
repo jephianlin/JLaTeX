@@ -16,7 +16,7 @@ Step-by-step Instruction:
     git pull origin master)
 2. Move all files in JLaTeX/makehtml/ to BASE.
    (When at JLaTeX/ do
-    cp makehtml * ..)
+    cp makehtml/* ..)
 3. Download active-CV.i.aux (i=1~4) from SageMathCloud>CV to BASE.
    (When at BASE/ do
     ./getauxes)
