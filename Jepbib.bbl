@@ -1,0 +1,475 @@
+\newcommand{\noopsort}[1]{}
+\begin{thebibliography}{10}
+
+\bibitem{Xphdthesis}
+PhD thesis.
+
+\bibitem{Xincollection}
+volume~% of {\em %}, %~%, page~%. %, % edition, %.
+\newblock %.
+
+\bibitem{Xbook}
+XXXX.
+
+\bibitem{GRWCds2}
+G.~Aalipour, A.~Abiad, Z.~Berikkyzy, J.~Cummings, J.~{\noopsort{De}}{De Silva},
+  W.~Gao, K.~Heysse, L.~Hogben, F.~H.~J. Kenter, J.~C.-H. Lin, and M.~Tait.
+\newblock On the distance spectra of graphs.
+\newblock {\em Linear Algebra Appl.}, 497:66--87, 2016.
+
+\bibitem{GRWCds1}
+G.~Aalipour, A.~Abiad, Z.~Berikkyzy, L.~Hogben, F.~H.~J. Kenter, J.~C.-H. Lin,
+  and M.~Tait.
+\newblock Proof of a conjecture of {G}raham and {L}ov{\'a}sz concerning
+  unimodality of coefficients of the distance characteristic polynomial of a
+  tree.
+\newblock \verb|http://arxiv.org/abs/1507.02341|.
+\newblock (under review).
+
+\bibitem{AACFMN13Erratum}
+B.~Ahmadi, F.~Alinaghipour, M.S. Cavers, S.~M. Fallat, K.~Meagher, and
+  S.~Nasserasr.
+\newblock Erratum to ``number of distinct eigenvalues of graphs.
+\newblock {\em Electron.\ J.\ Linear Algebra}, 26:673--691, 2013.
+
+\bibitem{AACFMN13}
+B.~Ahmadi, F.~Alinaghipour, M.S. Cavers, S.~M. Fallat, K.~Meagher, and
+  S.~Nasserasr.
+\newblock Minimum number of distinct eigenvalues of graphs.
+\newblock {\em Electron.\ J.\ Linear Algebra}, 26:673--691, 2013.
+
+\bibitem{AHLvdH13}
+M.~Arav, F.~J. Hall, Z.~Li, and H.~{\noopsort{Holst}}{van der Holst}.
+\newblock The inertia set of a signed graph.
+\newblock {\em Linear Algebra Appl.}, 439:1506--1529, 2013.
+
+\bibitem{AvdHS}
+M.~Arav, H.~{\noopsort{Holst}}{van der Holst}, and J.~Sinkovic.
+\newblock On the inertia set of a signed graph with loops.
+\newblock {\em Linear Algebra Appl.}, 471:169--183, 2015.
+
+\bibitem{BI84}
+E.~Bannai and T.~Ito.
+\newblock {\em Algebraic Combinatorics {I}: {A}ssociation Schemes}.
+\newblock The Benjamin/Cummings Publishing Company, London, 1984.
+
+\bibitem{AIM}
+{\noopsort{AIM}}{AIM Minimum Rank \textendash{} Special Graphs Work Group (}F.
+  Barioli, W.~Barrett, S.~Butler, S.~M. Cioab\u{a}, D.~Cvetkovi\'c, S.~M.
+  Fallat, C.~Godsil, W.~Haemers, L.~Hogben, R.~Mikkelson, S.~Narayan,
+  O.~Pryporova, I.~Sciriha, W.~So, D.~Stevanovi\'c, H.~{\noopsort{Holst}}{van
+  der Holst}, K.~Vander Meulen, and A.~Wangsness).
+\newblock Zero forcing sets and the minimum rank of graphs.
+\newblock {\em Linear Algebra Appl.}, 428:1628--1648, 2008.
+
+\bibitem{GCC}
+F.~Barioli, W.~Barrett, S.~M. Fallat, H.~T. Hall, L.~Hogben, and
+  H.~{\noopsort{Holst}}{van der Holst}.
+\newblock On the graph complement conjecture for minimum rank.
+\newblock {\em Linear Algebra Appl.}, 436:4373--4391, 2012.
+
+\bibitem{smallparam}
+F.~Barioli, W.~Barrett, S.~M. Fallat, H.~T. Hall, L.~Hogben, B.~Shader,
+  P.~{\noopsort{Driessche}}{van den Driessche}, and H.~{\noopsort{Holst}}{van
+  der Holst}.
+\newblock Zero forcing parameters and minimum rank problems.
+\newblock {\em Linear Algebra Appl.}, 433:401--411, 2010.
+
+\bibitem{param}
+F.~Barioli, W.~Barrett, S.~M. Fallat, H.~T. Hall, L.~Hogben, B.~Shader,
+  P.~{\noopsort{Driessche}}{van den Driessche}, and H.~{\noopsort{Holst}}{van
+  der Holst}.
+\newblock Parameters related to tree-width, zero forcing, and maximum nullity
+  of a graph.
+\newblock {\em J.~Graph Theory}, 72:146--177, 2013.
+
+\bibitem{square1}
+F.~Barioli, S.~M. Fallat, H.~T. Hall, D.~Hershkowitz, L.~Hogben,
+  H.~{\noopsort{Holst}}{van der Holst}, and B.~Shader.
+\newblock On the minimum rank of not necessarily symmetric matrices: {A}
+  preliminary study.
+\newblock {\em Electron.\ J.\ Linear Algebra}, 18:126--145, 2009.
+
+\bibitem{BFH}
+F.~Barioli, S.~M. Fallat, and L.~Hogben.
+\newblock Computation of minimal rank and path cover number for graphs.
+\newblock {\em Linear Algebra Appl.}, 392:289--303, 2004.
+
+\bibitem{BFH3}
+F.~Barioli, S.~M. Fallat, and L.~Hogben.
+\newblock A variant on the graph parameters of {C}olin de {V}erdi\`ere:
+  Implications to the minimum rank of graphs.
+\newblock {\em Electron.\ J.\ Linear Algebra}, 13:387--404, 2005.
+
+\bibitem{xi}
+F.~Barioli, S.~M. Fallat, and L.~Hogben.
+\newblock A variant on the graph parameters of {C}olin de {V}erdi\`ere:
+  {I}mplications to the minimum rank of graphs.
+\newblock {\em Electron.\ J.\ Linear Algebra}, 13:387--404, 2005.
+
+\bibitem{gSAP}
+W.~Barrett, S.~M. Fallat, H.~T. Hall, L.~Hogben, J.~C.-H. Lin, and B.~Shader.
+\newblock Generalizations of the {S}trong {A}rnold {P}roperty and the minimum
+  number of distinct eigenvalues of a graph.
+\newblock \verb|http://arxiv.org/abs/1511.06705|.
+\newblock (under review).
+
+\bibitem{BHL09}
+W.~Barrett, H.~T. Hall, and R.~Loewy.
+\newblock The inverse inertia problem for graphs: {C}ut vertices, trees, and a
+  counterexample.
+\newblock {\em Linear Algebra Appl.}, 431:1147--1191, 2009.
+
+\bibitem{BLD}
+A.~Bento and A.~{\noopsort{Leal}}{Leal Duarte}.
+\newblock On {F}iedler's characterization of tridiagonal matrices over
+  arbitrary fields.
+\newblock {\em Linear Algebra Appl.}, 401:467--481, 2005.
+
+\bibitem{ZPropDi}
+A.~Berliner, C.~Bozeman, S.~Butler, M.~Catral, L.~Hogben, B.~Kroschel, J.~C.-H.
+  Lin, N.~Warnberg, and M.~Young.
+\newblock Zero forcing propagation time on oriented graphs.
+\newblock (under review).
+
+\bibitem{delta}
+A.~Berman, S.~Friedland, L.~Hogben, U.~G. Rothblum, and B.~Shader.
+\newblock An upper bound for the minimum rank of a graph.
+\newblock {\em Linear Algebra Appl.}, 429:1629--1638, 2008.
+
+\bibitem{loopEGR}
+C.~Bozeman, A.~Ellsworth, L.~Hogben, J.~C.-H. Lin, G.~Maurer, K.~Nowak,
+  A.~Rodriguez, and J.~Strickland.
+\newblock Minimum rank of graphs with loops.
+\newblock {\em Electron.\ J.\ Linear Algebra}, 27:907--934, 2014.
+
+\bibitem{AIMrpt}
+R.~A. Brualdi, L.~Hogben, and B.~Shader.
+\newblock {AIM} {W}orkshop on {S}pectra of {F}amilies of {M}atrices {D}escribed
+  by {G}raphs, {D}igraphs and {S}ign patterns, {F}inal report: {M}athematical
+  {R}esults.
+\newblock \verb|http://aimath.org/pastworkshops/matrixspectrumrep.pdf|, 2007.
+
+\bibitem{RAP}
+S.~Butler, C.~Erickson, L.~Hogben, K.~Hogenson, L.~Kramer, R.~L. Kramer,
+  J.~C.-H. Lin, R.~R. Martin, D.~Stolee, N.~Warnberg, and M.~Young.
+\newblock Rainbow arithmetic progressions.
+\newblock {\em J.\ Comb.}, 7:595--626, 2016.
+
+\bibitem{Zq}
+S.~Butler, J.~Grout, and H.~T. Hall.
+\newblock Using variants of zero forcing to bound the inertia set of a graph.
+\newblock {\em Electron.\ J.\ Linear Algebra}, 30:1--18, 2015.
+
+\bibitem{GJpower}
+G.~J. Chang and J.~C.-H. Lin.
+\newblock Minimum rank of powers of cycles and trees.
+\newblock (under review).
+
+\bibitem{GJ14}
+G.~J. Chang and J.~C.-H. Lin.
+\newblock Counterexamples to an edge spread question for zero forcing number.
+\newblock {\em Linear Algebra Appl.}, 446:192--195, 2014.
+
+\bibitem{CdVF}
+Y.~{\noopsort{Colin}}{Colin de Verdi\`ere}.
+\newblock Sur un nouvel invariant des graphes et un crit\`ere de planarit\'e.
+\newblock {\em J.\ Combin. Theory Ser.~B}, 50:11--21, 1990.
+
+\bibitem{CdV}
+Y.~{\noopsort{Colin}}{Colin de Verdi\`ere}.
+\newblock On a new graph invariant and a criterion for planarity.
+\newblock In {\it Graph Structure Theory}, pp. 137--147, American Mathematical
+  Society, Providence, RI, 1993.
+
+\bibitem{CdV2}
+Y.~{\noopsort{Colin}}{Colin de Verdi\`ere}.
+\newblock Multiplicities of eigenvalues and tree-width graphs.
+\newblock {\em J.\ Combin. Theory Ser.~B}, 74:121--146, 1998.
+
+\bibitem{entropy}
+M.~Dairyko, L.~Hogben, J.~C.-H. Lin, J.~Lockhart, D.~Roberson, S.~Severini, and
+  M.~Young.
+\newblock Note on von {N}eumann and {R}{\'e}nyi entropies of a graph.
+\newblock \verb|http://arxiv.org/abs/1609.00420|.
+\newblock (under review).
+
+\bibitem{DMS16}
+R.~Davila, T.~Kalinowski, and S.~Stephen.
+\newblock The zero forcing number of graphs with a given girth.
+\newblock \verb|https://arxiv.org/abs/1611.06557|, 2016.
+
+\bibitem{DK15}
+R.~Davila and F.~H.~J. Kenter.
+\newblock Bounds for the zero forcing number of graphs with large girth.
+\newblock {\em Theory Appl.\ Graphs}, 2, 2015.
+
+\bibitem{DHHHW}
+L.~M. DeAlba, T.~L. Hardy, I.~R. Hentzel, L.~Hogben, and A.~Wangsness.
+\newblock Minimum rank and maximum eigenvalue multiplicity of symmetric tree
+  sign patterns.
+\newblock {\em Linear Algebra Appl.}, 418:389--415, 2006.
+
+\bibitem{small}
+L.~DeLoss, J.~Grout, L.~Hogben, T.~McKay, J.~Smith, and G.~Tims.
+\newblock Techniques for determining the minimum rank of a small graph.
+\newblock {\em Linear Algebra Appl.}, 432:2995--3001, 2010.
+
+\bibitem{DiestelGT}
+R.~Diestel.
+\newblock {\em Graph Theory}.
+\newblock Springer-Verlag, Heidelberg, 4th edition, 2010.
+\newblock Electronic edition, 2012.
+
+\bibitem{EHHLR}
+C.~J. Edholm, L.~Hogben, M.~Huynh, J.~LaGrange, and D.~D. Row.
+\newblock Vertex and edge spread of zero forcing number, maximum nullity, and
+  minimum rank of a graph.
+\newblock {\em Linear Algebra Appl.}, 436:4352--4372, 2012.
+
+\bibitem{EGR11}
+J.~Ekstrand, C.~Erickson, H.~T. Hall, D.~Hay, L.~Hogben, R.~Johnson,
+  N.~Kingsley, S.~Osborne, T.~Peters, J.~Roat, A.~Ross, D.~D. Row, N.~Warnberg,
+  and M.~Young.
+\newblock Positive semidefinite zero forcing.
+\newblock {\em Linear Algebra Appl.}, 439:1862--1874, 2013.
+
+\bibitem{FH}
+S.~M. Fallat and L.~Hogben.
+\newblock The minimum rank of symmetric matrices described by a graph: {A}
+  survey.
+\newblock {\em Linear Algebra Appl.}, 426:558--582, 2007.
+
+\bibitem{HLA46}
+S.~M. Fallat and L.~Hogben.
+\newblock Minimum rank, maximum nullity, and zero forcing number of graphs.
+\newblock In {\it Handbook of Linear Algebra}, 2nd edition, L. Hogben editor,
+  CRC Press, Boca Raton, 2013.
+
+\bibitem{Fied}
+M.~Fiedler.
+\newblock A characterization of tridiagonal matrices.
+\newblock {\em Linear Algebra Appl.}, 2:191--197, 1969.
+
+\bibitem{Gol09}
+F.~Goldberg.
+\newblock On the {C}olin de {V}erdi\`ere numbers of {C}artesian graph.
+\newblock {\em Linear Algebra Appl.}, 431:2285--2290, 2009.
+
+\bibitem{GB11}
+F.~Goldberg and A.~Berman.
+\newblock On the {C}olin de {V}erdi\`ere number of graphs.
+\newblock {\em Linear Algebra Appl.}, 434:1656--1662, 2011.
+
+\bibitem{GB14}
+F.~Goldberg and A.~Berman.
+\newblock Zero forcing for sign patterns.
+\newblock {\em Linear Algebra Appl.}, 447:56--67, 2014.
+
+\bibitem{GL78}
+R.~L. Graham and L.~Lov{\'a}sz.
+\newblock Distance matrix polynomials of trees.
+\newblock {\em Adv.\ Math.}, 29:60--88, 1978.
+
+\bibitem{GP71}
+R.~L. Graham and H.~O. Pollak.
+\newblock On the addressing problem for loop switching.
+\newblock {\em The Bell System Technical Journal}, 50:2495--2519, 1971.
+
+\bibitem{mr0}
+C.~Grood, J.~Harmse, L.~Hogben, T.~J. Hunter, B.~Jacob, A.~Klimas, and
+  S.~McCathern.
+\newblock Minimum rank with zero diagonal.
+\newblock {\em Electron.\ J.\ Linear Algebra}, 27:458--477, 2014.
+
+\bibitem{Gblowup}
+J.~Grout.
+\newblock The minimum rank problem over finite fields.
+\newblock {\em Electron.\ J.\ Linear Algebra}, 20:673--698, 2010.
+
+\bibitem{Hdelta}
+H.~T. Hall.
+\newblock \verb|http://www.math.iastate.edu/news/fp8.html|, 2011.
+
+\bibitem{HHMS10}
+H.~T. Hall, L.~Hogben, R.~R. Martin, and B.~Shader.
+\newblock Expected values of parameters associated with the minimum rank of a
+  graph.
+\newblock {\em Linear Algebra Appl.}, 433:101--117, 2010.
+
+\bibitem{cancun}
+L.~Hogben.
+\newblock Minimum rank problems.
+\newblock {\em Linear Algebra Appl.}, 432:1961--1974, 2010.
+
+\bibitem{NGSurvey}
+L.~Hogben.
+\newblock {S}urvey of {N}ordhaus-{G}addum problems for {C}olin de {V}erdi\`ere
+  type parameters, variants of tree-width, and related parameters, 2014.
+\newblock (in preparation).
+
+\bibitem{HvdH06}
+L.~Hogben and H.~{\noopsort{Holst}}{van der Holst}.
+\newblock Forbidden minors for the class of graphs {$G$} with $\xi({G}) \leq
+  2$.
+\newblock {\em Linear Algebra Appl.}, 423:42--52, 2007.
+
+\bibitem{MultiNG}
+L.~Hogben, J.~C.-H. Lin, and M.~Young.
+\newblock Multi-part {N}ordhaus-{G}addum type problems for tree-width, {C}olin
+  de {V}erdi{\`e}re type parameters, and {H}adwiger number.
+\newblock \verb|http://arxiv.org/abs/1604.08817|.
+\newblock (under review).
+
+\bibitem{vdH95}
+H.~{\noopsort{Holst}}{van der Holst}.
+\newblock A short proof of the planarity characterization of {C}olin de
+  {V}erdi\`ere.
+\newblock {\em J.\ Combin. Theory Ser.~B}, 65:269--272, 1995.
+
+\bibitem{vdH02}
+H.~{\noopsort{Holst}}{van der Holst}.
+\newblock Graphs with magnetic schr{\"o}dinger operators of low corank.
+\newblock {\em J.\ Combin. Theory Ser.~B}, 84:311--339, 2002.
+
+\bibitem{vdH08}
+H.~{\noopsort{Holst}}{van der Holst}.
+\newblock The maximum corank of graphs with a 2-separation.
+\newblock {\em Linear Algebra Appl.}, 428:1587--1600, 2008.
+
+\bibitem{HLS}
+H.~{\noopsort{Holst}}{van der Holst}, L.~Lov{\'a}sz, and A.~Schrijver.
+\newblock The {C}olin de {V}erdi\`ere graph parameter.
+\newblock In {\it Graph Theory and Computational Biology (Balatonlelle, 1996)},
+  pp. 29--85, Janos Bolyai Math. Soc., Budapest, 1999.
+
+\bibitem{Yeh}
+L.-H. Huang, G.~J. Chang, and H.-G. Yeh.
+\newblock On minimum rank and zero forcing sets of a graph.
+\newblock {\em Linear Algebra Appl.}, 432:2961--2973, 2010.
+
+\bibitem{JL99}
+C.~R. Johnson and A.~{\noopsort{Leal}}{Leal Duarte}.
+\newblock The maximum multiplicity of an eigenvalue in a matrix whose graph is
+  a tree.
+\newblock {\em Linear Multilinear Algebra}, 46:139--144, 1999.
+
+\bibitem{JLS}
+C.~R. Johnson, R.~Loewy, and P.~A. Smith.
+\newblock The graphs for which the maximum multiplicity of an eigenvalue is
+  two.
+\newblock {\em Linear Multilinear Algebra}, 57:713--736, 2009.
+
+\bibitem{KLV}
+A.~Kotlov, L.~Lov{\'a}sz, and S.~Vempala.
+\newblock The {C}olin de {V}erdi\`ere number and sphere representations of a
+  graph.
+\newblock {\em Combinatorica}, 17:483--521, 1997.
+
+\bibitem{SageZsap}
+J.~C.-H. Lin.
+\newblock \textit{Sage} code for {$Z_{\mathrm{SAP}}$} related parameters.
+\newblock Published on the Iowa State \textit{Sage} server at
+  \url{https://sage.math.iastate.edu/home/pub/54/}. \textit{Sage} worksheet
+  available at
+  \url{https://github.com/jephianlin/publish/raw/master/VariationsOfZsap.sws}.
+
+\bibitem{FCnumbers}
+J.~C.-H. Lin.
+\newblock Some interpretations and applications of {F}uss-{C}atalan numbers.
+\newblock {\em ISRN Discrete Math.}, 2011.
+\newblock doi:10.5402/2011/534628.
+
+\bibitem{sieving}
+J.~C.-H. Lin.
+\newblock The sieving process and lower bounds for the minimum rank problem.
+\newblock {\em Congr.\ Numer.}, 219:73--88, 2014.
+
+\bibitem{Zoc}
+J.~C.-H. Lin.
+\newblock Odd cycle zero forcing parameters and the minimum rank of graph
+  blowups.
+\newblock {\em Electron.\ J.\ Linear Algebra}, 31:42--59, 2016.
+
+\bibitem{Zsap}
+J.~C.-H. Lin.
+\newblock Using a new zero forcing process to guarantee the {S}trong {A}rnold
+  {P}roperty.
+\newblock {\em Linear Algebra Appl.}, 507:229--250, 2016.
+
+\bibitem{Ortho}
+L.~Lov{\'a}sz, M.~Saks, and A.~Schrijver.
+\newblock Orthogonal representations and connectivity of graphs.
+\newblock {\em Linear Algebra Appl.}, 114/115:439--454, 1989.
+
+\bibitem{OrthoC}
+L.~Lov{\'a}sz, M.~Saks, and A.~Schrijver.
+\newblock A correction: {O}rthogonal representations and connectivity of
+  graphs.
+\newblock {\em Linear Algebra Appl.}, 313:101--105, 2000.
+
+\bibitem{LSch98}
+L.~Lov{\'a}sz and A.~Schrijver.
+\newblock A {B}orsuk theorem for antipodal links and a spectral
+  characterization of linklessly embeddable graphs.
+\newblock {\em Proc.\ Amer.\ Math.\ Soc.}, 126:1275--1285, 1998.
+
+\bibitem{Merris90}
+R.~Merris.
+\newblock The distance spectrum of a tree.
+\newblock {\em J.~Graph Theory}, 14:365--369, 1990.
+
+\bibitem{Mik}
+R.~Mikkelson.
+\newblock {\em Minimum rank of graphs that allow loops}.
+\newblock PhD thesis, Iowa State University, 2008.
+
+\bibitem{MS13}
+K.~H. Monfared and B.~Shader.
+\newblock Construction of matrices with a given graph and prescribed interlaced
+  spectral data.
+\newblock {\em Linear Algebra Appl.}, 438:4348--4358, 2013.
+
+\bibitem{RST93}
+N.~Robertson, P.~Seymour, and R.~Thomas.
+\newblock A survey of linkless embeddings.
+\newblock In {\it Graph Structure Theory}, pp. 125--136, American Mathematical
+  Society, Providence, RI, 1993.
+
+\bibitem{SS16}
+A.~Schrijver and B.~Sevenster.
+\newblock The {S}trong {A}rnold {P}roperty for $4$-connected flat graphs.
+\newblock \verb|http://arxiv.org/abs/1512.03200|.
+
+\bibitem{Sink}
+J.~Sinkovic.
+\newblock Maximum nullity of outerplanar graphs and the path cover number.
+\newblock {\em Linear Algebra Appl.}, 432:2052--2060, 2010.
+
+\bibitem{SvdH}
+J.~Sinkovic and H.~{\noopsort{Holst}}{van der Holst}.
+\newblock The minimum semidefinite rank of the complement of partial $k$-trees.
+\newblock {\em Linear Algebra Appl.}, 434:1468--1474, 2011.
+
+\bibitem{SKOuter}
+J.~Sinkovic and M.~Kempton.
+\newblock Minimum rank of outerplanar graphs.
+\newblock {\em Linear Algebra Appl.}, 436:3701--3720, 2012.
+
+\bibitem{Test}
+Test.
+\newblock Test.
+\newblock {\em Linear Algebra Appl.}, Test(Test):Test, Test Test.
+\newblock Test.
+
+\bibitem{VPV05}
+M.~Valencia-Pabon and J.-C. Vera.
+\newblock On the diameter of kneser graphs.
+\newblock {\em Discrete Math.}, 305:383--385, 2005.
+
+\bibitem{Winkler83}
+P.~M. Winkler.
+\newblock Proof of the squashed cube conjecture.
+\newblock {\em Combinatorica}, 3:135--139, 1983.
+
+\end{thebibliography}
