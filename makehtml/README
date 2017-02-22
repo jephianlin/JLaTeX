@@ -17,11 +17,11 @@ Step-by-step Instruction:
 2. Move all files in JLaTeX/makehtml/ to BASE.
    (When at JLaTeX/ do
     cp makehtml/* ..)
-3. Download active-CV.i.aux (i=1~4) from SageMathCloud>CV to BASE.
+3. Download active-CV.i.aux for all i from SageMathCloud>CV to BASE.
    (When at BASE/ do
     ./getauxes)
 4. Run ./makeall in BASE.
-5. Upload all 4 html files to SageMathCloud>CV>webpage.
+5. Upload all html files to SageMathCloud>CV>webpage.
    (When at BASE/ do
     ./sendauxes)
 6. Push from SageMathCloud to GitHub to update the webpage.

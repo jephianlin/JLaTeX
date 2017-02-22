@@ -1,0 +1,6 @@
+#!/bin/bash
+
+aux2bib active-CV.3.aux > pre-plenary.bib
+bib2bib Coauthors.bib pre-plenary.bib > plenary.bib
+bibtex2html -nodoc -nofooter -nf pdf "pdf" -revkeys -nobibsource plenary.bib
+rm pre-plenary.bib
