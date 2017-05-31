@@ -38,6 +38,15 @@ B.~Ahmadi, F.~Alinaghipour, M.~S. Cavers, S.~M. Fallat, K.~Meagher, and
 \newblock Minimum number of distinct eigenvalues of graphs.
 \newblock {\em Electron.\ J.\ Linear Algebra}, 26:673--691, 2013.
 
+\bibitem{AIM}
+{AIM Minimum Rank \textendash{} Special Graphs Work Group (}F.~Barioli\relax
+  {\noopsort{AIM}}, W.~Barrett, S.~Butler, S.~M. Cioab\u{a}, D.~Cvetkovi\'c,
+  S.~M. Fallat, C.~Godsil, W.~H. Haemers, L.~Hogben, R.~Mikkelson, S.~K.
+  Narayan, O.~Pryporova, I.~Sciriha, W.~So, D.~Stevanovi\'c,
+  H.~{\noopsort{Holst}}{van der Holst}, K.~Vander Meulen, and A.~Wangsness).
+\newblock Zero forcing sets and the minimum rank of graphs.
+\newblock {\em Linear Algebra Appl.}, 428:1628--1648, 2008.
+
 \bibitem{AHLvdH13}
 M.~Arav, F.~J. Hall, Z.~Li, and H.~{\noopsort{Holst}}{van der Holst}.
 \newblock The inertia set of a signed graph.
@@ -52,15 +61,6 @@ M.~Arav, H.~{\noopsort{Holst}}{van der Holst}, and J.~Sinkovic.
 E.~Bannai and T.~Ito.
 \newblock {\em Algebraic Combinatorics {I}: {A}ssociation Schemes}.
 \newblock The Benjamin/Cummings Publishing Company, London, 1984.
-
-\bibitem{AIM}
-{\noopsort{AIM}}{AIM Minimum Rank \textendash{} Special Graphs Work Group (}F.
-  Barioli, W.~Barrett, S.~Butler, S.~M. Cioab\u{a}, D.~Cvetkovi\'c, S.~M.
-  Fallat, C.~Godsil, W.~H. Haemers, L.~Hogben, R.~Mikkelson, S.~Narayan,
-  O.~Pryporova, I.~Sciriha, W.~So, D.~Stevanovi\'c, H.~{\noopsort{Holst}}{van
-  der Holst}, K.~Vander Meulen, and A.~Wangsness).
-\newblock Zero forcing sets and the minimum rank of graphs.
-\newblock {\em Linear Algebra Appl.}, 428:1628--1648, 2008.
 
 \bibitem{GCC}
 F.~Barioli, W.~Barrett, S.~M. Fallat, H.~T. Hall, L.~Hogben, and
@@ -170,6 +170,11 @@ B.~Bre\v{s}ar, T.~Gologranc, M.~Milani\v{c}, D.~F. Rall, and R.~Rizzi.
 B.~Bre\v{s}ar, M.~A. Henning, and D.~F. Rall.
 \newblock Total dominating sequences in graphs.
 \newblock {\em Discrete Math.}, 339:1665--1676, 2016.
+
+\bibitem{BKR10}
+B.~Bre\v{s}ar, S.~Klav\v{z}ar, and D.~F. Rall.
+\newblock Domination game and an imagination strategy.
+\newblock {\em SIAM J.\ Discrete Math.}, 24:979--991, 2010.
 
 \bibitem{AIMrpt}
 R.~A. Brualdi, L.~Hogben, and B.~Shader.
@@ -329,6 +334,11 @@ J.~Grout.
 \newblock The minimum rank problem over finite fields.
 \newblock {\em Electron.\ J.\ Linear Algebra}, 20:673--698, 2010.
 
+\bibitem{HHLMNP09}
+P.~Hackney, B.~Harris, M.~Lay, L.~H. Mitchell, S.~K. Narayan, and A.~Pascoe.
+\newblock Linearly independent vertices and minimum semidefinite rank.
+\newblock {\em Linear Algebra Appl.}, 431:1105--1115, 2009.
+
 \bibitem{Haemers79}
 W.~H. Haemers.
 \newblock On some problems of {L}ov{\'a}sz concerning the {S}hannon capacity of
@@ -344,6 +354,11 @@ H.~T. Hall, L.~Hogben, R.~R. Martin, and B.~Shader.
 \newblock Expected values of parameters associated with the minimum rank of a
   graph.
 \newblock {\em Linear Algebra Appl.}, 433:101--117, 2010.
+
+\bibitem{HKR15}
+M.~A. Henning, S.~Klav\v{z}ar, and D.~F. Rall.
+\newblock Total version of the domination game.
+\newblock {\em Graphs Combin.}, 31:1453--1462, 2015.
 
 \bibitem{Hogben08}
 L.~Hogben.
@@ -400,6 +415,14 @@ H.~{\noopsort{Holst}}{van der Holst}, L.~Lov{\'a}sz, and A.~Schrijver.
 L.-H. Huang, G.~J. Chang, and H.-G. Yeh.
 \newblock On minimum rank and zero forcing sets of a graph.
 \newblock {\em Linear Algebra Appl.}, 432:2961--2973, 2010.
+
+\bibitem{IMAISU}
+{IMA-ISU research group on minimum rank} (M.~Allison\relax {\noopsort{IMA}},
+  E.~Bodine, L.M. DeAlba, J.~Debnath, L.~DeLoss, C.~Garnett, J.~Grout,
+  L.~Hogben, B.~Im, H.~Kim, R.~Nair, O.~Pryporova, K.~Savage, B.~Shader, and
+  A.~Wangsness Wehe).
+\newblock Minimum rank of skew-symmetric matrices described by a graph.
+\newblock {\em Linear Algebra Appl.}, 432:2457--2472, 2010.
 
 \bibitem{JL99}
 C.~R. Johnson and A.~{\noopsort{Leal}}{Leal Duarte}.

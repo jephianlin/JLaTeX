@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Jepbbl.aux
+The style file: plain.bst
+Database file #1: AuthorA.bib
+Database file #2: JournalA.bib
+Database file #3: JepBib.bib
+Warning--to sort, need author, editor, or key in Xbook
+Warning--to sort, need author or key in Xphdthesis
+Warning--to sort, need author or key in Xincollection
+Warning--empty author in Xphdthesis
+Warning--empty title in Xphdthesis
+Warning--empty school in Xphdthesis
+Warning--empty year in Xphdthesis
+Warning--empty author in Xincollection
+Warning--empty title in Xincollection
+Warning--empty booktitle in Xincollection
+Warning--can't use both volume and number fields in Xincollection
+Warning--empty publisher in Xincollection
+Warning--there's a month but no year in Xincollection
+Warning--empty author and editor in Xbook
+Warning--empty title in Xbook
+Warning--empty publisher in Xbook
+You've used 97 entries,
+            2118 wiz_defined-function locations,
+            1357 strings with 20307 characters,
+and the built_in function-call counts, 34729 in all, are:
+= -- 3403
+> -- 1975
+< -- 3
++ -- 805
+- -- 686
+* -- 2677
+:= -- 5940
+add.period$ -- 292
+call.type$ -- 97
+change.case$ -- 631
+chr.to.int$ -- 0
+cite$ -- 113
+duplicate$ -- 1013
+empty$ -- 2442
+format.name$ -- 686
+if$ -- 6909
+int.to.chr$ -- 0
+int.to.str$ -- 97
+missing$ -- 82
+newline$ -- 489
+num.names$ -- 188
+pop$ -- 578
+preamble$ -- 2
+purify$ -- 537
+quote$ -- 0
+skip$ -- 686
+stack$ -- 0
+substring$ -- 2416
+swap$ -- 101
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 382
+warning$ -- 16
+while$ -- 334
+width$ -- 99
+write$ -- 1047
+(There were 16 warnings)
