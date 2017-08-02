@@ -1,3 +1,3 @@
 #!/bin/bash
 
-scp *.html 72c1de6f9c9b4d029b008ebbdb927f73@compute4-us.sagemath.com:webpage/
+scp *.html 72c1de6f9c9b4d029b008ebbdb927f73@compute6-us.sagemath.com:webpage/
