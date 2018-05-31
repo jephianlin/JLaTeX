@@ -1,5 +1,5 @@
 \newcommand{\noopsort}[1]{}
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{Xphdthesis}
 PhD thesis.
@@ -47,6 +47,25 @@ B.~Ahmadi, F.~Alinaghipour, M.~S. Cavers, S.~M. Fallat, K.~Meagher, and
 \newblock Zero forcing sets and the minimum rank of graphs.
 \newblock {\em Linear Algebra Appl.}, 428:1628--1648, 2008.
 
+\bibitem{ZCritical}
+C.~A. Alfaro and J.~C.-H. Lin.
+\newblock Critical ideals, minimum rank and zero forcing number.
+\newblock \verb|http://arxiv.org/abs/1710.03386|.
+\newblock (under review).
+
+\bibitem{maxcrt}
+R.~Anderson, S.~Bai, F.~Barrera-Cruz, \'{E}. Czabarka, G.~{\noopsort{Da}}{Da
+  Lozzo}, N.~L.~F. Hobson, J.~C.-H. Lin, A.~Mohr, H.~C. Smith, L.~A.
+  Sz\'{e}kely, and H.~Whitlatch.
+\newblock Analogies between the crossing number and the tangle crossing number.
+\newblock \verb|http://arxiv.org/abs/1709.08119|.
+\newblock (under review).
+
+\bibitem{AH14}
+M.~Aouchiche and P.~Hansen.
+\newblock Distance spectra of graphs: {A} survey.
+\newblock {\em Linear Algebra Appl.}, 458:301--386, 2014.
+
 \bibitem{AHLvdH13}
 M.~Arav, F.~J. Hall, Z.~Li, and H.~{\noopsort{Holst}}{van der Holst}.
 \newblock The inertia set of a signed graph.
@@ -61,6 +80,26 @@ M.~Arav, H.~{\noopsort{Holst}}{van der Holst}, and J.~Sinkovic.
 E.~Bannai and T.~Ito.
 \newblock {\em Algebraic Combinatorics {I}: {A}ssociation Schemes}.
 \newblock The Benjamin/Cummings Publishing Company, London, 1984.
+
+\bibitem{BapatGM14}
+R.~B. Bapat.
+\newblock {\em Graphs and Matrices}.
+\newblock Springer-Verlag, London, 2nd edition, 2014.
+
+\bibitem{BKN05}
+R.~B. Bapat, S.~Kirkland, and M.~Neumann.
+\newblock On distance matrices and {L}aplacians.
+\newblock {\em Linear Algebra Appl.}, 401:193--209, 2005.
+
+\bibitem{BLP06}
+R.~B. Bapat, A.~K. Lal, and S.~Pati.
+\newblock A {$q$}-analogue of the distance matrix of a tree.
+\newblock {\em Linear Algebra Appl.}, 416:799--814, 2006.
+
+\bibitem{BP09}
+R.~B. Bapat and P.~Rekhi.
+\newblock Inverses of {$q$}-distance matrices of a tree.
+\newblock {\em Linear Algebra Appl.}, 431:1932--1939, 2009.
 
 \bibitem{GCC}
 F.~Barioli, W.~Barrett, S.~M. Fallat, H.~T. Hall, L.~Hogben, and
@@ -82,6 +121,12 @@ F.~Barioli, W.~Barrett, S.~M. Fallat, H.~T. Hall, L.~Hogben, B.~Shader,
 \newblock Parameters related to tree-width, zero forcing, and maximum nullity
   of a graph.
 \newblock {\em J.~Graph Theory}, 72:146--177, 2013.
+
+\bibitem{BF04}
+F.~Barioli and S.~M. Fallat.
+\newblock On two conjectures regarding an inverse eigenvalue problem for
+  acyclic symmetric matrices.
+\newblock {\em Electron.\ J.\ Linear Algebra}, 11:41--50, 2004.
 
 \bibitem{square1}
 F.~Barioli, S.~M. Fallat, H.~T. Hall, D.~Hershkowitz, L.~Hogben,
@@ -107,12 +152,19 @@ F.~Barioli, S.~M. Fallat, and L.~Hogben.
   Implications to the minimum rank of graphs.
 \newblock {\em Electron.\ J.\ Linear Algebra}, 13:387--404, 2005.
 
+\bibitem{IEPG2}
+W.~Barrett, S.~Butler, S.~M. Fallat, H.~T. Hall, L.~Hogben, J.~C.-H. Lin,
+  B.~Shader, and M.~Young.
+\newblock The inverse eigenvalue problem of a graph: {M}ultiplicities and
+  minors.
+\newblock \verb|https://arxiv.org/abs/1708.00064|.
+\newblock (under review).
+
 \bibitem{gSAP}
 W.~Barrett, S.~M. Fallat, H.~T. Hall, L.~Hogben, J.~C.-H. Lin, and B.~Shader.
 \newblock Generalizations of the {S}trong {A}rnold {P}roperty and the minimum
   number of distinct eigenvalues of a graph.
-\newblock \verb|http://arxiv.org/abs/1511.06705|.
-\newblock (under review).
+\newblock {\em Electron.\ J.\ Combin.}, 24:P2.40, 2017.
 
 \bibitem{BHL09}
 W.~Barrett, H.~T. Hall, and R.~Loewy.
@@ -137,6 +189,12 @@ A.~Berman, S.~Friedland, L.~Hogben, U.~G. Rothblum, and B.~Shader.
 \newblock An upper bound for the minimum rank of a graph.
 \newblock {\em Linear Algebra Appl.}, 429:1629--1638, 2008.
 
+\bibitem{BDMOvdD12}
+E.~Bodine, L.~Deaett, J.~J. McDonald, D.~D. Olesky, and
+  P.~{\noopsort{Driessche}}{van den Driessche}.
+\newblock Sign patterns that require or allow particular refined inertias.
+\newblock {\em Linear Algebra Appl.}, 437:2228--2242, 2012.
+
 \bibitem{loopEGR}
 C.~Bozeman, A.~Ellsworth, L.~Hogben, J.~C.-H. Lin, G.~Maurer, K.~Nowak,
   A.~Rodriguez, and J.~Strickland.
@@ -153,7 +211,7 @@ B.~Bre\v{s}ar, Cs. Bujt\'{a}s, T.~Gologranc, S.~Klav\v{z}ar, G.~Ko\v{s}mrlj,
 B.~Bre\v{s}ar, Cs. Bujt\'{a}s, T.~Gologranc, S.~Klav\v{z}ar, G.~Ko\v{s}mrlj,
   B.~Patk\'{o}s, Zs. Tuza, and M.~Vizer.
 \newblock Grundy dominating sequences and zero forcing sets.
-\newblock \verb|https://arxiv.org/abs/1702.00828|, 2017.
+\newblock {\em Discrete Optim.}, 26:66--77, 2017.
 
 \bibitem{BGK16}
 B.~Bre\v{s}ar, T.~Gologranc, and T.~Kos.
@@ -175,6 +233,17 @@ B.~Bre\v{s}ar, M.~A. Henning, and D.~F. Rall.
 B.~Bre\v{s}ar, S.~Klav\v{z}ar, and D.~F. Rall.
 \newblock Domination game and an imagination strategy.
 \newblock {\em SIAM J.\ Discrete Math.}, 24:979--991, 2010.
+
+\bibitem{Google}
+S.~Brin and L.~Page.
+\newblock The anatomy of a large-scale hypertextual web search engine.
+\newblock {\em Computer Networks and ISDN Systems}, 30:107--117, 1998.
+
+\bibitem{BMOvdD04}
+T.~Britz, J.~J. McDonald, D.~D. Olesky, and P.~{\noopsort{Driessche}}{van den
+  Driessche}.
+\newblock Minimal spectrally arbitrary sign patterns.
+\newblock {\em SIAM J.\ Matrix Anal.\ Appl.}, 26:257--271, 2004.
 
 \bibitem{AIMrpt}
 R.~A. Brualdi, L.~Hogben, and B.~Shader.
@@ -204,6 +273,23 @@ S.~Butler, J.~Grout, and H.~T. Hall.
 \newblock Using variants of zero forcing to bound the inertia set of a graph.
 \newblock {\em Electron.\ J.\ Linear Algebra}, 30:1--18, 2015.
 
+\bibitem{COvdD09}
+M.~Catral, D.~D. Olesky, and P.~{\noopsort{Driessche}}{van den Driessche}.
+\newblock Allow problems concerning spectral properties of sign pattern
+  matrices: A survey.
+\newblock {\em Linear Algebra Appl.}, 430:3080--3094, 2009.
+
+\bibitem{CGKOvdD13}
+M.~S. Cavers, C.~Garnett, I.-J. Kim, D.~D. Olesky, and
+  P.~{\noopsort{Driessche}}{van den Driessche}.
+\newblock Techniques for identifying inertially arbitrary patterns.
+\newblock {\em Electron.\ J.\ Linear Algebra}, 26:71--89, 2013.
+
+\bibitem{CVM05}
+M.~S. Cavers and K.~Vander Meulen.
+\newblock Spectrally and inertially arbitrary sign patterns.
+\newblock {\em Linear Algebra Appl.}, 394:53--72, 2005.
+
 \bibitem{GJpower}
 G.~J. Chang and J.~C.-H. Lin.
 \newblock Minimum rank of powers of cycles and trees.
@@ -229,6 +315,12 @@ Y.~{\noopsort{Colin}}{Colin de Verdi\`ere}.
 Y.~{\noopsort{Colin}}{Colin de Verdi\`ere}.
 \newblock Multiplicities of eigenvalues and tree-width graphs.
 \newblock {\em J.\ Combin. Theory Ser.~B}, 74:121--146, 1998.
+
+\bibitem{CLO15}
+D.~Cox, J.~Little, and D.~O'Shea.
+\newblock {\em Ideals, Varieties, and Algorithms: An Introduction to
+  Computational Algebraic Geometry and Commutative Algebra}.
+\newblock Springer, 4th edition, 2015.
 
 \bibitem{entropy}
 M.~Dairyko, L.~Hogben, J.~C.-H. Lin, J.~Lockhart, D.~Roberson, S.~Severini, and
@@ -262,6 +354,12 @@ R.~Diestel.
 \newblock {\em Graph Theory}.
 \newblock Springer-Verlag, Heidelberg, 4th edition, 2010.
 \newblock Electronic edition, 2012.
+
+\bibitem{DJOvdD00}
+J.~H. Drew, C.~R. Johnson, D.~D. Olesky, and P.~{\noopsort{Driessche}}{van den
+  Driessche}.
+\newblock Spectrally arbitrary patterns.
+\newblock {\em Linear Algebra Appl.}, 308:121--137, 2000.
 
 \bibitem{EHHLR}
 C.~J. Edholm, L.~Hogben, M.~Huynh, J.~LaGrange, and D.~D. Row.
@@ -298,6 +396,21 @@ M.~Fiedler.
 \newblock A characterization of tridiagonal matrices.
 \newblock {\em Linear Algebra Appl.}, 2:191--197, 1969.
 
+\bibitem{Gantmacher59}
+F.~R. Gantmacher.
+\newblock {\em The Theory of Matrices}, volume~II.
+\newblock Chelsea, New York, 1959.
+
+\bibitem{GS06}
+Y.~Gao and Y.~Shao.
+\newblock Inertia sets of symmetric $2$-generalized star sign patterns.
+\newblock {\em Linear Multilinear Algebra}, 54:27--35, 2006.
+
+\bibitem{Godsil84}
+C.~Godsil.
+\newblock Spectra of trees.
+\newblock {\em Annals of Discrete Math.}, 20:151--159, 1984.
+
 \bibitem{Gol09}
 F.~Goldberg.
 \newblock On the {C}olin de {V}erdi\`ere numbers of {C}artesian graph.
@@ -312,6 +425,11 @@ F.~Goldberg and A.~Berman.
 F.~Goldberg and A.~Berman.
 \newblock Zero forcing for sign patterns.
 \newblock {\em Linear Algebra Appl.}, 447:56--67, 2014.
+
+\bibitem{GHH77}
+R.~L. Graham, A.~J. Hoffman, and H.~Hosoya.
+\newblock On the distance matrix of a directed graph.
+\newblock {\em J.~Graph Theory}, 1:85--88, 1977.
 
 \bibitem{GL78}
 R.~L. Graham and L.~Lov{\'a}sz.
@@ -345,9 +463,15 @@ W.~H. Haemers.
   graphs.
 \newblock {\em IEEE Trans.\ Inform.\ Theory}, 25:231--232, 1979.
 
+\bibitem{HLW01}
+F.~J. Hall, Z.~Li, and D.~Wang.
+\newblock Symmetric sign pattern matrices that require unique inertia.
+\newblock {\em Linear Algebra Appl.}, 338:153--169, 2001.
+
 \bibitem{Hdelta}
 H.~T. Hall.
-\newblock \verb|http://www.math.iastate.edu/news/fp8.html|, 2011.
+\newblock {M}aehara's conjecture, the delta theorem, and the greedegree of a
+  graph, 2017.
 
 \bibitem{HHMS10}
 H.~T. Hall, L.~Hogben, R.~R. Martin, and B.~Shader.
@@ -424,6 +548,11 @@ L.-H. Huang, G.~J. Chang, and H.-G. Yeh.
 \newblock Minimum rank of skew-symmetric matrices described by a graph.
 \newblock {\em Linear Algebra Appl.}, 432:2457--2472, 2010.
 
+\bibitem{JKvdD97}
+C.~Jeffries, V.~Klee, and P.~{\noopsort{Driessche}}{van den Driessche}.
+\newblock When is a matrix sign stable?
+\newblock {\em Canad.\ J.\ Math.}, 29:315--326, 1997.
+
 \bibitem{JL99}
 C.~R. Johnson and A.~{\noopsort{Leal}}{Leal Duarte}.
 \newblock The maximum multiplicity of an eigenvalue in a matrix whose graph is
@@ -436,11 +565,28 @@ C.~R. Johnson, R.~Loewy, and P.~A. Smith.
   two.
 \newblock {\em Linear Multilinear Algebra}, 57:713--736, 2009.
 
+\bibitem{Jones50}
+B.~W. Jones.
+\newblock {\em The Arithmetic Theory of Quadratic Forms}.
+\newblock The Mathematical Association of America, 1950.
+
+\bibitem{FKpriori}
+F.~H.~J. Kenter and J.~C.-H. Lin.
+\newblock On the error of a priori sampling: {Z}ero forcing sets and
+  propagation time.
+\newblock \verb|http://arxiv.org/abs/1709.08740|.
+\newblock (under review).
+
 \bibitem{KLV}
 A.~Kotlov, L.~Lov{\'a}sz, and S.~Vempala.
 \newblock The {C}olin de {V}erdi\`ere number and sphere representations of a
   graph.
 \newblock {\em Combinatorica}, 17:483--521, 1997.
+
+\bibitem{LLL15}
+H.~Lin, R.~Liu, and X.~Lu.
+\newblock The inertia and energy of the distance matrix of a connected graph.
+\newblock {\em Linear Algebra Appl.}, 467:29--39, 2015.
 
 \bibitem{SageZsap}
 J.~C.-H. Lin.
@@ -449,6 +595,12 @@ J.~C.-H. Lin.
   \url{https://sage.math.iastate.edu/home/pub/54/}. \textit{Sage} worksheet
   available at
   \url{https://github.com/jephianlin/publish/raw/master/VariationsOfZsap.sws}.
+
+\bibitem{ZGrundy}
+J.~C.-H. Lin.
+\newblock Zero forcing number, {G}rundy domination number, and their variants.
+\newblock \verb|http://arxiv.org/abs/1706.00798|.
+\newblock (under review).
 
 \bibitem{FCnumbers}
 J.~C.-H. Lin.
@@ -472,6 +624,11 @@ J.~C.-H. Lin.
 \newblock Using a new zero forcing process to guarantee the {S}trong {A}rnold
   {P}roperty.
 \newblock {\em Linear Algebra Appl.}, 507:229--250, 2016.
+
+\bibitem{UI}
+J.~C.-H. Lin, D.~D. Olesky, and P.~{\noopsort{Driessche}}{van den Driessche}.
+\newblock Sign patterns requiring a unique inertia.
+\newblock {\em Linear Algebra Appl.}, 546:67--85, 2018.
 
 \bibitem{Ortho}
 L.~Lov{\'a}sz, M.~Saks, and A.~Schrijver.
@@ -500,11 +657,21 @@ R.~Mikkelson.
 \newblock {\em Minimum rank of graphs that allow loops}.
 \newblock PhD thesis, Iowa State University, 2008.
 
+\bibitem{MK18}
+K.~H. Monfared and E.~Khanmohammadi.
+\newblock A structured inverse spectrum problem for infinite graphs.
+\newblock {\em Linear Algebra Appl.}, 539:28--43, 2018.
+
 \bibitem{MS13}
 K.~H. Monfared and B.~Shader.
 \newblock Construction of matrices with a given graph and prescribed interlaced
   spectral data.
 \newblock {\em Linear Algebra Appl.}, 438:4348--4358, 2013.
+
+\bibitem{ORvdD13}
+D.~D. Olesky, M.~F. Rempel, and P.~{\noopsort{Driessche}}{van den Driessche}.
+\newblock Refined inertias of tree sign patterns of orders 2 and 3.
+\newblock {\em Involve}, 6:1--12, 2013.
 
 \bibitem{RST93}
 N.~Robertson, P.~Seymour, and R.~Thomas.
@@ -512,15 +679,31 @@ N.~Robertson, P.~Seymour, and R.~Thomas.
 \newblock In {\it Graph Structure Theory}, pp. 125--136, American Mathematical
   Society, Providence, RI, 1993.
 
+\bibitem{Sa12}
+E.~M. S\'a.
+\newblock The inertia sets of symmetric tridiagonal sign-patterns.
+\newblock {\em Linear Algebra Appl.}, 436:1754--1762, 2012.
+
 \bibitem{SS16}
 A.~Schrijver and B.~Sevenster.
 \newblock The {S}trong {A}rnold {P}roperty for $4$-connected flat graphs.
 \newblock \verb|http://arxiv.org/abs/1512.03200|.
 
+\bibitem{SSG04}
+Y.~Shao, L.~Sun, and Y.~Gao.
+\newblock Inertia sets of two classes of symmetric sign patterns.
+\newblock {\em Linear Algebra Appl.}, 384:85--95, 2004.
+
 \bibitem{Sink}
 J.~Sinkovic.
 \newblock Maximum nullity of outerplanar graphs and the path cover number.
 \newblock {\em Linear Algebra Appl.}, 432:2052--2060, 2010.
+
+\bibitem{Sink17}
+J.~Sinkovic.
+\newblock A graph for which the inertia bound is not tight.
+\newblock {\em J.\ Algebraic Combin.}, 2017.
+\newblock \verb|https://doi.org/10.1007/s10801-017-0768-0|.
 
 \bibitem{SvdH}
 J.~Sinkovic and H.~{\noopsort{Holst}}{van der Holst}.
@@ -547,5 +730,16 @@ M.~Valencia-Pabon and J.-C. Vera.
 P.~M. Winkler.
 \newblock Proof of the squashed cube conjecture.
 \newblock {\em Combinatorica}, 3:135--139, 1983.
+
+\bibitem{YY06}
+W.~Yan and Y.-N. Yeh.
+\newblock A simple proof of {G}raham and {P}ollak's theorem.
+\newblock {\em J.\ Combin. Theory Ser.~A}, 113:892--893, 2006.
+
+\bibitem{YY07}
+W.~Yan and Y.-N. Yeh.
+\newblock The determinants of {$q$}-distance matrices of trees and two
+  quantities relating to permutations.
+\newblock {\em Adv.\ in Appl.\ Math.}, 39:311--321, 2007.
 
 \end{thebibliography}
