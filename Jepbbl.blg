@@ -21,45 +21,45 @@ Warning--there's a month but no year in Xincollection
 Warning--empty author and editor in Xbook
 Warning--empty title in Xbook
 Warning--empty publisher in Xbook
-You've used 132 entries,
+You've used 133 entries,
             2118 wiz_defined-function locations,
-            1621 strings with 25394 characters,
-and the built_in function-call counts, 46347 in all, are:
-= -- 4571
-> -- 2568
+            1627 strings with 25534 characters,
+and the built_in function-call counts, 46596 in all, are:
+= -- 4595
+> -- 2581
 < -- 4
-+ -- 1049
-- -- 884
-* -- 3508
-:= -- 7938
-add.period$ -- 402
-call.type$ -- 132
-change.case$ -- 833
++ -- 1054
+- -- 888
+* -- 3517
+:= -- 7980
+add.period$ -- 406
+call.type$ -- 133
+change.case$ -- 838
 chr.to.int$ -- 0
-cite$ -- 148
-duplicate$ -- 1389
-empty$ -- 3298
-format.name$ -- 884
-if$ -- 9246
+cite$ -- 149
+duplicate$ -- 1396
+empty$ -- 3320
+format.name$ -- 888
+if$ -- 9300
 int.to.chr$ -- 0
-int.to.str$ -- 132
+int.to.str$ -- 133
 missing$ -- 118
-newline$ -- 669
-num.names$ -- 258
-pop$ -- 758
+newline$ -- 675
+num.names$ -- 260
+pop$ -- 769
 preamble$ -- 2
-purify$ -- 706
+purify$ -- 710
 quote$ -- 0
-skip$ -- 930
+skip$ -- 936
 stack$ -- 0
-substring$ -- 3222
-swap$ -- 137
+substring$ -- 3227
+swap$ -- 138
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 514
+type$ -- 518
 warning$ -- 16
-while$ -- 457
-width$ -- 135
-write$ -- 1435
+while$ -- 459
+width$ -- 136
+write$ -- 1446
 (There were 16 warnings)

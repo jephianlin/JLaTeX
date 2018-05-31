@@ -300,6 +300,12 @@ G.~J. Chang and J.~C.-H. Lin.
 \newblock Counterexamples to an edge spread question for zero forcing number.
 \newblock {\em Linear Algebra Appl.}, 446:192--195, 2014.
 
+\bibitem{det_distance}
+Y.-J. Cheng and J.~C.-H. Lin.
+\newblock On the distance matrices of the {CP} graphs.
+\newblock \verb|https://arxiv.org/abs/1805.10269|.
+\newblock (under review).
+
 \bibitem{CdVF}
 Y.~{\noopsort{Colin}}{Colin de Verdi\`ere}.
 \newblock Sur un nouvel invariant des graphes et un crit\`ere de planarit\'e.
