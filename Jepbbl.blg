@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Jepbbl.aux
 The style file: plain.bst
 Database file #1: AuthorA.bib
@@ -21,45 +21,45 @@ Warning--there's a month but no year in Xincollection
 Warning--empty author and editor in Xbook
 Warning--empty title in Xbook
 Warning--empty publisher in Xbook
-You've used 133 entries,
+You've used 151 entries,
             2118 wiz_defined-function locations,
-            1627 strings with 25534 characters,
-and the built_in function-call counts, 46596 in all, are:
-= -- 4595
-> -- 2581
+            1754 strings with 28132 characters,
+and the built_in function-call counts, 52448 in all, are:
+= -- 5169
+> -- 2892
 < -- 4
-+ -- 1054
-- -- 888
-* -- 3517
-:= -- 7980
-add.period$ -- 406
-call.type$ -- 133
-change.case$ -- 838
++ -- 1181
+- -- 994
+* -- 3935
+:= -- 8994
+add.period$ -- 460
+call.type$ -- 151
+change.case$ -- 942
 chr.to.int$ -- 0
-cite$ -- 149
-duplicate$ -- 1396
-empty$ -- 3320
-format.name$ -- 888
-if$ -- 9300
+cite$ -- 167
+duplicate$ -- 1587
+empty$ -- 3749
+format.name$ -- 994
+if$ -- 10468
 int.to.chr$ -- 0
-int.to.str$ -- 133
-missing$ -- 118
-newline$ -- 675
-num.names$ -- 260
-pop$ -- 769
+int.to.str$ -- 151
+missing$ -- 135
+newline$ -- 765
+num.names$ -- 296
+pop$ -- 868
 preamble$ -- 2
-purify$ -- 710
+purify$ -- 799
 quote$ -- 0
-skip$ -- 936
+skip$ -- 1061
 stack$ -- 0
-substring$ -- 3227
-swap$ -- 138
+substring$ -- 3610
+swap$ -- 158
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 518
+type$ -- 586
 warning$ -- 16
-while$ -- 459
-width$ -- 136
-write$ -- 1446
+while$ -- 518
+width$ -- 154
+write$ -- 1638
 (There were 16 warnings)

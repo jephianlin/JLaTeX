@@ -23,8 +23,7 @@ G.~Aalipour, A.~Abiad, Z.~Berikkyzy, L.~Hogben, F.~H.~J. Kenter, J.~C.-H. Lin,
 \newblock Proof of a conjecture of {G}raham and {L}ov{\'a}sz concerning
   unimodality of coefficients of the distance characteristic polynomial of a
   tree.
-\newblock \verb|http://arxiv.org/abs/1507.02341|.
-\newblock (under review).
+\newblock {\em Electron.\ J.\ Linear Algebra}, 34:373--380, 2018.
 
 \bibitem{AACFMN13Erratum}
 B.~Ahmadi, F.~Alinaghipour, M.~S. Cavers, S.~M. Fallat, K.~Meagher, and
@@ -58,8 +57,12 @@ R.~Anderson, S.~Bai, F.~Barrera-Cruz, \'{E}. Czabarka, G.~{\noopsort{Da}}{Da
   Lozzo}, N.~L.~F. Hobson, J.~C.-H. Lin, A.~Mohr, H.~C. Smith, L.~A.
   Sz\'{e}kely, and H.~Whitlatch.
 \newblock Analogies between the crossing number and the tangle crossing number.
-\newblock \verb|http://arxiv.org/abs/1709.08119|.
-\newblock (under review).
+\newblock {\em Electron.\ J.\ Combin.}, 25:P4.24, 2018.
+
+\bibitem{AF84}
+R.~Anstee and M.~Farber.
+\newblock Characterizations of totally balanced matrices.
+\newblock {\em J.\ Algorithms}, 5:215--230, 1984.
 
 \bibitem{AH14}
 M.~Aouchiche and P.~Hansen.
@@ -172,6 +175,19 @@ W.~Barrett, H.~T. Hall, and R.~Loewy.
   counterexample.
 \newblock {\em Linear Algebra Appl.}, 431:1147--1191, 2009.
 
+\bibitem{BLMNSSSY13}
+W.~Barrett, A.~Lazenby, N.~Malloy, C.~Nelson, W.~Sexton, R.~Smith, J.~Sinkovic,
+  and T.~Yang.
+\newblock The combinatorial inverse eigenvalue problems: complete graphs and
+  small graphs with strict inequality.
+\newblock {\em Electron.\ J.\ Linear Algebra}, 26:656--672, 2013.
+
+\bibitem{BNSY14}
+W.~Barrett, C.~Nelson, J.~Sinkovic, and T.~Yang.
+\newblock The combinatorial inverse eigenvalue problem {II}: all cases for
+  small graphs.
+\newblock {\em Electron.\ J.\ Linear Algebra}, 27:742--778, 2014.
+
 \bibitem{BLD}
 A.~Bento and A.~{\noopsort{Leal}}{Leal Duarte}.
 \newblock On {F}iedler's characterization of tridiagonal matrices over
@@ -245,6 +261,11 @@ T.~Britz, J.~J. McDonald, D.~D. Olesky, and P.~{\noopsort{Driessche}}{van den
 \newblock Minimal spectrally arbitrary sign patterns.
 \newblock {\em SIAM J.\ Matrix Anal.\ Appl.}, 26:257--271, 2004.
 
+\bibitem{BHSoG12}
+A.~E. Brouwer and W.~H. Haemers.
+\newblock {\em Spectra of Graphs}.
+\newblock Springer-Verlag, New York, 2012.
+
 \bibitem{AIMrpt}
 R.~A. Brualdi, L.~Hogben, and B.~Shader.
 \newblock {AIM} {W}orkshop on {S}pectra of {F}amilies of {M}atrices {D}escribed
@@ -261,6 +282,13 @@ D.~Burgarth and V.~Giovannetti.
 D.~Burgarth, V.~Giovannetti, L.~Hogben, S.~Severini, and M.~Young.
 \newblock Logic circuits from zero forcing.
 \newblock {\em Nat.\ Comput.}, 14:485--490, 2015.
+
+\bibitem{AIMZq}
+S.~Butler, C.~Erickson, S.~M. Fallat, H.~T. Hall, B.~Kroschel, J.~C.-H. Lin,
+  B.~Shader, N.~Warnberg, and B.~Yang.
+\newblock Properties of a {$q$}-analogue of zero forcing.
+\newblock \verb|https://arxiv.org/abs/1809.07640|.
+\newblock (under review).
 
 \bibitem{RAP}
 S.~Butler, C.~Erickson, L.~Hogben, K.~Hogenson, L.~Kramer, R.~L. Kramer,
@@ -361,6 +389,11 @@ R.~Diestel.
 \newblock Springer-Verlag, Heidelberg, 4th edition, 2010.
 \newblock Electronic edition, 2012.
 
+\bibitem{DH56}
+A.~C. {\noopsort{Downing}}{Downing Jr.} and A.~S. Householder.
+\newblock Some inverse characteristic value problems.
+\newblock {\em J.\ ACM}, 3:203--207, 1956.
+
 \bibitem{DJOvdD00}
 J.~H. Drew, C.~R. Johnson, D.~D. Olesky, and P.~{\noopsort{Driessche}}{van den
   Driessche}.
@@ -397,6 +430,18 @@ S.~M. Fallat, K.~Meagher, and B.~Yang.
 \newblock On the complexity of the positive semidefinite zero forcing number.
 \newblock {\em Linear Algebra Appl.}, 491:101--122, 2016.
 
+\bibitem{Farber83}
+M.~Farber.
+\newblock Characterizations of strongly chordal graphs.
+\newblock {\em Discrete Math.}, 43:173--189, 1983.
+
+\bibitem{AIM17PartialZF}
+D.~Ferrero, M.~Flagg, H.~T. Hall, L.~Hogben, J.~C.-H. Lin, S.~Meyer,
+  S.~Nasserasr, and B.~Shader.
+\newblock Rigid linkages and partial zero forcing.
+\newblock \verb|https://arxiv.org/abs/1808.05553|.
+\newblock (under review).
+
 \bibitem{Fied}
 M.~Fiedler.
 \newblock A characterization of tridiagonal matrices.
@@ -411,6 +456,11 @@ F.~R. Gantmacher.
 Y.~Gao and Y.~Shao.
 \newblock Inertia sets of symmetric $2$-generalized star sign patterns.
 \newblock {\em Linear Multilinear Algebra}, 54:27--35, 2006.
+
+\bibitem{GladwellIPiV05}
+G.~M.~L. Gladwell.
+\newblock {\em Inverse Problems in Vibration}.
+\newblock Springer, Netherlands, 2nd edition, 2005.
 
 \bibitem{Godsil84}
 C.~Godsil.
@@ -485,10 +535,26 @@ H.~T. Hall, L.~Hogben, R.~R. Martin, and B.~Shader.
   graph.
 \newblock {\em Linear Algebra Appl.}, 433:101--117, 2010.
 
+\bibitem{HHMR18}
+P.~Hell, J.~Huang, R.~M. McConnell, and A.~Rafiey.
+\newblock Interval-like graphs and digraphs.
+\newblock {\em Proceedings of 43rd International Symposium on Mathematical
+  Foundations of Computer Science}, 2018.
+
 \bibitem{HKR15}
 M.~A. Henning, S.~Klav\v{z}ar, and D.~F. Rall.
 \newblock Total version of the domination game.
 \newblock {\em Graphs Combin.}, 31:1453--1462, 2015.
+
+\bibitem{Hochstadt67}
+H.~Hochstadt.
+\newblock On some inverse problems in matrix theory.
+\newblock {\em Arch.\ Math.\ (Basel)}, 18:201--207, 1967.
+
+\bibitem{Hochstadt74}
+H.~Hochstadt.
+\newblock On the construction of a {J}acobi matrix from spectral data.
+\newblock {\em Linear Algebra Appl.}, 8:435--446, 1974.
 
 \bibitem{Hogben08}
 L.~Hogben.
@@ -511,6 +577,13 @@ L.~Hogben and H.~{\noopsort{Holst}}{van der Holst}.
 \newblock Forbidden minors for the class of graphs {$G$} with $\xi({G}) \leq
   2$.
 \newblock {\em Linear Algebra Appl.}, 423:42--52, 2007.
+
+\bibitem{sepr-pattern}
+L.~Hogben, J.~C.-H. Lin, D.~D. Olesky, and P.~{\noopsort{Driessche}}{van den
+  Driessche}.
+\newblock The sepr-sets of sign patterns.
+\newblock \verb|http://arxiv.org/abs/1807.04874|.
+\newblock (under review).
 
 \bibitem{MultiNG}
 L.~Hogben, J.~C.-H. Lin, and M.~Young.
@@ -541,6 +614,12 @@ H.~{\noopsort{Holst}}{van der Holst}, L.~Lov{\'a}sz, and A.~Schrijver.
 \newblock In {\it Graph Theory and Computational Biology (Balatonlelle, 1996)},
   pp. 29--85, Janos Bolyai Math. Soc., Budapest, 1999.
 
+\bibitem{JHuang18}
+J.~Huang.
+\newblock Non-edge orientation and vertex ordering characterizations of some
+  classes of bigraphs.
+\newblock {\em Discrete Appl.\ Math.}, 245:190--193, 2018.
+
 \bibitem{Yeh}
 L.-H. Huang, G.~J. Chang, and H.-G. Yeh.
 \newblock On minimum rank and zero forcing sets of a graph.
@@ -554,10 +633,10 @@ L.-H. Huang, G.~J. Chang, and H.-G. Yeh.
 \newblock Minimum rank of skew-symmetric matrices described by a graph.
 \newblock {\em Linear Algebra Appl.}, 432:2457--2472, 2010.
 
-\bibitem{JKvdD97}
+\bibitem{JKvdD77}
 C.~Jeffries, V.~Klee, and P.~{\noopsort{Driessche}}{van den Driessche}.
 \newblock When is a matrix sign stable?
-\newblock {\em Canad.\ J.\ Math.}, 29:315--326, 1997.
+\newblock {\em Canad.\ J.\ Math.}, 29:315--326, 1977.
 
 \bibitem{JL99}
 C.~R. Johnson and A.~{\noopsort{Leal}}{Leal Duarte}.
@@ -580,8 +659,8 @@ B.~W. Jones.
 F.~H.~J. Kenter and J.~C.-H. Lin.
 \newblock On the error of a priori sampling: {Z}ero forcing sets and
   propagation time.
-\newblock \verb|http://arxiv.org/abs/1709.08740|.
-\newblock (under review).
+\newblock \verb|https://doi.org/10.1016/j.laa.2018.03.031|.
+\newblock (to appear in \emph{Linear Algebra Appl.}).
 
 \bibitem{KLV}
 A.~Kotlov, L.~Lov{\'a}sz, and S.~Vempala.
@@ -594,6 +673,11 @@ H.~Lin, R.~Liu, and X.~Lu.
 \newblock The inertia and energy of the distance matrix of a connected graph.
 \newblock {\em Linear Algebra Appl.}, 467:29--39, 2015.
 
+\bibitem{minrank_aux}
+J.~C.-H. Lin.
+\newblock Auxiliary tools in \textit{Sage} for the minimum rank problem.
+\newblock \url{https://github.com/jephianlin/minrank_aux}.
+
 \bibitem{SageZsap}
 J.~C.-H. Lin.
 \newblock \textit{Sage} code for {$Z_{\mathrm{SAP}}$} related parameters.
@@ -601,12 +685,6 @@ J.~C.-H. Lin.
   \url{https://sage.math.iastate.edu/home/pub/54/}. \textit{Sage} worksheet
   available at
   \url{https://github.com/jephianlin/publish/raw/master/VariationsOfZsap.sws}.
-
-\bibitem{ZGrundy}
-J.~C.-H. Lin.
-\newblock Zero forcing number, {G}rundy domination number, and their variants.
-\newblock \verb|http://arxiv.org/abs/1706.00798|.
-\newblock (under review).
 
 \bibitem{FCnumbers}
 J.~C.-H. Lin.
@@ -630,6 +708,11 @@ J.~C.-H. Lin.
 \newblock Using a new zero forcing process to guarantee the {S}trong {A}rnold
   {P}roperty.
 \newblock {\em Linear Algebra Appl.}, 507:229--250, 2016.
+
+\bibitem{ZGrundy}
+J.~C.-H. Lin.
+\newblock Zero forcing number, {G}rundy domination number, and their variants.
+\newblock {\em Linear Algebra Appl.}, 563:240--254, 2018.
 
 \bibitem{UI}
 J.~C.-H. Lin, D.~D. Olesky, and P.~{\noopsort{Driessche}}{van den Driessche}.
@@ -679,6 +762,11 @@ D.~D. Olesky, M.~F. Rempel, and P.~{\noopsort{Driessche}}{van den Driessche}.
 \newblock Refined inertias of tree sign patterns of orders 2 and 3.
 \newblock {\em Involve}, 6:1--12, 2013.
 
+\bibitem{QR65}
+J.~Quirk and R.~Ruppert.
+\newblock Qualitative economics and the stability of equilibrium.
+\newblock {\em Rev.\ Economic Studies}, 32:311--326, 1965.
+
 \bibitem{RST93}
 N.~Robertson, P.~Seymour, and R.~Thomas.
 \newblock A survey of linkless embeddings.
@@ -689,6 +777,11 @@ N.~Robertson, P.~Seymour, and R.~Thomas.
 E.~M. S\'a.
 \newblock The inertia sets of symmetric tridiagonal sign-patterns.
 \newblock {\em Linear Algebra Appl.}, 436:1754--1762, 2012.
+
+\bibitem{sage}
+Inc. SageMath.
+\newblock {\em CoCalc Collaborative Computation Online}.
+\newblock \url{https://cocalc.com/}.
 
 \bibitem{SS16}
 A.~Schrijver and B.~Sevenster.
@@ -726,6 +819,11 @@ Test.
 \newblock Test.
 \newblock {\em Linear Algebra Appl.}, Test(Test):Test, Test Test.
 \newblock Test.
+
+\bibitem{sagemath}
+{The Sage Developers}.
+\newblock {\em {S}ageMath, the {S}age {M}athematics {S}oftware {S}ystem}.
+\newblock \url{http://www.sagemath.org}.
 
 \bibitem{VPV05}
 M.~Valencia-Pabon and J.-C. Vera.
