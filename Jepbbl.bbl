@@ -57,7 +57,7 @@ R.~Anderson, S.~Bai, F.~Barrera-Cruz, \'{E}. Czabarka, G.~{\noopsort{Da}}{Da
   Lozzo}, N.~L.~F. Hobson, J.~C.-H. Lin, A.~Mohr, H.~C. Smith, L.~A.
   Sz\'{e}kely, and H.~Whitlatch.
 \newblock Analogies between the crossing number and the tangle crossing number.
-\newblock {\em Electron.\ J.\ Combin.}, 25:P4.24, 2018.
+\newblock {\em Electron.\ J.\ Combin.}, 25:\#P4.24, 2018.
 
 \bibitem{AF84}
 R.~Anstee and M.~Farber.
@@ -167,7 +167,7 @@ W.~Barrett, S.~Butler, S.~M. Fallat, H.~T. Hall, L.~Hogben, J.~C.-H. Lin,
 W.~Barrett, S.~M. Fallat, H.~T. Hall, L.~Hogben, J.~C.-H. Lin, and B.~Shader.
 \newblock Generalizations of the {S}trong {A}rnold {P}roperty and the minimum
   number of distinct eigenvalues of a graph.
-\newblock {\em Electron.\ J.\ Combin.}, 24:P2.40, 2017.
+\newblock {\em Electron.\ J.\ Combin.}, 24:\#P2.40, 2017.
 
 \bibitem{BHL09}
 W.~Barrett, H.~T. Hall, and R.~Loewy.
@@ -216,6 +216,12 @@ C.~Bozeman, A.~Ellsworth, L.~Hogben, J.~C.-H. Lin, G.~Maurer, K.~Nowak,
   A.~Rodriguez, and J.~Strickland.
 \newblock Minimum rank of graphs with loops.
 \newblock {\em Electron.\ J.\ Linear Algebra}, 27:907--934, 2014.
+
+\bibitem{BLS99}
+A.~Brands{\"a}dt, V.~B. Le, and J.~Spinrad.
+\newblock {\em Graph {C}lasses: {A} {S}urvey ({M}onographs on {D}iscrete
+  {M}athematics and {A}pplications)}.
+\newblock SIAM, 1999.
 
 \bibitem{BBGKKPTV16}
 B.~Bre\v{s}ar, Cs. Bujt\'{a}s, T.~Gologranc, S.~Klav\v{z}ar, G.~Ko\v{s}mrlj,
@@ -273,6 +279,11 @@ R.~A. Brualdi, L.~Hogben, and B.~Shader.
   {R}esults.
 \newblock \verb|http://aimath.org/pastworkshops/matrixspectrumrep.pdf|, 2007.
 
+\bibitem{BS91}
+R.~A. Brualdi and B.~Shader.
+\newblock {\em Matrices of Sign-Solvable Linear Systems}.
+\newblock Cambridge University Press, 1991.
+
 \bibitem{BG07}
 D.~Burgarth and V.~Giovannetti.
 \newblock Full control by locally induced relaxation.
@@ -318,6 +329,12 @@ M.~S. Cavers and K.~Vander Meulen.
 \newblock Spectrally and inertially arbitrary sign patterns.
 \newblock {\em Linear Algebra Appl.}, 394:53--72, 2005.
 
+\bibitem{Chang82}
+G.~J. Chang.
+\newblock {\em $k$-domination and graph covering problems}.
+\newblock PhD thesis, School of OR and IE, Cornell University, Ithaca, N.Y.,
+  1982.
+
 \bibitem{GJpower}
 G.~J. Chang and J.~C.-H. Lin.
 \newblock Minimum rank of powers of cycles and trees.
@@ -330,9 +347,8 @@ G.~J. Chang and J.~C.-H. Lin.
 
 \bibitem{det_distance}
 Y.-J. Cheng and J.~C.-H. Lin.
-\newblock On the distance matrices of the {CP} graphs.
-\newblock \verb|https://arxiv.org/abs/1805.10269|.
-\newblock (under review).
+\newblock Graph families with constant distance determinant.
+\newblock {\em Electron.\ J.\ Combin.}, 25:\#P4.45, 2018.
 
 \bibitem{CdVF}
 Y.~{\noopsort{Colin}}{Colin de Verdi\`ere}.
@@ -457,6 +473,11 @@ Y.~Gao and Y.~Shao.
 \newblock Inertia sets of symmetric $2$-generalized star sign patterns.
 \newblock {\em Linear Multilinear Algebra}, 54:27--35, 2006.
 
+\bibitem{GH64}
+P.~C. Gilmore and A.~J. Hoffman.
+\newblock A characterization of comparability graphs and interval graphs.
+\newblock {\em Canad.\ J.\ Math.}, 16:539--548, 1964.
+
 \bibitem{GladwellIPiV05}
 G.~M.~L. Gladwell.
 \newblock {\em Inverse Problems in Vibration}.
@@ -481,6 +502,11 @@ F.~Goldberg and A.~Berman.
 F.~Goldberg and A.~Berman.
 \newblock Zero forcing for sign patterns.
 \newblock {\em Linear Algebra Appl.}, 447:56--67, 2014.
+
+\bibitem{Golumbic80}
+M.~C. Golumbic.
+\newblock {\em {A}lgorithmic {G}raph {T}heory and {P}erfect {G}raph}.
+\newblock Academic Press, 1980.
 
 \bibitem{GHH77}
 R.~L. Graham, A.~J. Hoffman, and H.~Hosoya.
@@ -534,6 +560,11 @@ H.~T. Hall, L.~Hogben, R.~R. Martin, and B.~Shader.
 \newblock Expected values of parameters associated with the minimum rank of a
   graph.
 \newblock {\em Linear Algebra Appl.}, 433:101--117, 2010.
+
+\bibitem{CoCo}
+P.~Hell, J.~Huang, J.~C.-H. Lin, and R.~M. McConnell.
+\newblock Comparability and cocomparability bigraphs.
+\newblock (in preparation).
 
 \bibitem{HHMR18}
 P.~Hell, J.~Huang, R.~M. McConnell, and A.~Rafiey.
@@ -712,7 +743,7 @@ J.~C.-H. Lin.
 \bibitem{ZGrundy}
 J.~C.-H. Lin.
 \newblock Zero forcing number, {G}rundy domination number, and their variants.
-\newblock {\em Linear Algebra Appl.}, 563:240--254, 2018.
+\newblock {\em Linear Algebra Appl.}, 563:240--254, 2019.
 
 \bibitem{UI}
 J.~C.-H. Lin, D.~D. Olesky, and P.~{\noopsort{Driessche}}{van den Driessche}.
