@@ -49,8 +49,7 @@ B.~Ahmadi, F.~Alinaghipour, M.~S. Cavers, S.~M. Fallat, K.~Meagher, and
 \bibitem{ZCritical}
 C.~A. Alfaro and J.~C.-H. Lin.
 \newblock Critical ideals, minimum rank and zero forcing number.
-\newblock \verb|http://arxiv.org/abs/1710.03386|.
-\newblock (under review).
+\newblock {\em Appl.\ Math.\ Comput.}, 358:305--313, 2019.
 
 \bibitem{maxcrt}
 R.~Anderson, S.~Bai, F.~Barrera-Cruz, \'{E}. Czabarka, G.~{\noopsort{Da}}{Da
@@ -458,10 +457,16 @@ D.~Ferrero, M.~Flagg, H.~T. Hall, L.~Hogben, J.~C.-H. Lin, S.~Meyer,
 \newblock \verb|https://arxiv.org/abs/1808.05553|.
 \newblock (under review).
 
-\bibitem{Fied}
+\bibitem{Fiedler69}
 M.~Fiedler.
 \newblock A characterization of tridiagonal matrices.
 \newblock {\em Linear Algebra Appl.}, 2:191--197, 1969.
+
+\bibitem{Fiedler75}
+M.~Fiedler.
+\newblock A property of eigenvectors of nonnegative symmetric matrices and its
+  application to graph theory.
+\newblock {\em Czechoslovak Math.\ J.}, 25:619--633, 1975.
 
 \bibitem{Gantmacher59}
 F.~R. Gantmacher.
@@ -623,18 +628,18 @@ L.~Hogben, J.~C.-H. Lin, and M.~Young.
 \newblock \verb|http://arxiv.org/abs/1604.08817|.
 \newblock (under review).
 
-\bibitem{vdH95}
+\bibitem{vdHolst95}
 H.~{\noopsort{Holst}}{van der Holst}.
 \newblock A short proof of the planarity characterization of {C}olin de
   {V}erdi\`ere.
 \newblock {\em J.\ Combin. Theory Ser.~B}, 65:269--272, 1995.
 
-\bibitem{vdH02}
+\bibitem{vdHolst02}
 H.~{\noopsort{Holst}}{van der Holst}.
 \newblock Graphs with magnetic schr{\"o}dinger operators of low corank.
 \newblock {\em J.\ Combin. Theory Ser.~B}, 84:311--339, 2002.
 
-\bibitem{vdH08}
+\bibitem{vdHolst08}
 H.~{\noopsort{Holst}}{van der Holst}.
 \newblock The maximum corank of graphs with a 2-separation.
 \newblock {\em Linear Algebra Appl.}, 428:1587--1600, 2008.
@@ -690,8 +695,7 @@ B.~W. Jones.
 F.~H.~J. Kenter and J.~C.-H. Lin.
 \newblock On the error of a priori sampling: {Z}ero forcing sets and
   propagation time.
-\newblock \verb|https://doi.org/10.1016/j.laa.2018.03.031|.
-\newblock (to appear in \emph{Linear Algebra Appl.}).
+\newblock {\em Linear Algebra Appl.}, 576:124--141, 2019.
 
 \bibitem{KLV}
 A.~Kotlov, L.~Lov{\'a}sz, and S.~Vempala.
@@ -761,11 +765,17 @@ L.~Lov{\'a}sz, M.~Saks, and A.~Schrijver.
   graphs.
 \newblock {\em Linear Algebra Appl.}, 313:101--105, 2000.
 
-\bibitem{LSch98}
+\bibitem{LS98}
 L.~Lov{\'a}sz and A.~Schrijver.
 \newblock A {B}orsuk theorem for antipodal links and a spectral
   characterization of linklessly embeddable graphs.
 \newblock {\em Proc.\ Amer.\ Math.\ Soc.}, 126:1275--1285, 1998.
+
+\bibitem{LS17}
+L.~Lov{\'a}sz and A.~Schrijver.
+\newblock Nullspace embeddings for outerplanar graphs.
+\newblock In {\it A Journey Through Discrete Mathematics}, Martin Loebl,
+  Jaroslav Ne\v{s}et\v{r}il, and Robin Thomas editors, Springer, Cham, 2017.
 
 \bibitem{Merris90}
 R.~Merris.
@@ -798,6 +808,11 @@ J.~Quirk and R.~Ruppert.
 \newblock Qualitative economics and the stability of equilibrium.
 \newblock {\em Rev.\ Economic Studies}, 32:311--326, 1965.
 
+\bibitem{RST93Ca}
+N.~Robertson, P.~Seymour, and R.~Thomas.
+\newblock {H}adwiger's conjecture for {$K_6$}-free graphs.
+\newblock {\em Combinatorica}, 13:279--361, 1993.
+
 \bibitem{RST93}
 N.~Robertson, P.~Seymour, and R.~Thomas.
 \newblock A survey of linkless embeddings.
@@ -814,10 +829,10 @@ Inc. SageMath.
 \newblock {\em CoCalc Collaborative Computation Online}.
 \newblock \url{https://cocalc.com/}.
 
-\bibitem{SS16}
+\bibitem{SS17}
 A.~Schrijver and B.~Sevenster.
-\newblock The {S}trong {A}rnold {P}roperty for $4$-connected flat graphs.
-\newblock \verb|http://arxiv.org/abs/1512.03200|.
+\newblock The {S}trong {A}rnold {P}roperty for {$4$}-connected flat graphs.
+\newblock {\em Linear Algebra Appl.}, 522:153--160, 2017.
 
 \bibitem{SSG04}
 Y.~Shao, L.~Sun, and Y.~Gao.
@@ -860,6 +875,11 @@ Test.
 M.~Valencia-Pabon and J.-C. Vera.
 \newblock On the diameter of {K}neser graphs.
 \newblock {\em Discrete Math.}, 305:383--385, 2005.
+
+\bibitem{vLuxburg07}
+U.~von Luxburg.
+\newblock A tutorial on spectral clustering.
+\newblock {\em Stat.\ Comput.}, 17:395--416, 2007.
 
 \bibitem{Winkler83}
 P.~M. Winkler.
