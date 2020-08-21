@@ -159,8 +159,7 @@ W.~Barrett, S.~Butler, S.~M. Fallat, H.~T. Hall, L.~Hogben, J.~C.-H. Lin,
   B.~Shader, and M.~Young.
 \newblock The inverse eigenvalue problem of a graph: {M}ultiplicities and
   minors.
-\newblock \verb|https://arxiv.org/abs/1708.00064|.
-\newblock (under review).
+\newblock {\em J.\ Combin. Theory Ser.~B}, 142:276--306, 2020.
 
 \bibitem{gSAP}
 W.~Barrett, S.~M. Fallat, H.~T. Hall, L.~Hogben, J.~C.-H. Lin, and B.~Shader.
@@ -328,6 +327,11 @@ M.~S. Cavers and K.~Vander Meulen.
 \newblock Spectrally and inertially arbitrary sign patterns.
 \newblock {\em Linear Algebra Appl.}, 394:53--72, 2005.
 
+\bibitem{GHadamardDiag}
+A.~Chan, S.~M. Fallat, S.~Kirkland, J.~C.-H. Lin, S.~Nasserasr, and S.~Plosker.
+\newblock Complex {H}adamard diagonalisable graphs.
+\newblock {\em Linear Algebra Appl.}, 605:158--179, 2020.
+
 \bibitem{Chang82}
 G.~J. Chang.
 \newblock {\em $k$-domination and graph covering problems}.
@@ -364,6 +368,11 @@ Y.~{\noopsort{Colin}}{Colin de Verdi\`ere}.
 Y.~{\noopsort{Colin}}{Colin de Verdi\`ere}.
 \newblock Multiplicities of eigenvalues and tree-width graphs.
 \newblock {\em J.\ Combin. Theory Ser.~B}, 74:121--146, 1998.
+
+\bibitem{CV13}
+H.~Corrales and C.E. Valencia.
+\newblock On the critical ideals of graphs.
+\newblock {\em Linear Algebra Appl.}, 439, 2013.
 
 \bibitem{CLO15}
 D.~Cox, J.~Little, and D.~O'Shea.
@@ -454,8 +463,7 @@ M.~Farber.
 D.~Ferrero, M.~Flagg, H.~T. Hall, L.~Hogben, J.~C.-H. Lin, S.~Meyer,
   S.~Nasserasr, and B.~Shader.
 \newblock Rigid linkages and partial zero forcing.
-\newblock \verb|https://arxiv.org/abs/1808.05553|.
-\newblock (under review).
+\newblock {\em Electron.\ J.\ Combin.}, 26:\#P2.43, 2019.
 
 \bibitem{Fiedler69}
 M.~Fiedler.
@@ -566,10 +574,17 @@ H.~T. Hall, L.~Hogben, R.~R. Martin, and B.~Shader.
   graph.
 \newblock {\em Linear Algebra Appl.}, 433:101--117, 2010.
 
+\bibitem{ChorDi}
+P.~Hell, C.~Hernandez-Cruz, J.~Huang, and J.~C.-H. Lin.
+\newblock Strongly chordal digraphs and {$\Gamma$}-free matrices.
+\newblock \verb|https://arxiv.org/abs/1909.03597|.
+\newblock (under review).
+
 \bibitem{CoCo}
 P.~Hell, J.~Huang, J.~C.-H. Lin, and R.~M. McConnell.
 \newblock Comparability and cocomparability bigraphs.
-\newblock (in preparation).
+\newblock \verb|https://arxiv.org/abs/1902.00213|.
+\newblock (under review).
 
 \bibitem{HHMR18}
 P.~Hell, J.~Huang, R.~M. McConnell, and A.~Rafiey.
@@ -748,6 +763,11 @@ J.~C.-H. Lin.
 J.~C.-H. Lin.
 \newblock Zero forcing number, {G}rundy domination number, and their variants.
 \newblock {\em Linear Algebra Appl.}, 563:240--254, 2019.
+
+\bibitem{Gssp}
+J.~C.-H. Lin, P.~Oblak, and H.~\v{S}migoc.
+\newblock The strong spectral property for graphs.
+\newblock {\em Linear Algebra Appl.}, 598:68--91, 2020.
 
 \bibitem{UI}
 J.~C.-H. Lin, D.~D. Olesky, and P.~{\noopsort{Driessche}}{van den Driessche}.
