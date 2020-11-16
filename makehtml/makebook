@@ -1,0 +1,6 @@
+#!/bin/bash
+
+aux2bib active-CV.3.aux > pre-book.bib
+bib2bib Coauthors.bib pre-book.bib > book.bib
+bibtex2html -nodoc -nofooter -nf pdf "pdf" -revkeys -nobibsource book.bib
+rm pre-book.bib

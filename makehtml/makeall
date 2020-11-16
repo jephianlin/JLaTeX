@@ -2,6 +2,7 @@
 
 ./makeaccepted
 ./makesubmitted
+./makebook
 ./makeplenary
 ./makeinvitedsym
 ./makecontributed

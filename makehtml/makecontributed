@@ -1,6 +1,6 @@
 #!/bin/bash
 
-aux2bib active-CV.5.aux > pre-contributed.bib
+aux2bib active-CV.6.aux > pre-contributed.bib
 bib2bib Coauthors.bib pre-contributed.bib > contributed.bib
 bibtex2html -nodoc -nofooter -nf pdf "pdf" -revkeys -nobibsource contributed.bib
 rm pre-contributed.bib
