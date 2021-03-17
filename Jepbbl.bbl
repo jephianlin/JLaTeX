@@ -296,8 +296,7 @@ D.~Burgarth, V.~Giovannetti, L.~Hogben, S.~Severini, and M.~Young.
 S.~Butler, C.~Erickson, S.~M. Fallat, H.~T. Hall, B.~Kroschel, J.~C.-H. Lin,
   B.~Shader, N.~Warnberg, and B.~Yang.
 \newblock Properties of a {$q$}-analogue of zero forcing.
-\newblock \verb|https://arxiv.org/abs/1809.07640|.
-\newblock (under review).
+\newblock {\em Graphs Combin.}, 36:1401--1419, 2020.
 
 \bibitem{RAP}
 S.~Butler, C.~Erickson, L.~Hogben, K.~Hogenson, L.~Kramer, R.~L. Kramer,
@@ -449,6 +448,12 @@ S.~M. Fallat and L.~Hogben.
 \newblock In {\it Handbook of Linear Algebra}, 2nd edition, L. Hogben editor,
   CRC Press, Boca Raton, 2013.
 
+\bibitem{Notices20}
+S.~M. Fallat, L.~Hogben, J.~C.-H. Lin, and B.~Shader.
+\newblock The inverse eigenvalue problem of a graph, zero forcing, and related
+  parameters.
+\newblock {\em Notices Amer.\ Math.\ Soc.}, 67:257--261, February, 2020.
+
 \bibitem{FMY16}
 S.~M. Fallat, K.~Meagher, and B.~Yang.
 \newblock On the complexity of the positive semidefinite zero forcing number.
@@ -576,15 +581,13 @@ H.~T. Hall, L.~Hogben, R.~R. Martin, and B.~Shader.
 
 \bibitem{ChorDi}
 P.~Hell, C.~Hernandez-Cruz, J.~Huang, and J.~C.-H. Lin.
-\newblock Strongly chordal digraphs and {$\Gamma$}-free matrices.
-\newblock \verb|https://arxiv.org/abs/1909.03597|.
-\newblock (under review).
+\newblock Strong chordality of graphs with possible loops.
+\newblock {\em SIAM J.\ Discrete Math.}, 35:362--375, 2021.
 
 \bibitem{CoCo}
 P.~Hell, J.~Huang, J.~C.-H. Lin, and R.~M. McConnell.
-\newblock Comparability and cocomparability bigraphs.
-\newblock \verb|https://arxiv.org/abs/1902.00213|.
-\newblock (under review).
+\newblock Bipartite analogues of comparability and cocomparability graphs.
+\newblock {\em SIAM J.\ Discrete Math.}, 34:1969--1983, 2020.
 
 \bibitem{HHMR18}
 P.~Hell, J.~Huang, R.~M. McConnell, and A.~Rafiey.
@@ -633,8 +636,14 @@ L.~Hogben and H.~{\noopsort{Holst}}{van der Holst}.
 L.~Hogben, J.~C.-H. Lin, D.~D. Olesky, and P.~{\noopsort{Driessche}}{van den
   Driessche}.
 \newblock The sepr-sets of sign patterns.
-\newblock \verb|http://arxiv.org/abs/1807.04874|.
-\newblock (under review).
+\newblock {\em Linear Multilinear Algebra}, 26:2044--2068, 2020.
+
+\bibitem{FYCGTC13}
+L.~Hogben, J.~C.-H. Lin, and B.~Shader.
+\newblock The inverse eigenvalue problem of a graph.
+\newblock In {\it 50 Years of Combinatorics, Graph Theory, and Computing}, 1st
+  edition, F. Chung, R. Graham, F. Hoffman, L. Hogben, R. C. Mullin, and D. B.
+  West editors, CRC Press, Boca Raton, 2019.
 
 \bibitem{MultiNG}
 L.~Hogben, J.~C.-H. Lin, and M.~Young.
@@ -763,6 +772,12 @@ J.~C.-H. Lin.
 J.~C.-H. Lin.
 \newblock Zero forcing number, {G}rundy domination number, and their variants.
 \newblock {\em Linear Algebra Appl.}, 563:240--254, 2019.
+
+\bibitem{IEPBlocks}
+J.~C.-H. Lin, P.~Oblak, and H.~\v{S}migoc.
+\newblock On the inverse eigenvalue problem for block graphs.
+\newblock \verb|https://arxiv.org/abs/2012.12495|.
+\newblock (under review).
 
 \bibitem{Gssp}
 J.~C.-H. Lin, P.~Oblak, and H.~\v{S}migoc.
