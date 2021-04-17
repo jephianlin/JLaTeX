@@ -715,6 +715,13 @@ B.~W. Jones.
 \newblock {\em The Arithmetic Theory of Quadratic Forms}.
 \newblock The Mathematical Association of America, 1950.
 
+\bibitem{Zpower}
+F.~H.~J. Kenter and J.~C.-H. Lin.
+\newblock A zero forcing technique for bounding sums of eigenvalue
+  multiplicities.
+\newblock \verb|https://arxiv.org/abs/2104.06213|.
+\newblock (under review).
+
 \bibitem{FKpriori}
 F.~H.~J. Kenter and J.~C.-H. Lin.
 \newblock On the error of a priori sampling: {Z}ero forcing sets and
