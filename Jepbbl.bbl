@@ -37,6 +37,13 @@ B.~Ahmadi, F.~Alinaghipour, M.~S. Cavers, S.~M. Fallat, K.~Meagher, and
 \newblock Minimum number of distinct eigenvalues of graphs.
 \newblock {\em Electron.\ J.\ Linear Algebra}, 26:673--691, 2013.
 
+\bibitem{AABBCGKMW21}
+J.~Ahn, C.~Alar, B.~Bjorkman, S.~Butler, J.~Carlson, A.~Goodnight, H.~Knox,
+  C.~Monroe, and M.~C. Wigal.
+\newblock Ordered multiplicity inverse eigenvalue problem for graphs on six
+  vertices.
+\newblock {\em Electron.\ J.\ Linear Algebra}, 37:316--358, 2021.
+
 \bibitem{AIM}
 {AIM Minimum Rank \textendash{} Special Graphs Work Group (}F.~Barioli\relax
   {\noopsort{AIM}}, W.~Barrett, S.~Butler, S.~M. Cioab\u{a}, D.~Cvetkovi\'c,
@@ -202,6 +209,12 @@ A.~Berliner, C.~Bozeman, S.~Butler, M.~Catral, L.~Hogben, B.~Kroschel, J.~C.-H.
 A.~Berman, S.~Friedland, L.~Hogben, U.~G. Rothblum, and B.~Shader.
 \newblock An upper bound for the minimum rank of a graph.
 \newblock {\em Linear Algebra Appl.}, 429:1629--1638, 2008.
+
+\bibitem{BHPRT18}
+B.~Bjorkman, L.~Hogben, S.~Ponce, C.~Reinhart, and T.~Tranel.
+\newblock Applications of analysis to the determination of the minimum number
+  of distinct eigenvalues of a graph.
+\newblock {\em Pure Appl.\ Funct.\ Anal.}, 3:537--563, 2018.
 
 \bibitem{BDMOvdD12}
 E.~Bodine, L.~Deaett, J.~J. McDonald, D.~D. Olesky, and
@@ -406,6 +419,12 @@ L.~DeLoss, J.~Grout, L.~Hogben, T.~McKay, J.~Smith, and G.~Tims.
 \newblock Techniques for determining the minimum rank of a small graph.
 \newblock {\em Linear Algebra Appl.}, 432:2995--3001, 2010.
 
+\bibitem{DPTZ19}
+P.~B. Denton, S.~J. Parke, T.~Tao, and X.~Zhang.
+\newblock Eigenvectors from eigenvalues: {A} survey of a basic identity in
+  linear algebra.
+\newblock \verb|https://arxiv.org/abs/1908.03795|, 2019.
+
 \bibitem{DiestelGT}
 R.~Diestel.
 \newblock {\em Graph Theory}.
@@ -463,6 +482,18 @@ S.~M. Fallat, K.~Meagher, and B.~Yang.
 M.~Farber.
 \newblock Characterizations of strongly chordal graphs.
 \newblock {\em Discrete Math.}, 43:173--189, 1983.
+
+\bibitem{Ferguson80}
+W.~E. {\noopsort{Ferguson}}{Ferguson, Jr.}
+\newblock The construction of {J}acobi and periodic {J}acobi matrices with
+  prescribed spectra.
+\newblock {\em Math.\ Comp.}, 35:1203--1220, 1980.
+
+\bibitem{FF09}
+R.~Fernandes and C.~M. {\noopsort{Fonseca}}{da Fonseca}.
+\newblock The inverse eigenvalue problem for {H}ermitian matrices whose graphs
+  are cycles.
+\newblock {\em Linear Multilinear Algebra}, 57:673--682, 2009.
 
 \bibitem{AIM17PartialZF}
 D.~Ferrero, M.~Flagg, H.~T. Hall, L.~Hogben, J.~C.-H. Lin, S.~Meyer,
@@ -541,6 +572,11 @@ R.~L. Graham and H.~O. Pollak.
 \newblock On the addressing problem for loop switching.
 \newblock {\em The Bell System Technical Journal}, 50:2495--2519, 1971.
 
+\bibitem{GW76}
+L.~J. Gray and D.~G. Wilson.
+\newblock Construction of a {J}acobi matrix from spectral data.
+\newblock {\em Linear Algebra Appl.}, 14:131--134, 1976.
+
 \bibitem{mr0}
 C.~Grood, J.~Harmse, L.~Hogben, T.~J. Hunter, B.~Jacob, A.~Klimas, and
   S.~McCathern.
@@ -562,6 +598,11 @@ W.~H. Haemers.
 \newblock On some problems of {L}ov{\'a}sz concerning the {S}hannon capacity of
   graphs.
 \newblock {\em IEEE Trans.\ Inform.\ Theory}, 25:231--232, 1979.
+
+\bibitem{Hald76}
+O.~H. Hald.
+\newblock Inverse eigenvalue problems for {J}acobi matrices.
+\newblock {\em Linear Algebra Appl.}, 14:63--85, 1976.
 
 \bibitem{HLW01}
 F.~J. Hall, Z.~Li, and D.~Wang.
@@ -715,18 +756,17 @@ B.~W. Jones.
 \newblock {\em The Arithmetic Theory of Quadratic Forms}.
 \newblock The Mathematical Association of America, 1950.
 
-\bibitem{Zpower}
-F.~H.~J. Kenter and J.~C.-H. Lin.
-\newblock A zero forcing technique for bounding sums of eigenvalue
-  multiplicities.
-\newblock \verb|https://arxiv.org/abs/2104.06213|.
-\newblock (under review).
-
 \bibitem{FKpriori}
 F.~H.~J. Kenter and J.~C.-H. Lin.
 \newblock On the error of a priori sampling: {Z}ero forcing sets and
   propagation time.
 \newblock {\em Linear Algebra Appl.}, 576:124--141, 2019.
+
+\bibitem{Zpower}
+F.~H.~J. Kenter and J.~C.-H. Lin.
+\newblock A zero forcing technique for bounding sums of eigenvalue
+  multiplicities.
+\newblock {\em Linear Algebra Appl.}, 629:138--167, 2021.
 
 \bibitem{KLV}
 A.~Kotlov, L.~Lov{\'a}sz, and S.~Vempala.
