@@ -1,5 +1,0 @@
-"@string{LAA=\"Linear Algebra Appl.\"}\n@string{ELA=\"Electron.~J.~Linear Algebra\"}\n@string{JGT=\"J.~Graph Theory\"}\n@string{CN=\"Congr.~Numer.\"}\n@string{JCTA=\"J.~Combin. Theory Ser.~A\"}\n@string{JCTB=\"J.~Combin. Theory Ser.~B\"}\n@string{Ca=\"Combinatorica\"}\n@string{PAMS=\"Proc.~Amer.~Math.~Soc.\"}\n@string{ISRNDM=\"ISRN Discrete Math.\"}"
-{"patch":[[[[0," Math.\"}"],[1,"\nProc. Amer. Math. Soc. Proceedings of the American Mathematical Society. Amer.\nMath. Soc., Providence, RI. ISSN 0002-9939."]],316,316,8,131]],"time":1442247749084}
-{"patch":[[[[0,"te Math."],[1,"ematics"],[0,"\"}\nProc."]],314,314,16,23]],"time":1442247745923}
-{"patch":[[[[0,"ete Math"],[-1,"."],[0,"ematics\""]],313,313,17,16]],"time":1442247743918}
-{"patch":[[[[0,".\"}\n"],[-1,"@string{ISRNDM=\"ISRN Discrete Mathematics\"}"],[0,"\nPro"]],283,283,51,8]],"time":1442247739449}
