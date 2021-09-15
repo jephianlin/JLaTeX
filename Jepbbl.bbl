@@ -210,6 +210,12 @@ A.~Berman, S.~Friedland, L.~Hogben, U.~G. Rothblum, and B.~Shader.
 \newblock An upper bound for the minimum rank of a graph.
 \newblock {\em Linear Algebra Appl.}, 429:1629--1638, 2008.
 
+\bibitem{BLS07}
+T.~Biyiko{\u g}u, J.~Leydold, and P.~F. Stadler.
+\newblock {\em Laplacian {E}igenvectors of {G}raphs: {P}erron--{F}robenius and
+  {F}aber--{K}rahn Type Theorems}.
+\newblock Springer-Verlag Berlin Heidelberg, 2007.
+
 \bibitem{BHPRT18}
 B.~Bjorkman, L.~Hogben, S.~Ponce, C.~Reinhart, and T.~Tranel.
 \newblock Applications of analysis to the determination of the minimum number
