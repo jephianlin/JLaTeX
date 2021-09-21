@@ -831,16 +831,15 @@ J.~C.-H. Lin.
 \newblock Zero forcing number, {G}rundy domination number, and their variants.
 \newblock {\em Linear Algebra Appl.}, 563:240--254, 2019.
 
-\bibitem{IEPBlocks}
-J.~C.-H. Lin, P.~Oblak, and H.~\v{S}migoc.
-\newblock On the inverse eigenvalue problem for block graphs.
-\newblock \verb|https://arxiv.org/abs/2012.12495|.
-\newblock (under review).
-
 \bibitem{Gssp}
 J.~C.-H. Lin, P.~Oblak, and H.~\v{S}migoc.
 \newblock The strong spectral property for graphs.
 \newblock {\em Linear Algebra Appl.}, 598:68--91, 2020.
+
+\bibitem{IEPBlocks}
+J.~C.-H. Lin, P.~Oblak, and H.~\v{S}migoc.
+\newblock On the inverse eigenvalue problem for block graphs.
+\newblock {\em Linear Algebra Appl.}, 631:379--397, 2021.
 
 \bibitem{UI}
 J.~C.-H. Lin, D.~D. Olesky, and P.~{\noopsort{Driessche}}{van den Driessche}.
