@@ -166,7 +166,7 @@ W.~Barrett, S.~Butler, S.~M. Fallat, H.~T. Hall, L.~Hogben, J.~C.-H. Lin,
   B.~Shader, and M.~Young.
 \newblock The inverse eigenvalue problem of a graph: {M}ultiplicities and
   minors.
-\newblock {\em J.\ Combin. Theory Ser.~B}, 142:276--306, 2020.
+\newblock {\em J.\ Combin.\ Theory Ser.~B}, 142:276--306, 2020.
 
 \bibitem{gSAP}
 W.~Barrett, S.~M. Fallat, H.~T. Hall, L.~Hogben, J.~C.-H. Lin, and B.~Shader.
@@ -379,7 +379,7 @@ Fan R.~K. Chung.
 \bibitem{CdVF}
 Y.~{\noopsort{Colin}}{Colin de Verdi\`ere}.
 \newblock Sur un nouvel invariant des graphes et un crit\`ere de planarit\'e.
-\newblock {\em J.\ Combin. Theory Ser.~B}, 50:11--21, 1990.
+\newblock {\em J.\ Combin.\ Theory Ser.~B}, 50:11--21, 1990.
 
 \bibitem{CdV}
 Y.~{\noopsort{Colin}}{Colin de Verdi\`ere}.
@@ -390,7 +390,7 @@ Y.~{\noopsort{Colin}}{Colin de Verdi\`ere}.
 \bibitem{CdV2}
 Y.~{\noopsort{Colin}}{Colin de Verdi\`ere}.
 \newblock Multiplicities of eigenvalues and tree-width graphs.
-\newblock {\em J.\ Combin. Theory Ser.~B}, 74:121--146, 1998.
+\newblock {\em J.\ Combin.\ Theory Ser.~B}, 74:121--146, 1998.
 
 \bibitem{CV13}
 H.~Corrales and C.E. Valencia.
@@ -466,6 +466,12 @@ J.~Ekstrand, C.~Erickson, H.~T. Hall, D.~Hay, L.~Hogben, R.~Johnson,
 \newblock Positive semidefinite zero forcing.
 \newblock {\em Linear Algebra Appl.}, 439:1862--1874, 2013.
 
+\bibitem{bifur}
+S.~M. Fallat, H.~T. Hall, J.~C.-H. Lin, and B.~Shader.
+\newblock The bifurcation lemma for strong properties in the inverse eigenvalue
+  problem of a graph.
+\newblock {\em Linear Algebra Appl.}, 648:70--87, 2022.
+
 \bibitem{FH07}
 S.~M. Fallat and L.~Hogben.
 \newblock The minimum rank of symmetric matrices described by a graph: {A}
@@ -532,6 +538,11 @@ F.~R. Gantmacher.
 Y.~Gao and Y.~Shao.
 \newblock Inertia sets of symmetric $2$-generalized star sign patterns.
 \newblock {\em Linear Multilinear Algebra}, 54:27--35, 2006.
+
+\bibitem{GB13}
+C.~Garnett and B.~Shader.
+\newblock The {N}ilpotent-{C}entralizer method for spectrally arbitrary.
+\newblock {\em Linear Algebra Appl.}, 438:3836--3850, 2013.
 
 \bibitem{GH64}
 P.~C. Gilmore and A.~J. Hoffman.
@@ -708,12 +719,12 @@ L.~Hogben, J.~C.-H. Lin, and M.~Young.
 H.~{\noopsort{Holst}}{van der Holst}.
 \newblock A short proof of the planarity characterization of {C}olin de
   {V}erdi\`ere.
-\newblock {\em J.\ Combin. Theory Ser.~B}, 65:269--272, 1995.
+\newblock {\em J.\ Combin.\ Theory Ser.~B}, 65:269--272, 1995.
 
 \bibitem{vdHolst02}
 H.~{\noopsort{Holst}}{van der Holst}.
 \newblock Graphs with magnetic schr{\"o}dinger operators of low corank.
-\newblock {\em J.\ Combin. Theory Ser.~B}, 84:311--339, 2002.
+\newblock {\em J.\ Combin.\ Theory Ser.~B}, 84:311--339, 2002.
 
 \bibitem{vdHolst08}
 H.~{\noopsort{Holst}}{van der Holst}.
@@ -784,6 +795,11 @@ A.~Kotlov, L.~Lov{\'a}sz, and S.~Vempala.
 \newblock The {C}olin de {V}erdi\`ere number and sphere representations of a
   graph.
 \newblock {\em Combinatorica}, 17:483--521, 1997.
+
+\bibitem{Laffey98}
+T.~J. Laffey.
+\newblock Extreme nonnegative matrices.
+\newblock {\em Linear Algebra Appl.}, 275--276:275--276, 1998.
 
 \bibitem{LLL15}
 H.~Lin, R.~Liu, and X.~Lu.
@@ -987,7 +1003,7 @@ P.~M. Winkler.
 \bibitem{YY06}
 W.~Yan and Y.-N. Yeh.
 \newblock A simple proof of {G}raham and {P}ollak's theorem.
-\newblock {\em J.\ Combin. Theory Ser.~A}, 113:892--893, 2006.
+\newblock {\em J.\ Combin.\ Theory Ser.~A}, 113:892--893, 2006.
 
 \bibitem{YY07}
 W.~Yan and Y.-N. Yeh.
