@@ -1,0 +1,176 @@
+\documentclass[11pt]{article}
+\pagestyle{empty}
+%\usepackage{amsmath,amsthm,amssymb}
+%\usepackage{mathrsfs,MnSymbol}
+%\usepackage{textcomp}
+%\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[top=1 in, bottom=1 in,left=1 in,right=1 in]{geometry}
+%\linespread{1.2}
+\parindent=0pt
+\usepackage{color}
+\definecolor{red}{rgb}{1,0,0}
+\def\red{\color{red}}
+
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{etaremune}
+\usepackage{alphalph} %% count using alph
+\usepackage{bibunits} %% so that can include two references
+%% This make the aux name by \jobname instead of bu.
+\makeatletter
+\renewcommand{\@bibunitname}{\jobname.\the\@bibunitauxcnt}
+\makeatother
+
+%%%New Environments
+\newenvironment{nobulletlist}{\begin{itemize}[leftmargin=1em,label=]}{\end{itemize}}
+
+%%%Commands
+\def \heading#1{\vspace{3pt}\large{\sffamily{\textbf{#1}}}\vspace{-8pt}}
+
+
+\begin{document}
+%\begin{large}
+\begin{center}
+\begin{LARGE}
+\textbf{(Jephian) Chin-Hung Lin}
+\end{LARGE} 
+\end{center}
+\begin{small}
+%\begin{multicols}{2}
+%Phone: (+1)307-314-9275
+
+%Email: \href{mailto:chinhunglin@uvic.ca}{chinhunglin@uvic.ca}
+
+%\href{http://jephianlin.github.io/}{http://jephianlin.github.io/}
+%\columnbreak
+%\begin{flushright}
+%Department of Mathematics and Statistics
+
+%University of Victoria
+
+%Victoria, BC V8W 2Y2, Canada
+%\end{flushright}
+%\end{multicols}
+\end{small}
+\rule[3ex]{\textwidth}{.258ex}
+
+\vspace{-3pt}
+
+%\newpage 
+\heading{PUBLICATIONS}
+
+\begin{nobulletlist}
+\item \textsc{Appeared/Accepted}
+
+\begingroup
+%%% Old code to delete title ``References''
+%\renewcommand{\section}[2]{}
+%
+
+%%% This change the bibitem label to number period
+%\makeatletter
+%\def\@bibitem#1{\item\if@filesw \immediate\write\@auxout
+%  {\string\bibcite{#1}{\value{\@listctr}}}\fi\ignorespaces}
+%\def\@biblabel#1{#1.}
+%\makeatother
+%
+
+%%% Revise the bibliography environment to equipe etaremune.
+\makeatletter
+\long\def\thebibliography#1{%
+  %\section*{\refname}%
+  \@mkboth{\MakeUppercase\refname}{\MakeUppercase\refname}
+  \settowidth{\dimen0}{\@biblabel{#1}}%
+  \setlength{\dimen2}{\dimen0}%
+  \addtolength{\dimen2}{\labelsep}
+  \sloppy
+  \clubpenalty 4000 
+  \@clubpenalty 
+  \clubpenalty 
+  \widowpenalty 4000
+  \sfcode `\.\@m
+  \renewcommand{\labelenumi}{\@biblabel{\theenumi}} % labels like [3], [2], [1]
+  \begin{etaremune}[labelwidth=\dimen0,leftmargin=\dimen2]\@openbib@code
+}
+\def\endthebibliography{\end{etaremune}}
+\def\@bibitem#1{%
+  \item \if@filesw\immediate\write\@auxout{\string\bibcite{#1}{\the\value{enumi}}}\fi\ignorespaces
+}
+\def\@biblabel#1{#1.} %This part make the label as arabic with a period.
+\makeatother
+
+\begin{bibunit}[unsrt]
+%\nocite{Zsap,RAP,GRWCds2,Zoc,loopEGR,sieving,GJ14,FCnumbers}
+%\putbib[./JLaTeX/AuthorA,./JLaTeX/JournalA,./JLaTeX/JepBib]
+\input{active-CV.1.bbl}
+\end{bibunit}
+\endgroup
+
+\item \textsc{Submitted}
+
+\begingroup
+\renewcommand{\section}[2]{}
+
+%% This change the bibitem label to alph period
+\makeatletter
+\def\@bibitem#1{\item\if@filesw \immediate\write\@auxout
+  {\string\bibcite{#1}{\alphalph{\value{\@listctr}}}}\fi\ignorespaces}
+\def\@biblabel#1{\alphalph{#1}.}
+\makeatother
+
+\begin{bibunit}[unsrt]
+%\nocite{entropy, MultiNG, gSAP, GRWCds1, ZPropDi, GJpower}
+%\putbib[./JLaTeX/AuthorA,./JLaTeX/JournalA,./JLaTeX/JepBib]
+\input{active-CV.2.bbl}
+\end{bibunit}
+\endgroup
+
+\newpage
+\item \textsc{Book chapters and others}
+
+\begingroup
+%%% Revise the bibliography environment to equipe etaremune.
+\makeatletter
+\long\def\thebibliography#1{%
+  %\section*{\refname}%
+  \@mkboth{\MakeUppercase\refname}{\MakeUppercase\refname}
+  \settowidth{\dimen0}{\@biblabel{#1}}%
+  \setlength{\dimen2}{\dimen0}%
+  \addtolength{\dimen2}{\labelsep}
+  \sloppy
+  \clubpenalty 4000 
+  \@clubpenalty 
+  \clubpenalty 
+  \widowpenalty 4000
+  \sfcode `\.\@m
+  \renewcommand{\labelenumi}{\@biblabel{\theenumi}} % labels like [3], [2], [1]
+  \begin{etaremune}[labelwidth=\dimen0,leftmargin=\dimen2]\@openbib@code
+}
+\def\endthebibliography{\end{etaremune}}
+%%% This change the bibitem label to number period
+\def\@bibitem#1{%
+  \item \if@filesw\immediate\write\@auxout{\string\bibcite{#1}{\the\value{enumi}}}\fi\ignorespaces
+} %\the\value{enumi} tells the number of \cite{#1}
+\def\@biblabel#1{#1.} %This part make the label as arabic with a period.
+\makeatother
+
+\begin{bibunit}[unsrt]
+\input{active-CV.3.bbl}
+\end{bibunit}
+\endgroup 
+\end{nobulletlist}
+
+
+\end{document}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%REAL END%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%revised 2016-0930
+%change to BibTex 2015-0914
+
+%original command: pdflatex -synctex=1 -interact=nonstopmode 'active-CV.tex'
+%sagemathcloud={"latex_command":"pdflatex -synctex=1 -interact=errorstopmode 'PublicationList.tex'"}
