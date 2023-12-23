@@ -92,6 +92,10 @@
   \sfcode `\.\@m
   \renewcommand{\labelenumi}{\@biblabel{\theenumi}} % labels like [3], [2], [1]
   \begin{etaremune}[labelwidth=\dimen0,leftmargin=\dimen2]\@openbib@code
+  %%% cut some publications here
+  %%% comment out some references in active-CV.1.bbl
+  %%% use the next line instead, adjust start argument appropriately
+  %% \begin{etaremune}[labelwidth=\dimen0,leftmargin=\dimen2,start=30]\@openbib@code
 }
 \def\endthebibliography{\end{etaremune}}
 \def\@bibitem#1{%
@@ -107,26 +111,26 @@
 \end{bibunit}
 \endgroup
 
-\item \textsc{Submitted}
+%% \item \textsc{Submitted}
 
-\begingroup
-\renewcommand{\section}[2]{}
+%% \begingroup
+%% \renewcommand{\section}[2]{}
 
-%% This change the bibitem label to alph period
-\makeatletter
-\def\@bibitem#1{\item\if@filesw \immediate\write\@auxout
-  {\string\bibcite{#1}{\alphalph{\value{\@listctr}}}}\fi\ignorespaces}
-\def\@biblabel#1{\alphalph{#1}.}
-\makeatother
+%% %% This change the bibitem label to alph period
+%% \makeatletter
+%% \def\@bibitem#1{\item\if@filesw \immediate\write\@auxout
+%%   {\string\bibcite{#1}{\alphalph{\value{\@listctr}}}}\fi\ignorespaces}
+%% \def\@biblabel#1{\alphalph{#1}.}
+%% \makeatother
 
-\begin{bibunit}[unsrt]
-%\nocite{entropy, MultiNG, gSAP, GRWCds1, ZPropDi, GJpower}
-%\putbib[./JLaTeX/AuthorA,./JLaTeX/JournalA,./JLaTeX/JepBib]
-\input{active-CV.2.bbl}
-\end{bibunit}
-\endgroup
+%% \begin{bibunit}[unsrt]
+%% %\nocite{entropy, MultiNG, gSAP, GRWCds1, ZPropDi, GJpower}
+%% %\putbib[./JLaTeX/AuthorA,./JLaTeX/JournalA,./JLaTeX/JepBib]
+%% \input{active-CV.2.bbl}
+%% \end{bibunit}
+%% \endgroup
 
-\newpage
+%% \newpage
 \item \textsc{Book chapters and others}
 
 \begingroup
