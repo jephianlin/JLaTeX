@@ -65,6 +65,11 @@ R.~Anderson, S.~Bai, F.~Barrera-Cruz, \'{E}. Czabarka, G.~{\noopsort{Da}}{Da
 \newblock Analogies between the crossing number and the tangle crossing number.
 \newblock {\em Electron.\ J.\ Combin.}, 25:\#P4.24, 2018.
 
+\bibitem{AM71}
+W.~N. {\noopsort{Anderson}}{Anderson, Jr.} and R.~D. Morley.
+\newblock Eigenvalues of the {L}aplacian of a graph.
+\newblock {\em University of Maryland Technical Report}, TR-71-45, 1971.
+
 \bibitem{AF84}
 R.~Anstee and M.~Farber.
 \newblock Characterizations of totally balanced matrices.
@@ -193,6 +198,12 @@ W.~Barrett, C.~Nelson, J.~Sinkovic, and T.~Yang.
   small graphs.
 \newblock {\em Electron.\ J.\ Linear Algebra}, 27:742--778, 2014.
 
+\bibitem{BN03}
+M.~Belkin and P.~Niyogi.
+\newblock Laplacian eigenmaps for dimensionality reduction and data
+  representation.
+\newblock {\em Neural Computation}, 15:1373--1396, 2003.
+
 \bibitem{BLD}
 A.~Bento and A.~{\noopsort{Leal}}{Leal Duarte}.
 \newblock On {F}iedler's characterization of tridiagonal matrices over
@@ -300,6 +311,12 @@ R.~A. Brualdi, L.~Hogben, and B.~Shader.
 R.~A. Brualdi and B.~Shader.
 \newblock {\em Matrices of Sign-Solvable Linear Systems}.
 \newblock Cambridge University Press, 1991.
+
+\bibitem{BCJLS16}
+S.~P. Buckley, J.~G. Corliss, C.~R. Johnson, C.~A. Lombard{\'i}a, and C.~M.
+  Saiago.
+\newblock Questions, conjectures, and data about multiplicity lists for trees.
+\newblock {\em Linear Algebra Appl.}, 511:72--109, 2016.
 
 \bibitem{BG07}
 D.~Burgarth and V.~Giovannetti.
@@ -523,7 +540,17 @@ M.~Fiedler.
 \newblock A characterization of tridiagonal matrices.
 \newblock {\em Linear Algebra Appl.}, 2:191--197, 1969.
 
-\bibitem{Fiedler75}
+\bibitem{Fiedler73}
+M.~Fiedler.
+\newblock Algebraic connectivity of graphs.
+\newblock {\em Czechoslovak Math.\ J.}, 23:298--305, 1973.
+
+\bibitem{Fiedler75a}
+M.~Fiedler.
+\newblock Eigenvalues of acyclic matrices.
+\newblock {\em Czechoslovak Math.\ J.}, 25:607--618, 1975.
+
+\bibitem{Fiedler75b}
 M.~Fiedler.
 \newblock A property of eigenvectors of nonnegative symmetric matrices and its
   application to graph theory.
@@ -531,8 +558,14 @@ M.~Fiedler.
 
 \bibitem{Gantmacher59}
 F.~R. Gantmacher.
-\newblock {\em The Theory of Matrices}, volume~II.
+\newblock {\em The Theory of Matrices}.
 \newblock Chelsea, New York, 1959.
+
+\bibitem{GK02}
+F.~R. Gantmacher and M.~G. Krein.
+\newblock {\em Oscillation Matrices and Kernels and Small Vibrations of
+  Mechanical Systems: Revised Edition}.
+\newblock Chelsea, New York, 2002.
 
 \bibitem{GS06}
 Y.~Gao and Y.~Shao.
@@ -641,6 +674,11 @@ H.~T. Hall, L.~Hogben, R.~R. Martin, and B.~Shader.
 \newblock Expected values of parameters associated with the minimum rank of a
   graph.
 \newblock {\em Linear Algebra Appl.}, 433:101--117, 2010.
+
+\bibitem{Hall70}
+K.~M. Hall.
+\newblock An {$r$}-dimensional quadratic placement algorithm.
+\newblock {\em Management Science}, 17:219--229, 1970.
 
 \bibitem{ChorDi}
 P.~Hell, C.~Hernandez-Cruz, J.~Huang, and J.~C.-H. Lin.
@@ -783,6 +821,11 @@ B.~W. Jones.
 \newblock {\em The Arithmetic Theory of Quadratic Forms}.
 \newblock The Mathematical Association of America, 1950.
 
+\bibitem{JM92}
+M.~Juvan and B.~Mohar.
+\newblock Optimal linear labelings and eigenvalues of graphs.
+\newblock {\em Discrete Appl.\ Math.}, 36:153--168, 1992.
+
 \bibitem{FKpriori}
 F.~H.~J. Kenter and J.~C.-H. Lin.
 \newblock On the error of a priori sampling: {Z}ero forcing sets and
@@ -795,6 +838,17 @@ F.~H.~J. Kenter and J.~C.-H. Lin.
   multiplicities.
 \newblock {\em Linear Algebra Appl.}, 629:138--167, 2021.
 
+\bibitem{KNS96}
+S.~Kirkland, M.~Neumann, and B.~Shader.
+\newblock Characteristic vertices of weighted trees via {P}erron values.
+\newblock {\em Linear Multilinear Algebra}, 40:311--325, 1996.
+
+\bibitem{Koren05}
+Y.~Koren.
+\newblock Drawing graphs by eigenvectors: {T}heory and practice.
+\newblock {\em Computers \& Mathematics with Applications}, 49:1867--1888,
+  2005.
+
 \bibitem{KLV}
 A.~Kotlov, L.~Lov{\'a}sz, and S.~Vempala.
 \newblock The {C}olin de {V}erdi\`ere number and sphere representations of a
@@ -805,6 +859,11 @@ A.~Kotlov, L.~Lov{\'a}sz, and S.~Vempala.
 T.~J. Laffey.
 \newblock Extreme nonnegative matrices.
 \newblock {\em Linear Algebra Appl.}, 275--276:275--276, 1998.
+
+\bibitem{LDuarte89}
+A.~{\noopsort{Leal}}{Leal Duarte}.
+\newblock Construction of acyclic matrices from spectral data.
+\newblock {\em Linear Algebra Appl.}, 113:173--182, 1989.
 
 \bibitem{LLL15}
 H.~Lin, R.~Liu, and X.~Lu.
@@ -823,6 +882,11 @@ J.~C.-H. Lin.
   \url{https://sage.math.iastate.edu/home/pub/54/}. \textit{Sage} worksheet
   available at
   \url{https://github.com/jephianlin/publish/raw/master/VariationsOfZsap.sws}.
+
+\bibitem{JephianMS}
+J.~C.-H. Lin.
+\newblock Applications of zero forcing number to the minimum rank problem.
+\newblock Master's thesis, National Taiwan University, 2011.
 
 \bibitem{FCnumbers}
 J.~C.-H. Lin.
@@ -846,6 +910,12 @@ J.~C.-H. Lin.
 \newblock Using a new zero forcing process to guarantee the {S}trong {A}rnold
   {P}roperty.
 \newblock {\em Linear Algebra Appl.}, 507:229--250, 2016.
+
+\bibitem{JephianPhD}
+J.~C.-H. Lin.
+\newblock {\em Variants of zero forcing and their applications to the minimum
+  rank problem}.
+\newblock PhD thesis, Iowa State University, 2017.
 
 \bibitem{ZGrundy}
 J.~C.-H. Lin.
@@ -895,6 +965,11 @@ L.~Lov{\'a}sz and A.~Schrijver.
 \newblock In {\it A Journey Through Discrete Mathematics}, Martin Loebl,
   Jaroslav Ne\v{s}et\v{r}il, and Robin Thomas editors, Springer, Cham, 2017.
 
+\bibitem{Merris87}
+R.~Merris.
+\newblock Characteristic vertices of trees.
+\newblock {\em Linear Multilinear Algebra}, 22:115--131, 1987.
+
 \bibitem{Merris90}
 R.~Merris.
 \newblock The distance spectrum of a tree.
@@ -920,6 +995,11 @@ K.~H. Monfared and B.~Shader.
 D.~D. Olesky, M.~F. Rempel, and P.~{\noopsort{Driessche}}{van den Driessche}.
 \newblock Refined inertias of tree sign patterns of orders 2 and 3.
 \newblock {\em Involve}, 6:1--12, 2013.
+
+\bibitem{PSL90}
+A.~Pothen, H.~D. Simon, and K.-P. Liou.
+\newblock Partitioning sparse matrices with eigenvectors of graphs.
+\newblock {\em SIAM J.\ Matrix Anal.\ Appl.}, 11:430--452, 1990.
 
 \bibitem{QR65}
 J.~Quirk and R.~Ruppert.
@@ -962,6 +1042,12 @@ A.~Schrijver and B.~Sevenster.
 Y.~Shao, L.~Sun, and Y.~Gao.
 \newblock Inertia sets of two classes of symmetric sign patterns.
 \newblock {\em Linear Algebra Appl.}, 384:85--95, 2004.
+
+\bibitem{SM00}
+J.~Shi and J.~Malik.
+\newblock Normalized cuts and image segmentation.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  22:888--905, 2000.
 
 \bibitem{Sink}
 J.~Sinkovic.
