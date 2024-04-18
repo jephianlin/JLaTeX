@@ -1,0 +1,221 @@
+\documentclass[a0paper, 25pt, portrait]{tikzposter}
+
+\usetheme{Wave}
+
+\usepackage{amsmath, amssymb}
+\usepackage{hyperref}
+\usepackage{qrcode}
+
+\newcommand{\trans}{^\top}
+\newcommand{\adj}{^{\rm adj}}
+\newcommand{\cof}{^{\rm cof}}
+\newcommand{\inp}[2]{\left\langle#1,#2\right\rangle}
+\newcommand{\dunion}{\mathbin{\dot\cup}}
+\newcommand{\bzero}{\mathbf{0}}
+\newcommand{\bone}{\mathbf{1}}
+\newcommand{\ba}{\mathbf{a}}
+\newcommand{\bb}{\mathbf{b}}
+\newcommand{\bc}{\mathbf{c}}
+\newcommand{\bd}{\mathbf{d}}
+\newcommand{\be}{\mathbf{e}}
+\newcommand{\bh}{\mathbf{h}}
+\newcommand{\bp}{\mathbf{p}}
+\newcommand{\bq}{\mathbf{q}}
+\newcommand{\bx}{\mathbf{x}}
+\newcommand{\by}{\mathbf{y}}
+\newcommand{\bz}{\mathbf{z}}
+\newcommand{\bu}{\mathbf{u}}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\bw}{\mathbf{w}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\nul}{\operatorname{null}}
+\newcommand{\rank}{\operatorname{rank}}
+%\newcommand{\ker}{\operatorname{ker}}
+\newcommand{\range}{\operatorname{range}}
+\newcommand{\Col}{\operatorname{Col}}
+\newcommand{\Row}{\operatorname{Row}}
+\newcommand{\spec}{\operatorname{spec}}
+\newcommand{\vspan}{\operatorname{span}}
+
+
+\title{Coefficients of the characteristic polynomial}
+\author{Jephian C.-H. Lin}
+\date{\today}
+\institute{National Sun Yat-sen University}
+
+
+\begin{document}
+\maketitle
+
+\begin{columns}
+\column{0.5}
+\block{Overivew of the characteristic polynomial}{
+The characteristic polynomial of $A$ is defined by $p_A(x) = \det(A -
+xI)$.  Usually, we need to expand every term and rearrange it into a
+clean form.  For example, 
+
+\[
+    \begin{aligned}
+      \det(A - xI) &= 
+      \det\begin{bmatrix} 
+      1 - x & 2 & 3 \\
+      4 & 5 - x & 6 \\
+      7 & 8 & 9 - x
+      \end{bmatrix} \\
+      &= (1 - x)(5 - x)(9 - x) + 2\cdot 6\cdot 7 + 3\cdot 4\cdot 8  \\
+      &\mathrel{\phantom{=}}- 3\cdot (5 - x)\cdot 7 - 2\cdot 4\cdot (9-x) - (1 - x)\cdot 6\cdot 8 \\
+      &= -x^3 + 15x^2 + 18x.
+    \end{aligned}
+\]
+
+The following formula helps to find the coefficients directly.  The
+characteristic polynomial of $A$ can be written as 
+\[
+    p_A(x) = \det(A - xI) = (-x)^n + s_1(-x)^{n-1} + \cdots + s_n,
+\]
+where  
+\[
+    s_k = \sum_{\substack{ \alpha\subseteq[n] \\ |\alpha|=k }}\det(A[\alpha]).
+\]  
+}
+
+\column{0.5}
+\block{An example}{
+Let  
+\[
+    A = \begin{bmatrix} 
+    1 & 2 & 3 \\
+    4 & 5 & 6 \\
+    7 & 8 & 9
+    \end{bmatrix}.
+\]
+We have to go through all subsets $\alpha$ of $[3] = \{1,2,3\}$ of a given size.  
+
+\bigskip
+
+\begin{center}
+\begin{tabular}{c|c|ccc|ccc|c}
+ & $k = 0$ & \multicolumn{3}{|c|}{$k = 1$} & 
+\multicolumn{3}{|c|}{$k = 2$} & $k = 3$ \\
+\hline
+$\alpha$ & $\emptyset$ & $\{1\}$ & $\{2\}$ & $\{3\}$ &
+$\{1,2\}$ & $\{1,3\}$ & $\{2,3\}$ & $\{1,2,3\}$ \\
+$A[\alpha]$ & $\begin{bmatrix}~\end{bmatrix}$ &
+{\color{red}$\begin{bmatrix}1\end{bmatrix}$} & 
+{\color{red}$\begin{bmatrix}5\end{bmatrix}$} &
+{\color{red}$\begin{bmatrix}9\end{bmatrix}$} &
+{\color{teal}$\begin{bmatrix}1&2\\4&5\end{bmatrix}$} & 
+{\color{teal}$\begin{bmatrix}1&3\\7&9\end{bmatrix}$} & 
+{\color{teal}$\begin{bmatrix}5&6\\8&9\end{bmatrix}$} & 
+            $\begin{bmatrix} 
+              1 & 2 & 3 \\
+              4 & 5 & 6 \\
+              7 & 8 & 9
+            \end{bmatrix}$ \\
+$\det$ & $1$ & {\color{red}$1$} & {\color{red}$5$} & {\color{red}$9$} &
+{\color{teal}$-3$} & {\color{teal}$-12$} & {\color{teal}$-3$} & $0$ \\
+\hline
+ & $s_0 = 1$ & \multicolumn{3}{|c|}{$s_1 = 15$} & 
+\multicolumn{3}{|c|}{$s_2 = -18$} & $s_3 = 0$
+\end{tabular}
+\end{center}
+
+\bigskip
+
+Thus,  
+\[
+    \begin{aligned}
+      p_A(x) &= (-x)^n + s_1(-x)^{n-1} + \cdots + s_n,
+      \\
+      &= -x^3 + 15x^2 + 18x.
+    \end{aligned}
+\]
+}
+\end{columns}
+
+\begin{columns}
+\column{0.5}
+\block{Some theory behind the scene}{
+When we compute the characteristic polynomial, each column of $A - xI$
+can be written as the sum of two vectors, one contains constants while
+the other contains $-x$ and $0$'s.  By expanding $\det(A - xI)$ using
+the distributive law on each column, we got $2^n$ terms.
+\[
+    \begin{aligned}
+    &\mathrel{\phantom{=}}\det\begin{bmatrix}
+     1 - x & 2 & 3 \\
+     4 & 5 - x & 6 \\
+     7 & 8 & 9 - x
+    \end{bmatrix} \\
+     &=
+    \det\begin{bmatrix}
+     -x & 0 & 0 \\
+     0 & -x & 0 \\
+     0 & 0 & -x
+    \end{bmatrix} 
+     + 
+    \det\begin{bmatrix}
+     -x & 0 & 3 \\
+     0 & -x & 6 \\
+     0 & 0 & {\color{red}9}
+    \end{bmatrix} 
+     +
+    \det\begin{bmatrix}
+     -x & 2 & 0 \\
+     0 & {\color{red}5} & 0 \\
+     0 & 8 & -x
+    \end{bmatrix} 
+     +
+    \det\begin{bmatrix}
+     {\color{red}1} & 0 & 0 \\
+     4 & -x & 0 \\
+     7 & 0 & -x
+    \end{bmatrix} 
+     + \\
+     &\mathrel{\phantom{=}}
+    \det\begin{bmatrix}
+     -x & 2 & 3 \\
+     0 & {\color{teal}5} & {\color{teal}6} \\
+     0 & {\color{teal}8} & {\color{teal}9} 
+    \end{bmatrix} 
+    +
+    \det\begin{bmatrix}
+     {\color{teal}1} & 0 & {\color{teal}3} \\
+     4 & -x & 6 \\
+     {\color{teal}7} & 0 & {\color{teal}9}
+    \end{bmatrix} 
+     + 
+    \det\begin{bmatrix}
+     {\color{teal}1} & {\color{teal}2} & 0 \\
+     {\color{teal}4} & {\color{teal}5} & 0 \\
+     7 & 8 & -x
+    \end{bmatrix} 
+     + 
+    \det\begin{bmatrix}
+     1 & 2 & 3 \\
+     4 & 5 & 6 \\
+     7 & 8 & 9
+    \end{bmatrix} \\
+    &= (-x)^3 + ({\color{red}9 + 5 + 1})(-x)^2 + ({\color{teal}-3 -12 -3})(-x) + 0. 
+    \end{aligned}
+\]
+}
+
+\column{0.5}
+\block{My own example}{
+I wrote some SageMath code to compute the characteristic polynomial
+using this method.  Visit the website below to see more examples.
+
+\begin{tikzfigure}
+\label{fig:sageqr}
+\qrcode[height=3in]{https://sagecell.sagemath.org/?q=zziwzi}
+\end{tikzfigure}
+
+\begin{center}
+\href{https://sagecell.sagemath.org/?q=zziwzi}{\tt https://sagecell.sagemath.org/?q=zziwzi}
+\end{center}
+
+}
+\end{columns}
+
+\end{document}
