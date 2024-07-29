@@ -25,6 +25,12 @@ G.~Aalipour, A.~Abiad, Z.~Berikkyzy, L.~Hogben, F.~H.~J. Kenter, J.~C.-H. Lin,
   tree.
 \newblock {\em Electron.\ J.\ Linear Algebra}, 34:373--380, 2018.
 
+\bibitem{SNIP}
+A.~Abiad, B.~A. Curtis, M.~Flagg, H.~T. Hall, J.~C.-H. Lin, and B.~Shader.
+\newblock The inverse nullity pair problem and the strong nullity interlacing
+  property.
+\newblock {\em Linear Algebra Appl.}, 699:539--568, 2024.
+
 \bibitem{AACFMN13Erratum}
 B.~Ahmadi, F.~Alinaghipour, M.~S. Cavers, S.~M. Fallat, K.~Meagher, and
   S.~Nasserasr.
@@ -482,6 +488,11 @@ J.~Ekstrand, C.~Erickson, H.~T. Hall, D.~Hay, L.~Hogben, R.~Johnson,
   and M.~Young.
 \newblock Positive semidefinite zero forcing.
 \newblock {\em Linear Algebra Appl.}, 439:1862--1874, 2013.
+
+\bibitem{ComVanish}
+C.~Erickson, L.~Gan, J.~Kritschgau, J.~C.-H. Lin, and S.~Spiro.
+\newblock Complementary vanishing graphs.
+\newblock {\em Linear Algebra Appl.}, 692:185--211, 2024.
 
 \bibitem{bifur}
 S.~M. Fallat, H.~T. Hall, J.~C.-H. Lin, and B.~Shader.
