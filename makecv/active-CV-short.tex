@@ -1,0 +1,278 @@
+\documentclass[11pt]{article}
+%% \pagestyle{empty}
+\usepackage{hyperref}
+\usepackage[top=1 in, bottom=1 in,left=1 in,right=1 in]{geometry}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{etaremune}
+\usepackage{alphalph} %% count using alph
+
+\usepackage{bibunits} %% so that can include two references using bibtex
+%% This make the aux name by \jobname instead of bu.
+\makeatletter
+\renewcommand{\@bibunitname}{\jobname.\the\@bibunitauxcnt}
+\makeatother
+
+\usepackage{color}
+\definecolor{red}{rgb}{1,0,0}
+\def\red{\color{red}}
+
+%%% setting for Chinese characters
+\usepackage[T1]{fontenc}
+\usepackage{CJKutf8}
+\newcommand{\CJKEN}[1]{\begin{CJK}{UTF8}{bkai}#1\end{CJK}}
+
+%\linespread{1.2}
+\parindent=0pt
+
+%%%New Environments
+\newenvironment{nobulletlist}{\begin{itemize}[leftmargin=1em,label=]}{\end{itemize}}
+
+%%%Commands
+\def \heading#1{\vspace{3pt}\large{\sffamily{\textbf{#1}}}\vspace{-8pt}}
+
+%% Remove References
+%% Careful: \section is redefined globally
+\renewcommand{\section}[2]{}
+
+\begin{document}
+\centerline{\LARGE\bf (Jephian) Chin-Hung Lin}
+%\centerline{\LARGE\bf Chin-Hung (Jephian) Lin}
+\begin{small}
+\begin{multicols}{2}
+Phone: (+1)307-314-9275
+
+Email: \href{mailto:chlin@math.nsysu.edu.tw}{chlin@math.nsysu.edu.tw}
+
+\href{https://jephianlin.github.io/}{https://jephianlin.github.io/}
+\columnbreak
+\begin{flushright}
+Department of Applied Mathematics
+
+National Sun Yat-sen University
+
+Kaohsiung 80424, Taiwan
+\end{flushright}
+\end{multicols}
+\end{small}
+\rule[3ex]{\textwidth}{.258ex}
+
+\vspace{-3pt}
+
+\heading{EMPLOYMENT}
+
+\begin{nobulletlist}
+\item \textbf{2022--present} Associate professor, NSYSU
+%% \item \textbf{2023--2024} Director, Teaching and Learning Development and Resources Center, National Sun Yat-sen University (NSYSU)
+\item \textbf{2018--2022} Assistant professor, NSYSU
+\item \textbf{2017--2018} Post-doctoral fellow, University of Victoria (UVic)
+%% \item \textbf{2014 Fall} Long-term visitor, Institute of Mathematics and its Application (IMA)
+%\begin{nobulletlist}
+%\item Annual Program (Discrete Structures: Analysis and Applications)
+%\end{nobulletlist}
+
+\end{nobulletlist}
+
+\heading{EDUCATION}
+
+\begin{nobulletlist}
+\item \textbf{2017} Ph.D., Mathematics, Iowa State University (ISU)
+% \begin{nobulletlist}
+% \item Advisor: Leslie Hogben \& Steve Butler
+% \item Thesis: Variants of zero forcing and their applications to the minimum rank problem
+% \end{nobulletlist}
+\item \textbf{2011} M.S., Mathematics, National Taiwan University (NTU)
+% \begin{nobulletlist}
+% \item Advisor: Gerard Jennhwa Chang
+% \item Thesis: Applications of zero forcing number to the minimum rank problem
+% \end{nobulletlist}
+\item \textbf{2009} B.S., Mathematics, National Taiwan Normal University (NTNU)
+\end{nobulletlist}
+
+\heading{RESEARCH INTERESTS}
+
+\begin{nobulletlist}
+%% \item Algebraic graph theory; combinatorics; the inverse eigenvalue problem; graph algorithm; quantum information.
+\item Spectral graph theory; inverse eigenvalue problem; network analysis; quantum information.
+\end{nobulletlist}
+
+\heading{HONORS}
+
+\begin{nobulletlist}
+\item \textbf{2019--2024} Young scholar fellowship (\CJKEN{愛因斯坦培植計畫}), Ministry of Science and Technology, Taiwan (\CJKEN{於 2021 年獲選轉為 2030 跨世代新秀學者計畫})
+%% \item \textbf{2021} Superior teaching award (\CJKEN{教學績優}), NSYSU
+\item \textbf{2022} LAA early career speaker at the 24th Conference of the International Linear Algebra Society (ILAS), Galway, Ireland
+\item \textbf{2017} Zaffarano Prize for Graduate Student Research, ISU
+\item \textbf{2016} Graduate college research/teaching excellence award, ISU
+%\item \textbf{2016} Graduate college research excellence award, ISU
+%\item \textbf{2016} Graduate college teaching excellence award, ISU
+\item \textbf{2016 Spring} Wolfe fellowship, ISU
+%% \item \textbf{2013--2016} Government scholarship, Ministry of Education, Taiwan
+%% \item \textbf{2011} Excellent thesis award, Symposium for Young Combinatorists, Taiwan
+%% \item \textbf{2010} Scholarship of Mr.~Dun-Fu Hu, NTU 
+%% \item \textbf{2005--2008} Excellent student scholarship, NTNU
+\end{nobulletlist}
+
+%% \newpage
+\heading{PROFESSIONAL SERVICES}
+\begin{nobulletlist}
+\item \textbf{Editor} of \emph{Linear and Multilinear Algebra}, 2024--present.
+\item \textbf{Associate Editor} of the \emph{Electronic Journal of Linear Algebra}, 2023--present.
+\item \textbf{Section Editor} of \emph{IMAGE} --- ILAS' Bulletin, 2019--present.
+\item \textbf{Referee} for \emph{Linear Algebra and its Applications}, \emph{Journal of Combinatorial Optimization}, \emph{Discrete Optimization}, \emph{Special Matrices}, and \emph{Discrete Applied Mathematics}, etc.
+\item \textbf{Local Organizer (Chair)} of the 26th Conference of ILAS, 2025.  
+\item \textbf{Assistant Conference Coordinator} of the 21th Conference of ILAS, 2017. 
+\end{nobulletlist}
+
+% \heading{COMPUTER SKILLS}
+% \begin{nobulletlist}
+% \item Python, Sage, Linux, \LaTeX{} and TikZ
+% \end{nobulletlist}
+
+\newpage 
+\heading{PUBLICATIONS}
+
+\begin{nobulletlist}
+\item \textsc{Appeared/Accepted}
+
+\begingroup
+%%% Revise the bibliography environment to equipe etaremune.
+\makeatletter
+\long\def\thebibliography#1{%
+  %\section*{\refname}%
+  \@mkboth{\MakeUppercase\refname}{\MakeUppercase\refname}
+  \settowidth{\dimen0}{\@biblabel{#1}}%
+  \setlength{\dimen2}{\dimen0}%
+  \addtolength{\dimen2}{\labelsep}
+  \sloppy
+  \clubpenalty 4000 
+  \@clubpenalty 
+  \clubpenalty 
+  \widowpenalty 4000
+  \sfcode `\.\@m
+  \renewcommand{\labelenumi}{\@biblabel{\theenumi}} % labels like [3], [2], [1]
+  \begin{etaremune}[labelwidth=\dimen0,leftmargin=\dimen2]\@openbib@code
+}
+\def\endthebibliography{\end{etaremune}}
+%%% This change the bibitem label to number period
+\def\@bibitem#1{%
+  \item \if@filesw\immediate\write\@auxout{\string\bibcite{#1}{\the\value{enumi}}}\fi\ignorespaces
+} %\the\value{enumi} tells the number of \cite{#1}
+\def\@biblabel#1{#1.} %This part make the label as arabic with a period.
+\makeatother
+
+\begin{bibunit}[unsrt]
+\nocite{SNIP, ComVanish, SCoCo, 
+LiberationG, bifur, IEPBlocks, Zpower, ChorDi, 
+sepr-pattern, CoCo, AIMZq, GHadamardDiag, Gssp, 
+IEPG2, AIM17PartialZF, FKpriori, ZCritical, ZGrundy, 
+det_distance, maxcrt, GRWCds1, UI, gSAP, 
+ZPropDi, entropy, Zsap, RAP, GRWCds2, 
+Zoc, loopEGR, sieving, GJ14, FCnumbers}
+\putbib[./JLaTeX/AuthorA,./JLaTeX/JournalA,./JLaTeX/JepBib]
+\end{bibunit}
+\endgroup
+
+%\newpage
+\item \textsc{Submitted}
+
+\begingroup
+%% This change the bibitem label to alph period 
+\makeatletter
+\def\@bibitem#1{\item\if@filesw \immediate\write\@auxout
+  {\string\bibcite{#1}{\alphalph{\value{\@listctr}}}}\fi\ignorespaces} %\the\value{enumi} tells the number of \cite{#1}
+\def\@biblabel#1{\alphalph{#1}.} %This part deal with the label in References.
+\makeatother
+
+\begin{bibunit}[unsrt]
+\nocite{MultiNG, GJpower}
+\putbib[./JLaTeX/AuthorA,./JLaTeX/JournalA,./JLaTeX/JepBib]
+\end{bibunit}
+\endgroup
+
+%% \newpage
+\item \textsc{Book/Others}
+
+\begingroup
+%%% Revise the bibliography environment to equipe etaremune.
+\makeatletter
+\long\def\thebibliography#1{%
+  %\section*{\refname}%
+  \@mkboth{\MakeUppercase\refname}{\MakeUppercase\refname}
+  \settowidth{\dimen0}{\@biblabel{#1}}%
+  \setlength{\dimen2}{\dimen0}%
+  \addtolength{\dimen2}{\labelsep}
+  \sloppy
+  \clubpenalty 4000 
+  \@clubpenalty 
+  \clubpenalty 
+  \widowpenalty 4000
+  \sfcode `\.\@m
+  \renewcommand{\labelenumi}{\@biblabel{\theenumi}} % labels like [3], [2], [1]
+  \begin{etaremune}[labelwidth=\dimen0,leftmargin=\dimen2]\@openbib@code
+}
+\def\endthebibliography{\end{etaremune}}
+%%% This change the bibitem label to number period
+\def\@bibitem#1{%
+  \item \if@filesw\immediate\write\@auxout{\string\bibcite{#1}{\the\value{enumi}}}\fi\ignorespaces
+} %\the\value{enumi} tells the number of \cite{#1}
+\def\@biblabel#1{#1.} %This part make the label as arabic with a period.
+\makeatother
+
+\begin{bibunit}[unsrt]
+\nocite{IEPGZF22, Notices20, FYCGTC13}
+\putbib[./JLaTeX/AuthorA,./JLaTeX/JournalA,./JLaTeX/JepBib]
+\end{bibunit}
+\endgroup 
+
+\end{nobulletlist}
+
+
+%% This change the bibitem label to no label
+\makeatletter
+\def\@biblabel#1{}
+\makeatother
+
+\heading{SELECTED PRESENTATIONS}
+
+\begin{nobulletlist}
+\item \textsc{Plenary Lectures}
+
+\begingroup
+\begin{bibunit}[unsrt]
+\nocite{AIM2017talk}
+\putbib[./JLaTeX/JepTalks]
+\end{bibunit}
+\endgroup
+
+%%%WARNING
+% \newpage
+\item \textsc{Invited for Special Sessions/Mini Symposia}
+
+\begingroup
+\begin{bibunit}[unsrt]
+\nocite{MAO2024, ILAS2023, JMM2023,  ILAS2022,  
+JMM2022, SIAMALA2021, CanaDAM2021,  
+JMM2021, ILAS2019, SIAMDM2018, 
+JMM2018, CP2017, ILAS2017, AMSMinneapolis2016, 
+ILAS2016, AMSFargo2016, Boca2016, ILAS2014}
+\putbib[./JLaTeX/JepTalks]
+\end{bibunit}
+\endgroup
+
+\end{nobulletlist}
+
+
+%\end{large}
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%REAL END%%%%%%%%%%%%%%%%%%%%%%
+
+
+%revised 2016-0930
+%change to BibTex 2015-0914
+
+%original command: pdflatex -synctex=1 -interact=nonstopmode 'active-CV.tex'
+%sagemathcloud={"latex_command":"pdflatex active-CV.tex; bibtex active-CV.1.aux; bibtex active-CV.2.aux; bibtex active-CV.3.aux; bibtex active-CV.4.aux; bibtex active-CV.5.aux; bibtex active-CV.6.aux; bibtex active-CV.7.aux; pdflatex -synctex=1 -interact=nonstopmode 'active-CV.tex'"}
+
+pdflatex active-CV.tex; bibtex active-CV.1.aux; bibtex active-CV.2.aux; bibtex active-CV.3.aux; bibtex active-CV.4.aux; bibtex active-CV.5.aux; bibtex active-CV.6.aux; bibtex active-CV.7.aux; pdflatex active-CV.tex
