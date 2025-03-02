@@ -43,6 +43,11 @@ B.~Ahmadi, F.~Alinaghipour, M.~S. Cavers, S.~M. Fallat, K.~Meagher, and
 \newblock Minimum number of distinct eigenvalues of graphs.
 \newblock {\em Electron.\ J.\ Linear Algebra}, 26:673--691, 2013.
 
+\bibitem{ANRDW17}
+N.~K. Ahmed, J.~Neville, R.A. Rossi, N.G. Duffield, and T.L. Willke.
+\newblock Graphlet decomposition: framework, algorithms, and applications.
+\newblock {\em Knowledge and Information Systems}, 50:689--722, 2017.
+
 \bibitem{AABBCGKMW21}
 J.~Ahn, C.~Alar, B.~Bjorkman, S.~Butler, J.~Carlson, A.~Goodnight, H.~Knox,
   C.~Monroe, and M.~C. Wigal.
@@ -250,6 +255,11 @@ C.~Bozeman, A.~Ellsworth, L.~Hogben, J.~C.-H. Lin, G.~Maurer, K.~Nowak,
   A.~Rodriguez, and J.~Strickland.
 \newblock Minimum rank of graphs with loops.
 \newblock {\em Electron.\ J.\ Linear Algebra}, 27:907--934, 2014.
+
+\bibitem{BF13}
+E.~Bozzo and M.~Franceschet.
+\newblock Resistance distance, closeness, and betweenness.
+\newblock {\em Social Networks}, 35:460--469, 2013.
 
 \bibitem{BLS99}
 A.~Brands{\"a}dt, V.~B. Le, and J.~Spinrad.
@@ -691,6 +701,11 @@ K.~M. Hall.
 \newblock An {$r$}-dimensional quadratic placement algorithm.
 \newblock {\em Management Science}, 17:219--229, 1970.
 
+\bibitem{Hamilton20}
+W.~L. Hamilton.
+\newblock {\em Graph Representation Learning}.
+\newblock Springer Cham, 2020.
+
 \bibitem{ChorDi}
 P.~Hell, C.~Hernandez-Cruz, J.~Huang, and J.~C.-H. Lin.
 \newblock Strong chordality of graphs with possible loops.
@@ -854,6 +869,11 @@ F.~H.~J. Kenter and J.~C.-H. Lin.
   multiplicities.
 \newblock {\em Linear Algebra Appl.}, 629:138--167, 2021.
 
+\bibitem{KW17}
+T.~Kipf and M.~Welling.
+\newblock Semi-supervised classification with graph convolutional networks.
+\newblock {\em International Conference on Learning Representations}, 2017.
+
 \bibitem{KNS96}
 S.~Kirkland, M.~Neumann, and B.~Shader.
 \newblock Characteristic vertices of weighted trees via {P}erron values.
@@ -875,6 +895,11 @@ A.~Kotlov, L.~Lov{\'a}sz, and S.~Vempala.
 T.~J. Laffey.
 \newblock Extreme nonnegative matrices.
 \newblock {\em Linear Algebra Appl.}, 275--276:275--276, 1998.
+
+\bibitem{lGKC21}
+L.~le~Gorrec, P.~A. Knight, and A.~Caen.
+\newblock Learning network embeddings using small graphlets.
+\newblock {\em Social Network Analysis and Mining}, 12:20, 2021.
 
 \bibitem{LDuarte89}
 A.~{\noopsort{Leal}}{Leal Duarte}.
@@ -1007,6 +1032,12 @@ K.~H. Monfared and B.~Shader.
   spectral data.
 \newblock {\em Linear Algebra Appl.}, 438:4348--4358, 2013.
 
+\bibitem{Nielsen15}
+Michael~A. Nielsen.
+\newblock {\em Neural Networks and Deep Learning}.
+\newblock Determination Press, 2015.
+\newblock \url{http://neuralnetworksanddeeplearning.com/}.
+
 \bibitem{ORvdD13}
 D.~D. Olesky, M.~F. Rempel, and P.~{\noopsort{Driessche}}{van den Driessche}.
 \newblock Refined inertias of tree sign patterns of orders 2 and 3.
@@ -1086,6 +1117,12 @@ J.~Sinkovic and M.~Kempton.
 \newblock Minimum rank of outerplanar graphs.
 \newblock {\em Linear Algebra Appl.}, 436:3701--3720, 2012.
 
+\bibitem{CCSz97}
+P.~Ciarlet~Jr. T.~F.~Chan and W.~K. Szeto.
+\newblock On the optimality of the median cut spectral bisection graph
+  partitioning method.
+\newblock {\em SIAM J.\ Sci.\ Comput.}, 18:943--948, 1997.
+
 \bibitem{Test}
 Test.
 \newblock Test.
@@ -1096,6 +1133,11 @@ Test.
 {The Sage Developers}.
 \newblock {\em {S}ageMath, the {S}age {M}athematics {S}oftware {S}ystem}.
 \newblock \url{http://www.sagemath.org}.
+
+\bibitem{UZ14}
+J.~C. Urschel and L.~T. Zikatanov.
+\newblock Spectral bisection of graphs and connectedness.
+\newblock {\em Linear Algebra Appl.}, 449:1--16, 2014.
 
 \bibitem{VPV05}
 M.~Valencia-Pabon and J.-C. Vera.
