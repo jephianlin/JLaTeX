@@ -5,12 +5,17 @@
 %\usepackage{textcomp}
 %\usepackage{graphicx}
 \usepackage{hyperref}
-\usepackage[top=1 in, bottom=1 in,left=1 in,right=1 in]{geometry}
+\usepackage[top=1 in, bottom=1 in, left=1 in, right=1 in]{geometry}
 %\linespread{1.2}
 \parindent=0pt
 \usepackage{color}
 \definecolor{red}{rgb}{1,0,0}
 \def\red{\color{red}}
+
+%%% setting for Chinese characters
+\usepackage[T1]{fontenc}
+\usepackage{CJKutf8}
+\newcommand{\CJKEN}[1]{\begin{CJK}{UTF8}{bkai}#1\end{CJK}}
 
 \usepackage{multicol}
 \usepackage{enumitem}
@@ -33,7 +38,7 @@
 %\begin{large}
 \begin{center}
 \begin{LARGE}
-\textbf{(Jephian) Chin-Hung Lin}
+\textbf{(Jephian) Chin-Hung Lin \CJKEN{林晉宏}}
 \end{LARGE} 
 \end{center}
 \begin{small}
