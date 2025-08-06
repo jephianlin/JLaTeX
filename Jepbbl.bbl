@@ -509,6 +509,11 @@ C.~Erickson, L.~Gan, J.~Kritschgau, J.~C.-H. Lin, and S.~Spiro.
 \newblock Complementary vanishing graphs.
 \newblock {\em Linear Algebra Appl.}, 692:185--211, 2024.
 
+\bibitem{IEPL}
+S.~M. Fallat, H.~Gupta, and J.~C.-H. Lin.
+\newblock Inverse eigenvalue problem for {L}aplacian matrices of a graph.
+\newblock {\em SIAM J.\ Matrix Anal.\ Appl.}, 46:1866--1886, 2025.
+
 \bibitem{bifur}
 S.~M. Fallat, H.~T. Hall, J.~C.-H. Lin, and B.~Shader.
 \newblock The bifurcation lemma for strong properties in the inverse eigenvalue
