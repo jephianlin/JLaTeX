@@ -906,6 +906,13 @@ T.~J. Laffey.
 \newblock Extreme nonnegative matrices.
 \newblock {\em Linear Algebra Appl.}, 275--276:275--276, 1998.
 
+\bibitem{IEPS}
+A.~Laikhuram and J.~C.-H. Lin.
+\newblock Inverse eigenvalue problem for discrete schrödinger operators of a
+  graph.
+\newblock To appear in {\em Linear Algebra Appl.}, 2025.
+\newblock \url{https://doi.org/10.1016/j.laa.2025.10.030}.
+
 \bibitem{lGKC21}
 L.~le~Gorrec, P.~A. Knight, and A.~Caen.
 \newblock Learning network embeddings using small graphlets.
