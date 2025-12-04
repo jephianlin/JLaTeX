@@ -250,6 +250,11 @@ E.~Bodine, L.~Deaett, J.~J. McDonald, D.~D. Olesky, and
 \newblock Sign patterns that require or allow particular refined inertias.
 \newblock {\em Linear Algebra Appl.}, 437:2228--2242, 2012.
 
+\bibitem{BG87}
+D.~Boley and G.H. Golub.
+\newblock A survey of matrix inverse eigenvalue problems.
+\newblock {\em Inverse Problems}, 3:595--622, 1987.
+
 \bibitem{loopEGR}
 C.~Bozeman, A.~Ellsworth, L.~Hogben, J.~C.-H. Lin, G.~Maurer, K.~Nowak,
   A.~Rodriguez, and J.~Strickland.
@@ -821,6 +826,12 @@ H.~{\noopsort{Holst}}{van der Holst}, L.~Lov{\'a}sz, and A.~Schrijver.
 \newblock In {\it Graph Theory and Computational Biology (Balatonlelle, 1996)},
   pp. 29--85, Janos Bolyai Math. Soc., Budapest, 1999.
 
+\bibitem{HHuang19}
+H.~Huang.
+\newblock Induced subgraphs of hypercubes and a proof of the {S}ensitivity
+  {C}onjecture.
+\newblock {\em Annals of Mathematics}, 190:949--955, 2019.
+
 \bibitem{JHuang18}
 J.~Huang.
 \newblock Non-edge orientation and vertex ordering characterizations of some
@@ -856,6 +867,11 @@ C.~R. Johnson, R.~Loewy, and P.~A. Smith.
 \newblock The graphs for which the maximum multiplicity of an eigenvalue is
   two.
 \newblock {\em Linear Multilinear Algebra}, 57:713--736, 2009.
+
+\bibitem{JW22}
+C.~R. Johnson and T.~Wakhare.
+\newblock The inverse eigenvalue problem for linear trees.
+\newblock {\em Discrete Math.}, 345:112737, 2022.
 
 \bibitem{Jones50}
 B.~W. Jones.
