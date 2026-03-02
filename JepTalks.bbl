@@ -3,12 +3,31 @@
 \bibitem{plenarylecture}
 \textsc{Plenary Lecture}.
 
+\bibitem{ILAS2026-P}
+\textbf{2026} ``Inverse problems on a graph: strong matrices and graph
+  minors,'' 27th International Linear Algebra Society Conference, Blacksburg,
+  VA (LAMA Lecture).
+
+\bibitem{ICDM2025}
+\textbf{2025} ``Inverse problems on a graph: strong matrices and graph
+  minors,'' International Conference in Discrete Mathematics, Tiruchirappalli,
+  India.
+
 \bibitem{AIM2017talk}
 \textbf{2017} ``Variants of Zero Forcing,'' AIM Workshop: Zero forcing and its
   applications, San Jose, CA.
 
 \bibitem{invitedSpecial}
 \textsc{Invited for Special Sessions/Mini Symposia}.
+
+\bibitem{ILAS2026-MS08}
+\textbf{2026} ``Jacobian method and strong properties,'' 27th International
+  Linear Algebra Society Conference, Blacksburg, VA.
+
+\bibitem{SCDA2026}
+\textbf{2026} ``Inverse Fiedler vector problem of a graph,'' 2026 NCTS South
+  Taiwan Workshop on Scientific Computing, Differential Equations and
+  Applications, Kaohsiung, Taiwan.
 
 \bibitem{MALA2025}
 \textbf{2025} ``Spectral Clustering: Theory and Practice,'' MALA Seminar,
