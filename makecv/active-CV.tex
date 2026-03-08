@@ -1,4 +1,13 @@
 \documentclass[11pt]{article}
+
+\usepackage{versions}
+%%% short version
+\excludeversion{longcv}
+\includeversion{shortcv}
+%%% long version
+\includeversion{longcv}
+\excludeversion{shortcv}
+
 \pagestyle{empty}
 \usepackage{hyperref}
 \usepackage[top=1 in, bottom=1 in,left=1 in,right=1 in]{geometry}
@@ -43,7 +52,8 @@
 \begin{multicols}{2}
 Phone: (+1)307-314-9275
 
-Email: \href{mailto:jephianlin@gmail.com}{\texttt{jephianlin@gmail.com}}
+Email: \href{mailto:jephianlin@nycu.edu.tw}{\texttt{jephianlin@nycu.edu.tw}}
+%% Email: \href{mailto:jephianlin@gmail.com}{\texttt{jephianlin@gmail.com}}
 %% Email: \href{mailto:chlin@math.nsysu.edu.tw}{\texttt{chlin@math.nsysu.edu.tw}}
 
 \url{https://jephianlin.github.io/}
@@ -66,7 +76,7 @@ Hsinchu 300093, Taiwan
 \begin{nobulletlist}
 \item \textbf{2026--present} Associate professor, NYCU
 \item \textbf{2022--2026} Associate professor, National Sun Yat-sen University (NSYSU)
-\item \textbf{2023--2024} Director, Teaching and Learning Development and Resources Center, NSYSU
+\begin{longcv}\item \textbf{2023--2024} Director, Teaching and Learning Development and Resources Center, NSYSU\end{longcv}
 \item \textbf{2018--2022} Assistant professor, NSYSU
 \item \textbf{2017--2018} Post-doctoral fellow, University of Victoria (UVic)
 \end{nobulletlist}
@@ -100,31 +110,31 @@ Hsinchu 300093, Taiwan
 \item \textbf{2026} Plenary Speaker (LAMA Lecture) at the 27th Conference of the International Linear Algebra Society, Blacksburg, VA
 \item \textbf{2019--2024} Young Scholar Fellowship (\CJKEN{愛因斯坦培植計畫}), Ministry of Science and Technology, Taiwan (\CJKEN{於 2021 年獲選轉為 2030 跨世代新秀學者計畫})
 \item \textbf{2022} LAA Early Career Speaker at the 24th Conference of the International Linear Algebra Society, Galway, Ireland
-\item \textbf{2021} Superior Teaching Award (\CJKEN{教學績優}), NSYSU
+\begin{longcv}\item \textbf{2021} Superior Teaching Award (\CJKEN{教學績優}), NSYSU\end{longcv}
 \item \textbf{2017} Zaffarano Prize for graduate student research, ISU
-\item \textbf{2016} Graduate College Research/Teaching Excellence Award, ISU
+\begin{longcv}\item \textbf{2016} Graduate College Research/Teaching Excellence Award, ISU\end{longcv}
 %\item \textbf{2016} Graduate college research excellence award, ISU
 %\item \textbf{2016} Graduate college teaching excellence award, ISU
-\item \textbf{2016 Spring} Wolfe Fellowship, ISU
-\item \textbf{2014 Fall} Long-term visitor, Institute of Mathematics and its Application (IMA)
+\begin{longcv}\item \textbf{2016 Spring} Wolfe Fellowship, ISU\end{longcv}
+\begin{longcv}\item \textbf{2014 Fall} Long-term visitor, Institute of Mathematics and its Application (IMA)\end{longcv}
 %\begin{nobulletlist}
 %\item Annual Program (Discrete Structures: Analysis and Applications)
-\item \textbf{2013--2016} Government Scholarship, Ministry of Education, Taiwan
-\item \textbf{2011} Excellent Thesis Award, Symposium for Young Combinatorists, Taiwan
-\item \textbf{2010} Scholarship of Mr.~Dun-Fu Hu, NTU 
-\item \textbf{2005--2008} Excellent Student Scholarship, NTNU
+\begin{longcv}\item \textbf{2013--2016} Government Scholarship, Ministry of Education, Taiwan\end{longcv}
+\begin{longcv}\item \textbf{2011} Excellent Thesis Award, Symposium for Young Combinatorists, Taiwan\end{longcv}
+\begin{longcv}\item \textbf{2010} Scholarship of Mr.~Dun-Fu Hu, NTU\end{longcv}
+\begin{longcv}\item \textbf{2005--2008} Excellent Student Scholarship, NTNU\end{longcv}
 \end{nobulletlist}
 
-\newpage
+\begin{longcv}\newpage\end{longcv}
 \heading{PROFESSIONAL SERVICES}
 \begin{nobulletlist}
 \item \textbf{Member, Board of Directors} of the International Linear Algebra Society (ILAS), 2025--present.
-%% \item \textbf{Member, Education Committee} of ILAS, 2025--present.  
+\begin{longcv}\item \textbf{Member, Education Committee} of ILAS, 2025--present.\end{longcv}
+\item \textbf{Guest Editor} of \emph{Linear Algebra and its Applications (ILAS2025 special issue)}, 2025--2026.
+\begin{longcv}\item \textbf{Editor} of \emph{Tamkang Journal of Mathematics}, 2025--present.\end{longcv}
 \item \textbf{Editor} of \emph{Linear and Multilinear Algebra}, 2024--present.
 \item \textbf{Associate Editor} of the \emph{Electronic Journal of Linear Algebra}, 2023--present.
-\item \textbf{Section Editor} of \emph{IMAGE} --- ILAS' Bulletin, 2019--present.
-%% \item \textbf{Guest Editor} of \emph{Linear Algebra and its Applications (ILAS2025 special issue)}.
-%% \item \textbf{Editor} of \emph{Tamkang Journal of Mathematics}.
+\begin{longcv}\item \textbf{Section Editor} of \emph{IMAGE} --- ILAS' Bulletin, 2019--present.\end{longcv}
 \item \textbf{Referee} for \emph{Linear Algebra and its Applications}, \emph{Journal of Combinatorial Optimization}, \emph{Discrete Optimization}, \emph{Special Matrices}, and \emph{Discrete Applied Mathematics}, etc.
 \item \textbf{Local Organizer (Chair)} of the 26th Conference of ILAS, 2025.  
 \item \textbf{Assistant Conference Coordinator} of the 21th Conference of ILAS, 2017. 
@@ -135,7 +145,7 @@ Hsinchu 300093, Taiwan
 % \item Python, Sage, Linux, \LaTeX{} and TikZ
 % \end{nobulletlist}
 
-%% \newpage 
+\begin{shortcv}\newpage\end{shortcv}
 \heading{PUBLICATIONS}
 
 \begin{nobulletlist}
@@ -180,6 +190,7 @@ Zoc, loopEGR, sieving, GJ14, FCnumbers}
 \endgroup
 
 %\newpage
+\begin{longcv}
 \item \textsc{Submitted}
 
 \begingroup
@@ -195,6 +206,7 @@ Zoc, loopEGR, sieving, GJ14, FCnumbers}
 \putbib[./JLaTeX/AuthorA,./JLaTeX/JournalA,./JLaTeX/JepBib]
 \end{bibunit}
 \endgroup
+\end{longcv}
 
 %% \newpage
 \item \textsc{Book/Others}
@@ -233,13 +245,18 @@ Zoc, loopEGR, sieving, GJ14, FCnumbers}
 
 \end{nobulletlist}
 
-
 %% This change the bibitem label to no label
 \makeatletter
 \def\@biblabel#1{}
 \makeatother
 
+\begin{longcv}\newpage
 \heading{PRESENTATIONS}
+\end{longcv}
+
+\begin{shortcv}
+\heading{SELECTED PRESENTATIONS}
+\end{shortcv}
 
 \begin{nobulletlist}
 \item \textsc{Plenary Lectures}
@@ -257,6 +274,7 @@ Zoc, loopEGR, sieving, GJ14, FCnumbers}
 
 \begingroup
 \begin{bibunit}[unsrt]
+\begin{longcv}
 \nocite{ILAS2026-MS08, SCDA2026, MALA2025, ILAS2025-MS27, ILAS2025-MS17, 
 SZWM2025, JMM2025, JTInverse2024, URegina2024, MAO2024, 
 SZWM2024, ILAS2023, AGT2023, SZWM2023, AMTMS2022, 
@@ -266,10 +284,25 @@ JMM2021, AMTMS2020, ILAS2019, TWSIAM2019, AMTMS2018,
 NCTU2018, WCG2018, SIAMDM2018, TWViet2018, SFU2018,
 Brandon2018, JMM2018, CP2017, ILAS2017, AMSMinneapolis2016, 
 TWSC2016, ILAS2016, AMSFargo2016, Boca2016, ILAS2014}
+\end{longcv}
+
+\begin{shortcv}
+\nocite{ILAS2026-MS08, ILAS2025-MS17, 
+JMM2025, MAO2024, 
+ILAS2023, 
+JMM2023,  ILAS2022,  
+JMM2022, SIAMALA2021, CanaDAM2021,  
+JMM2021, ILAS2019, 
+SIAMDM2018, 
+JMM2018, CP2017, ILAS2017, AMSMinneapolis2016, 
+ILAS2016, AMSFargo2016, Boca2016, ILAS2014}
+\end{shortcv}
+
 \putbib[./JLaTeX/JepTalks]
 \end{bibunit}
 \endgroup
 
+\begin{longcv}
 %%%WARNING
 %% \newpage
 \item \textsc{Contributed}
@@ -281,9 +314,12 @@ WCLAM2016, ConnectionDM2015, Boca2014, TWSC2011, AMTMS2009}
 \putbib[./JLaTeX/JepTalks]
 \end{bibunit}
 \endgroup
+\end{longcv}
+
 \end{nobulletlist}
 
-% \newpage
+\begin{longcv}
+\newpage
 \heading{WORKSHOPS/PROGRAMS/CONFERENCES}
 
 \begingroup
@@ -300,7 +336,9 @@ IMAGE2014, IMAAA2014, IMAPE2014, Sinica2009, APMO2004}
 \putbib[./JLaTeX/JepTalks]
 \end{bibunit}
 \endgroup
+\end{longcv}
 
+\begin{longcv}
 %%%WARNING
 % \newpage
 \heading{TEACHING WORKSHOPS}
@@ -311,6 +349,7 @@ IMAGE2014, IMAAA2014, IMAPE2014, Sinica2009, APMO2004}
 \item \textbf{2020} Flipped Learning 3.0 Certification, Level - I 
 \item \textbf{2017} Faculty Institute of Teaching Summer (one-week workshop organised by Learning and Teaching Centre at UVic)
 \end{nobulletlist}
+\end{longcv}
 
 %%%EXPERIENCES BEFORE NSYSU
 \iffalse
@@ -345,9 +384,9 @@ IMAGE2014, IMAAA2014, IMAPE2014, Sinica2009, APMO2004}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%REAL END%%%%%%%%%%%%%%%%%%%%%%
 
-
-%revised 2016-0930
-%change to BibTex 2015-0914
+% make two versions 2026-0308
+% revised 2016-0930
+% change to BibTex 2015-0914
 
 %original command: pdflatex -synctex=1 -interact=nonstopmode 'active-CV.tex'
 %sagemathcloud={"latex_command":"pdflatex active-CV.tex; bibtex active-CV.1.aux; bibtex active-CV.2.aux; bibtex active-CV.3.aux; bibtex active-CV.4.aux; bibtex active-CV.5.aux; bibtex active-CV.6.aux; bibtex active-CV.7.aux; pdflatex -synctex=1 -interact=nonstopmode 'active-CV.tex'"}
