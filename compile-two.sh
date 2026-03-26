@@ -9,6 +9,6 @@ tail -n +7 $FILENAME >> $BASENAME-A.tex
 head -n 6 $FILENAME > $BASENAME-B.tex
 tail -n +10 $FILENAME >> $BASENAME-B.tex
 
-# pdflatex $BASENAME-A.tex
+pdflatex $BASENAME-A.tex
 
-# pdflatex $BASENAME-B.tex
+pdflatex $BASENAME-B.tex
