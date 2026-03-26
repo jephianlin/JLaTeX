@@ -1,0 +1,264 @@
+\documentclass[a4paper]{article}
+
+\usepackage{versions}
+%%% version B
+\excludeversion{vra}
+\includeversion{vrb}
+%%% version A
+\includeversion{vra}
+\excludeversion{vrb}
+
+\usepackage[left=25mm,right=20mm,top=20mm,bottom=20mm]{geometry}
+%\usepackage{pdfpages}
+\usepackage{amsmath,amssymb}
+\usepackage{enumitem}
+%\usepackage{array}
+\usepackage{bm}
+\usepackage{esvect}
+\usepackage{systeme}
+\usepackage{multicol}
+%% \usepackage{siunitx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CHANGE HERE
+%% \newcommand{\examtype}{Midterm 1}
+%% \newcommand{\examtypezh}{第一次期中考}
+%% \newcommand{\examtype}{Midterm 2}
+%% \newcommand{\examtypezh}{第二次期中考}
+%% \newcommand{\examtype}{Final Exam}
+%% \newcommand{\examtypezh}{期末考}
+\newcommand{\examtype}{Exam 1}
+\newcommand{\examtypezh}{第一次段考}
+%% \newcommand{\examtype}{Exam 2}
+%% \newcommand{\examtypezh}{第二次段考}
+
+%% \newcommand{\courseid}{MATH103A / GEAI1215A}
+%% \newcommand{\coursename}{Linear Algebra I}
+%% \newcommand{\coursenamezh}{線性代數（一）}
+
+%% \newcommand{\courseid}{MATH104A / GEAI1209A}
+%% \newcommand{\coursename}{Linear Algebra II}
+%% \newcommand{\coursenamezh}{線性代數（二）}
+
+%% \newcommand{\courseid}{MATH107A / GEAI1216A}
+%% \newcommand{\coursename}{Introduction to Mathematics I}
+%% \newcommand{\coursenamezh}{數學導論（一）}
+
+\newcommand{\courseid}{SCMA30084}
+\newcommand{\coursename}{Python and Machine Learning Algorithms}
+\newcommand{\coursenamezh}{Python 與機器學習演算法}
+
+\newcommand{\exammy}{March 2026}
+\newcommand{\exammdy}{March 30, 2026}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%n%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CHANGE AUTO
+\lhead{\examtype{} - \exammy{}}
+%\rhead{this is page \thepage}
+\rhead{\coursename{} [\courseid{}]}
+\rfoot{\textbf{Every sentence should be complete.}}
+\usepackage{tikz}
+%\usepackage{pgfplots}
+\usetikzlibrary{arrows}
+\pagenumbering{gobble}
+\newenvironment{drawing}{\begin{flushright}\begin{tikzpicture}}{\end{tikzpicture}\end{flushright}}
+
+\usepackage{CJKutf8}
+\newcommand{\CJKEN}[1]{\begin{CJK}{UTF8}{bkai}#1\end{CJK}}
+
+\parindent=0pt
+
+%Macro
+\newcommand{\blankof}[1]{\scalebox{2}{\phantom{#1}}}
+\newcommand{\trans}{^\top}
+\newcommand{\adj}{^{\rm adj}}
+\newcommand{\cof}{^{\rm cof}}
+\newcommand{\inp}[2]{\left\langle#1,#2\right\rangle}
+\newcommand{\dunion}{\mathbin{\dot\cup}}
+\newcommand{\bzero}{\mathbf{0}}
+\newcommand{\bone}{\mathbf{1}}
+\newcommand{\ba}{\mathbf{a}}
+\newcommand{\bb}{\mathbf{b}}
+\newcommand{\bd}{\mathbf{d}}
+\newcommand{\be}{\mathbf{e}}
+\newcommand{\bh}{\mathbf{h}}
+\newcommand{\bp}{\mathbf{p}}
+\newcommand{\bq}{\mathbf{q}}
+\newcommand{\bx}{\mathbf{x}}
+\newcommand{\by}{\mathbf{y}}
+\newcommand{\bz}{\mathbf{z}}
+\newcommand{\bu}{\mathbf{u}}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\bw}{\mathbf{w}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\nul}{\operatorname{null}}
+\newcommand{\rank}{\operatorname{rank}}
+%\newcommand{\ker}{\operatorname{ker}}
+\newcommand{\range}{\operatorname{range}}
+\newcommand{\Col}{\operatorname{Col}}
+\newcommand{\Row}{\operatorname{Row}}
+\newcommand{\spec}{\operatorname{spec}}
+\newcommand{\vspan}{\operatorname{span}}
+\newcommand{\idmap}{\operatorname{id}}
+
+\newcommand{\Rep}{\operatorname{Rep}}
+
+%Date*2 
+
+\begin{document}
+\begin{Large}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CHANGE AUTO
+\thispagestyle{empty}
+%% \centerline{\CJKEN{國立中山大學} \hfill NATIONAL SUN YAT-SEN UNIVERSITY}
+\makebox[\linewidth][s]{\CJKEN{國立陽明交通大學}}
+\makebox[\linewidth][s]{NATIONAL YANG MING CHIAO TUNG UNIVERSITY}
+
+\vspace{0.5cm}
+\centerline{\textbf{\CJKEN{\coursenamezh{}}} \hfill \textbf{\courseid{}}}
+\centerline{\textbf{\coursename{}} \hfill }
+\vspace{0.5cm}
+\centerline{\textbf{\CJKEN{\examtypezh{}}} \hfill \exammdy{} \hfill \textbf{\examtype{}}}
+\vspace{0.5cm}
+\begin{flushleft}
+\begin{tabular}{rl}
+\CJKEN{姓名} Name &: \underline{\hspace{10em}} \\
+ & \\
+\CJKEN{學號} Student ID \# &: \underline{\hspace{10em}} \\
+\end{tabular}
+\end{flushleft}
+
+\bigskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CHANGE HERE
+\begin{flushright}
+\begin{tabular}{|rl|}
+\hline
+Lecturer: & Jephian Lin \CJKEN{林晉宏}\\
+% & [A01 - CRN 21993]\\
+Contents: & cover page, \\
+ & \textbf{5 pages} of questions, \\
+ %% & \textbf{6 pages} of questions, \\
+ & score page at the end\\
+To be answered: & on the test paper \\
+Duration: & \textbf{180 minutes} \\
+Total points: & \textbf{20 points } + 2 extra points\\
+%% Total points: & \textbf{20 points } + 7 extra points\\
+\hline
+\end{tabular}
+\end{flushright}
+
+%\hrule
+
+\vfill
+\begin{center}
+%\textbf{\color{red}\Huge SAMPLE}
+
+\textbf{Do not open this packet until instructed to do so.}
+\end{center}
+
+\vfill
+Instructions:
+\begin{itemize}[label={-}]
+\item Enter your \textbf{Name} and \textbf{Student ID \#} before you start.
+%% \item Using the calculator is not allowed (and not necessary) for this exam.
+\item If the answer is too long, round it to \textbf{two decimal places}.  Numerical answers with a \textbf{tolerance $\mathbf{\pm 0.05}$} are accepted.
+\item Any work necessary to arrive at an answer must be shown on the examination paper.  Marks will not be given for final answers that are not supported by appropriate work.
+\item Clearly indicate your final answer to each question either by \textbf{underlining it or circling it}.  If multiple answers are shown then no marks will be awarded.
+%% \item \CJKEN{可用中文或英文作答}
+\item Please answer the problems in \textbf{English}.
+\end{itemize}
+
+%%%Page 1
+\newpage
+\pagenumbering{arabic}
+\begin{enumerate}
+%\setlength{\itemsep}{20em}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CHANGE HERE
+
+%%% TOPIC 1
+\item{} [1pt] 
+\vspace{2cm}
+\item{} [1pt] 
+\vspace{2cm}
+\item{} [1pt] 
+\vspace{2cm}
+\item{} [1pt] 
+\vspace{2cm}
+\item{} [1pt] 
+\newpage
+
+
+%%% TOPIC 2
+\item{} Let 
+\[
+    A = \begin{bmatrix}
+      1 & 2 \\
+      3 & 4 
+    \end{bmatrix}.
+\]
+\begin{enumerate}
+\item{} [2pt] 
+\vspace{8cm}
+\item{} [3pt] 
+\end{enumerate}
+\newpage
+
+
+%% TOPIC 3
+\item{} [5pt]
+\newpage
+
+%% ESSAY
+\item{} [5pt] Mathematical essay:  Write a few paragraphs to introduce the \emph{characteristic polynomial}.
+
+Your score will be based on the following criteria.  
+\begin{itemize}
+\item The definition is clear.
+\item Some sentences are added to explain the definition.
+\item Examples or pictures are included to help understanding.
+\item The sentences are complete.
+\end{itemize}
+\newpage
+
+
+%%% EUCLIDEAN
+\item{} [extra 2pt] 
+
+
+\end{enumerate}
+\vfill
+\hfill \textbf{[END]}
+
+\newpage
+\thispagestyle{empty}
+\rule{0pt}{0pt}
+\vfil
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CHANGE HERE
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Page & Points & Score \\
+\hline
+1 & 5 &  \\ 
+\hline
+2 & 5 &  \\ 
+\hline
+3 & 5 &  \\ 
+\hline
+4 & 5 &  \\ 
+\hline
+5 & 2 &  \\ 
+\hline
+Total & 20 (+2) &  \\
+%% 5 & 5 &  \\ 
+%% \hline
+%% 6 & 2 &  \\ 
+%% \hline
+%% Total & 20 (+7) &  \\
+\hline
+\end{tabular}
+\end{center}
+\end{Large}
+\end{document}
+
+
