@@ -221,6 +221,21 @@ A.~Bento and A.~{\noopsort{Leal}}{Leal Duarte}.
   arbitrary fields.
 \newblock {\em Linear Algebra Appl.}, 401:467--481, 2005.
 
+\bibitem{BVMVT11}
+H.~Bergsma, K.~Vander Meulen, and A.~Van Tuyl.
+\newblock Potentially nilpotent patterns and the nilpotent-{J}acobian method.
+\newblock {\em Linear Algebra Appl.}, 436:4433--4445, 2011.
+
+\bibitem{Berkolaiko13}
+G.~Berkolaiko.
+\newblock Nodal count of graph eigenfunctions via magnetic perturbation.
+\newblock {\em Anal.\ PDE}, 6:1213--1233, 2013.
+
+\bibitem{BBG25}
+G.~Berkolaiko, J.~C. Bronski, and M.~Goresky.
+\newblock Oscillation of graph eigenfunctions.
+\newblock \verb|https://arxiv.org/abs/2507.22200|, 2025.
+
 \bibitem{ZPropDi}
 A.~Berliner, C.~Bozeman, S.~Butler, M.~Catral, L.~Hogben, B.~Kroschel, J.~C.-H.
   Lin, N.~Warnberg, and M.~Young.
@@ -371,15 +386,22 @@ S.~Butler, J.~Grout, and H.~T. Hall.
 \newblock Using variants of zero forcing to bound the inertia set of a graph.
 \newblock {\em Electron.\ J.\ Linear Algebra}, 30:1--18, 2015.
 
+\bibitem{IEPL-strong}
+M.~Catral, S.~M. Fallat, H.~Gupta, and J.~C.-H. Lin.
+\newblock The strong spectral property and the {J}acobian method for weighted
+  laplacian matrices.
+\newblock \verb|https://arxiv.org/abs/2602.18999|.
+\newblock (under review).
+
 \bibitem{COvdD09}
 M.~Catral, D.~D. Olesky, and P.~{\noopsort{Driessche}}{van den Driessche}.
 \newblock Allow problems concerning spectral properties of sign pattern
   matrices: A survey.
 \newblock {\em Linear Algebra Appl.}, 430:3080--3094, 2009.
 
-\bibitem{CGKOvdD13}
-M.~S. Cavers, C.~Garnett, I.-J. Kim, D.~D. Olesky, and
-  P.~{\noopsort{Driessche}}{van den Driessche}.
+\bibitem{CGKOvdDVM13}
+M.~S. Cavers, C.~Garnett, I.-J. Kim, D.~D. Olesky,
+  P.~{\noopsort{Driessche}}{van den Driessche}, and K.~Vander Meulen.
 \newblock Techniques for identifying inertially arbitrary patterns.
 \newblock {\em Electron.\ J.\ Linear Algebra}, 26:71--89, 2013.
 
@@ -430,10 +452,15 @@ Y.~{\noopsort{Colin}}{Colin de Verdi\`ere}.
 \newblock In {\it Graph Structure Theory}, pp. 137--147, American Mathematical
   Society, Providence, RI, 1993.
 
-\bibitem{CdV2}
+\bibitem{CdV98}
 Y.~{\noopsort{Colin}}{Colin de Verdi\`ere}.
 \newblock Multiplicities of eigenvalues and tree-width graphs.
 \newblock {\em J.\ Combin.\ Theory Ser.~B}, 74:121--146, 1998.
+
+\bibitem{CdV13}
+Y.~{\noopsort{Colin}}{Colin de Verdi\`ere}.
+\newblock Magnetic interpretation of the nodal defect on graphs.
+\newblock {\em Anal.\ PDE}, 6:1235--1242, 2013.
 
 \bibitem{CV13}
 H.~Corrales and C.E. Valencia.
@@ -608,7 +635,7 @@ Y.~Gao and Y.~Shao.
 \newblock Inertia sets of symmetric $2$-generalized star sign patterns.
 \newblock {\em Linear Multilinear Algebra}, 54:27--35, 2006.
 
-\bibitem{GB13}
+\bibitem{GS13}
 C.~Garnett and B.~Shader.
 \newblock The {N}ilpotent-{C}entralizer method for spectrally arbitrary
   patterns.
