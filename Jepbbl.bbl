@@ -1043,6 +1043,11 @@ J.~C.-H. Lin, D.~D. Olesky, and P.~{\noopsort{Driessche}}{van den Driessche}.
 \newblock Sign patterns requiring a unique inertia.
 \newblock {\em Linear Algebra Appl.}, 546:67--85, 2018.
 
+\bibitem{IFPL}
+J.~C.-H. Lin and M.~N. Shirazi.
+\newblock Inverse {F}iedler vector problem of a graph.
+\newblock {\em Linear Algebra Appl.}, 748:80--103, 2026.
+
 \bibitem{Ortho}
 L.~Lov{\'a}sz, M.~Saks, and A.~Schrijver.
 \newblock Orthogonal representations and connectivity of graphs.
