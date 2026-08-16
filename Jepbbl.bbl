@@ -619,6 +619,11 @@ M.~Fiedler.
   application to graph theory.
 \newblock {\em Czechoslovak Math.\ J.}, 25:619--633, 1975.
 
+\bibitem{Fiedler90}
+M.~Fiedler.
+\newblock Absolute algebraic connectivity of trees.
+\newblock {\em Linear Multilinear Algebra}, 26:85--106, 1990.
+
 \bibitem{Gantmacher59}
 F.~R. Gantmacher.
 \newblock {\em The Theory of Matrices}.
@@ -928,6 +933,12 @@ T.~Kipf and M.~Welling.
 \newblock Semi-supervised classification with graph convolutional networks.
 \newblock {\em International Conference on Learning Representations}, 2017.
 
+\bibitem{Kirchhoff1847}
+G.~Kirchhoff.
+\newblock Ueber die auflösung der gleichungen, auf welche man bei der
+  untersuchung der linearen vertheilung galvanischer ströme geführt wird.
+\newblock {\em Annalen Der Physik}, 148:497--508, 1847.
+
 \bibitem{KNS96}
 S.~Kirkland, M.~Neumann, and B.~Shader.
 \newblock Characteristic vertices of weighted trees via {P}erron values.
@@ -1086,6 +1097,11 @@ R.~Mikkelson.
 \newblock {\em Minimum rank of graphs that allow loops}.
 \newblock PhD thesis, Iowa State University, 2008.
 
+\bibitem{Mohar89}
+B.~Mohar.
+\newblock Isoperimetric numbers of graphs.
+\newblock {\em J.\ Combin.\ Theory Ser.~B}, 47:274--291, 1989.
+
 \bibitem{MK18}
 K.~H. Monfared and E.~Khanmohammadi.
 \newblock A structured inverse spectrum problem for infinite graphs.
@@ -1107,6 +1123,11 @@ Michael~A. Nielsen.
 D.~D. Olesky, M.~F. Rempel, and P.~{\noopsort{Driessche}}{van den Driessche}.
 \newblock Refined inertias of tree sign patterns of orders 2 and 3.
 \newblock {\em Involve}, 6:1--12, 2013.
+
+\bibitem{Osting23}
+B.~Osting.
+\newblock Extremal graph realizations and graph {L}aplacian eigenvalues.
+\newblock {\em SIAM J.\ Discrete Math.}, 37:1630--1644, 2023.
 
 \bibitem{PSL90}
 A.~Pothen, H.~D. Simon, and K.-P. Liou.
