@@ -4,4 +4,10 @@
 # scp active-CV.tex active-CV.pdf 72c1de6f9c9b4d029b008ebbdb927f73@ssh.cocalc.com:webpage/
 cp active-CV-short.pdf Jephian-CV.pdf
 cp active-CV-long.pdf Jephian-CV-full.pdf
-scp active-CV.tex Jephian-CV.pdf Jephian-CV-full.pdf 72c1de6f9c9b4d029b008ebbdb927f73@ssh.cocalc.com:webpage/
+# scp active-CV.tex Jephian-CV.pdf Jephian-CV-full.pdf 72c1de6f9c9b4d029b008ebbdb927f73@ssh.cocalc.com:webpage/
+echo "backup source to JLaTeX..."
+cp active-CV.tex JLaTeX/makecv/ -iv
+echo "send to jephianlin.github.io repository..."
+cp active-CV.tex Jephian-CV.pdf Jephian-CV-full.pdf jephianlin.github.io/ -iv
+echo "Done!  Remember to push the two repositories."
+
