@@ -977,6 +977,11 @@ A.~{\noopsort{Leal}}{Leal Duarte}.
 \newblock Construction of acyclic matrices from spectral data.
 \newblock {\em Linear Algebra Appl.}, 113:173--182, 1989.
 
+\bibitem{vch}
+C.-K. Li and J.~C.-H. Lin.
+\newblock Confluent vandermonde matrix and related topics.
+\newblock {\em Elem.\ Math.}, 81:156--170, 2026.
+
 \bibitem{LLL15}
 H.~Lin, R.~Liu, and X.~Lu.
 \newblock The inertia and energy of the distance matrix of a connected graph.
