@@ -231,6 +231,11 @@ H.~Bergsma, K.~Vander Meulen, and A.~Van Tuyl.
 \newblock Potentially nilpotent patterns and the nilpotent-{J}acobian method.
 \newblock {\em Linear Algebra Appl.}, 436:4433--4445, 2011.
 
+\bibitem{Berkolaiko08}
+G.~Berkolaiko.
+\newblock A lower bound for nodal count on discrete and metric graphs.
+\newblock {\em Comm.\ Math.\ Phys.}, 278:803--819, 2008.
+
 \bibitem{Berkolaiko13}
 G.~Berkolaiko.
 \newblock Nodal count of graph eigenfunctions via magnetic perturbation.
@@ -324,11 +329,6 @@ B.~Bre\v{s}ar, M.~A. Henning, and D.~F. Rall.
 B.~Bre\v{s}ar, S.~Klav\v{z}ar, and D.~F. Rall.
 \newblock Domination game and an imagination strategy.
 \newblock {\em SIAM J.\ Discrete Math.}, 24:979--991, 2010.
-
-\bibitem{BGLS01}
-E.~BrianDavies, Graham~M.L. Gladwell, J.~Leydold, and P.F. Stadler.
-\newblock Discrete nodal domain theorems.
-\newblock {\em Linear Algebra Appl.}, 336:51--60, 2001.
 
 \bibitem{Google}
 S.~Brin and L.~Page.
@@ -483,6 +483,11 @@ M.~Dairyko, L.~Hogben, J.~C.-H. Lin, J.~Lockhart, D.~Roberson, S.~Severini, and
   M.~Young.
 \newblock Note on von {N}eumann and {R}{\'e}nyi entropies of a graph.
 \newblock {\em Linear Algebra Appl.}, 521:240--253, 2017.
+
+\bibitem{DGLS01}
+E.~B. Davies, Graham~M.L. Gladwell, J.~Leydold, and P.F. Stadler.
+\newblock Discrete nodal domain theorems.
+\newblock {\em Linear Algebra Appl.}, 336:51--60, 2001.
 
 \bibitem{DKS17}
 R.~Davila, T.~Kalinowski, and S.~Stephen.
@@ -650,6 +655,11 @@ C.~Garnett and B.~Shader.
 \newblock The {N}ilpotent-{C}entralizer method for spectrally arbitrary
   patterns.
 \newblock {\em Linear Algebra Appl.}, 438:3836--3850, 2013.
+
+\bibitem{GL23}
+C.~Ge and S.~Liu.
+\newblock Symmetric matrices, signed graphs, and nodal domain theorems.
+\newblock {\em Calc.\ Var.\ Partial Differential Equations}, 62:137, 2023.
 
 \bibitem{GH64}
 P.~C. Gilmore and A.~J. Hoffman.
@@ -997,6 +1007,12 @@ J.~C.-H. Lin.
 \newblock Auxiliary tools in \textit{Sage} for the minimum rank problem.
 \newblock \url{https://github.com/jephianlin/minrank_aux}.
 
+\bibitem{CNN}
+J.~C.-H. Lin.
+\newblock Congruent quotient matrix, nodal domain, and nodal count.
+\newblock \verb|https://arxiv.org/abs/2611.00789|.
+\newblock (under review).
+
 \bibitem{SageZsap}
 J.~C.-H. Lin.
 \newblock \textit{Sage} code for {$Z_{\mathrm{SAP}}$} related parameters.
@@ -1106,6 +1122,11 @@ R.~Merris.
 R.~Mikkelson.
 \newblock {\em Minimum rank of graphs that allow loops}.
 \newblock PhD thesis, Iowa State University, 2008.
+
+\bibitem{Mohammadian16}
+A.~Mohammadian.
+\newblock Graphs and their real eigenvectors.
+\newblock {\em Linear Multilinear Algebra}, 64:136--142, 2016.
 
 \bibitem{Mohar89}
 B.~Mohar.
@@ -1249,6 +1270,11 @@ U.~von Luxburg.
 P.~M. Winkler.
 \newblock Proof of the squashed cube conjecture.
 \newblock {\em Combinatorica}, 3:135--139, 1983.
+
+\bibitem{XY12}
+H.~Xu and S.-T. Yau.
+\newblock Nodal domain and eigenvalue multiplicity of graphs.
+\newblock {\em J.\ Comb.}, 3:609--622, 2012.
 
 \bibitem{YY06}
 W.~Yan and Y.-N. Yeh.
